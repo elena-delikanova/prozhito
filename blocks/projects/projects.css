@@ -7,3 +7,9 @@
     padding: 32px 16px;
   }
 }
+
+@media screen and (max-width: 360px){
+  .projects {
+    padding: 32px 12px 28px;
+  }
+}

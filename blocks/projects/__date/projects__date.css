@@ -8,6 +8,12 @@
   .projects__date{
     font-size: 12px;
     line-height: 16px;
-    opacity: 1;
+  }
+}
+
+@media screen and (max-width: 360px){
+  .projects__date{
+    font-size: 14px;
+    line-height: 18px;
   }
 }

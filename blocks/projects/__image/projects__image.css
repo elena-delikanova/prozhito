@@ -10,3 +10,9 @@
     height: 182px;
   }
 }
+
+@media screen and (max-width: 360px){
+  .projects__image{
+    height: 200px;
+  }
+}
