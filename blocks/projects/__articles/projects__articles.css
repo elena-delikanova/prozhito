@@ -5,15 +5,15 @@
   padding: 41px 0 31px;
 }
 
-@media screen and (max-width: 768px){
-  .projects__articles{
+@media screen and (max-width: 768px) {
+  .projects__articles {
     gap: 13px;
     padding: 24px 0;
   }
 }
 
-@media screen and (max-width: 360px){
-  .projects__articles{
+@media screen and (max-width: 360px) {
+  .projects__articles {
     flex-direction: column;
     gap: 24px;
   }

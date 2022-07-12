@@ -7,8 +7,8 @@
   line-height: 100%;
 }
 
-@media screen and (max-width: 768px){
-  .article-title{
+@media screen and (max-width: 768px) {
+  .article-title {
     font-size: 18px;
     line-height: 22px;
   }

@@ -5,8 +5,9 @@
   opacity: 0.6;
   flex: 1 0;
 }
-@media screen and (max-width: 768px){
-  .projects__main-text{
+
+@media screen and (max-width: 768px) {
+  .projects__main-text {
     margin-top: 8px;
     font-size: 14px;
     opacity: 1;

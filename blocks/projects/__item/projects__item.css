@@ -6,15 +6,15 @@
   min-height: 354px;
 }
 
-@media screen and (max-width: 768px){
-  .projects__item{
+@media screen and (max-width: 768px) {
+  .projects__item {
     flex-direction: column;
     min-height: 354px;
   }
 }
 
-@media screen and (max-width: 360px){
-  .projects__item{
+@media screen and (max-width: 360px) {
+  .projects__item {
     width: 100%;
     min-height: 386px;
     background: #FFF;

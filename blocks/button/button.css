@@ -11,14 +11,14 @@
   gap: 12px;
 }
 
-@media screen and (max-width: 768px){
-  .button{
+@media screen and (max-width: 768px) {
+  .button {
     width: 237px;
   }
 }
 
-@media screen and (max-width: 360px){
-  .button{
+@media screen and (max-width: 360px) {
+  .button {
     width: 100%;
   }
 }
