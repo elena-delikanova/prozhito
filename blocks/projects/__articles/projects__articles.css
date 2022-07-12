@@ -4,3 +4,9 @@
   gap: 20px;
   padding: 41px 0 31px;
 }
+@media screen and (max-width: 768px){
+  .projects__articles{
+    gap: 13px;
+    padding: 24px 0;
+  }
+}

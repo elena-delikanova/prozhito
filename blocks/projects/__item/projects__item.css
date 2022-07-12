@@ -5,3 +5,10 @@
   width: calc((100% - 20px) / 2);
   min-height: 354px;
 }
+
+@media screen and (max-width: 768px){
+  .projects__item{
+    flex-direction: column;
+    min-height: 354px;
+  }
+}
