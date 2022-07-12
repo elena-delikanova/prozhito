@@ -1,0 +1,6 @@
+.projects__image {
+  width: 212px;
+  object-fit: cover;
+  object-position: center;
+
+}

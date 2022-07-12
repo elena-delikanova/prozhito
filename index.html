@@ -2,13 +2,45 @@
 <html lang="ru">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
   <title>Главная страница</title>
-  <link rel="stylesheet" href="pages/index.css">
+  <link href="pages/index.css" rel="stylesheet">
 </head>
 <body class="page">
-  <header class="header"></header>
-  <main class="content"></main>
-  <footer class="footer"></footer>
+<header class="header"></header>
+<main class="content">
+  <section class="projects">
+    <h1 class="section-title">Спецпроекты 123Specials</h1>
+    <div class="projects__articles">
+      <article class="projects__item">
+        <img alt="«Прожито» в Перми" class="projects__image" src="images/proj1.png">
+        <div class="projects__text-area">
+          <h3 class="article-title">«Прожито» в Перми</h3>
+          <p class="projects__main-text">Проект осуществляет поиск и копирование документов в пермских государственных
+            и семейных архивах для того, чтобы собрать цифровую народную коллекцию документов по истории города
+            и края</p>
+          <p class="projects__date">13 декабря 2021</p>
+        </div>
+      </article>
+      <article class="projects__item">
+        <img alt="Блокада" class="projects__image" src="images/proj2.png">
+        <div class="projects__text-area">
+          <h3 class="article-title">Блокада</h3>
+          <p class="projects__main-text">В условиях катастрофического голода, холода, вражеских бомбардировок
+            и обстрелов сотни тысяч людей оказались заперты в городе. У многих из них был доступ к бумаге и чернилам,
+            и некоторые начали вести дневники.</p>
+          <p class="projects__date">13 декабря 2021</p>
+        </div>
+      </article>
+    </div>
+    <a class="link" href="#">
+      <button class="button button_theme_green">
+        <p class="button__text">Все спецпроекты</p>
+        <img alt="стрелочка" class="button__arrow" src="images/arrow.svg">
+      </button>
+    </a>
+  </section>
+</main>
+<footer class="footer"></footer>
 </body>
 </html>

@@ -1,0 +1,7 @@
+.projects__item {
+  display: flex;
+  flex-flow: row nowrap;
+  background: #F7F4F0;
+  width: calc((100% - 20px) / 2);
+  min-height: 354px;
+}
