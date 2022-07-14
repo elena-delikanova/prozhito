@@ -8,17 +8,19 @@
   max-width: 678px;
   margin: 0 auto;
 
-   */
+  */
 }
 
 .video div {
   position: relative;
   width: 100%;
+  line-height: 0;
 }
 
 .video video {
   width: 100%;
   background: #E7E4DE;
+  aspect-ratio: 1.79;
 }
 
 .video figcaption {
