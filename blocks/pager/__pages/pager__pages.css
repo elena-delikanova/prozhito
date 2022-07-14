@@ -1,0 +1,8 @@
+.pager__pages {
+  padding: 0;
+  margin: 0;
+  display: flex;
+  width: 185px;
+  height: 34px;
+  list-style: none;
+}

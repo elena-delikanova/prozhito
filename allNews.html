@@ -1,14 +1,41 @@
 <!DOCTYPE html>
 <html lang="ru">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Все новости</title>
   <link rel="stylesheet" href="pages/allNews.css">
 </head>
+
 <body class="page">
   <header class="header"></header>
-  <main class="content"></main>
+  <main class="content">
+    <div class="pager">
+      <a href="#" class="pager__arrow pager__arrow_content_previous pager__arrow_disabled"
+        aria-label="Предыдущая страница" role="button">
+        <img src="./images/previous-arrow.svg" alt="" class="pager__arrow-image">
+      </a>
+      <ul class="pager__pages">
+        <li class="pager__page-item pager__page-item_content-number pager__page-item_selected">
+          <a href="#" class="pager__page-link pager__page-link_selected" aria-label="Страница 1" role="button">1</a>
+        </li>
+        <li class="pager__page-item pager__page-item_content-number">
+          <a href="#" class="pager__page-link" aria-label="Страница 2" role="button">2</a>
+        </li>
+        <li class="pager__page-item pager__page-item_content-break">
+          <a href="#" class="pager__page-link" aria-label="Следующие страницы" role="button">...</a>
+        </li>
+        <li class="pager__page-item pager__page-item_content-number">
+          <a href="#" class="pager__page-link" aria-label="Страница 5">5</a>
+        </li>
+      </ul>
+      <a href="#" class="pager__arrow pager__arrow_content_next" aria-label="Следующая страница" role="button">
+        <img src="./images/next-arrow.svg" alt="" class="pager__arrow-image">
+      </a>
+    </div>
+  </main>
   <footer class="footer"></footer>
 </body>
+
 </html>
