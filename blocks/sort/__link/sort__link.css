@@ -5,3 +5,8 @@
   line-height: 1.3;
   color: #323232;;
 }
+@media screen and (max-width: 768px) {
+  .sort__link {
+    font-size: 12px;
+  }
+}

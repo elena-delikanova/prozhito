@@ -4,3 +4,9 @@
   padding-top: 16px;
   height: 50px;
 }
+@media screen and (max-width: 768px) {
+  .sort__container {
+    max-width: 482px;
+    padding-top: 0px;
+  }
+}
