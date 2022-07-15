@@ -1,0 +1,12 @@
+.pager__page-item {
+  width: 32px;
+  margin-right: 18px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.pager__page-item:last-of-type {
+  margin-right: 0;
+}
