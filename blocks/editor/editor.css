@@ -1,0 +1,14 @@
+.editor {
+  margin: 0 auto;
+  background: #F7F4F0;
+  max-width: 1144px;
+  padding: 56px 116px 64px;
+  display: grid;
+  grid-template-columns: 329px auto;
+  grid-template-rows: 36px 344px 60px;
+  column-gap: 9.88%;
+  grid-template-areas:
+  "editor__portrait editor__title"
+  "editor__portrait editor__paragraph"
+  "editor__portrait editor__materials";
+}

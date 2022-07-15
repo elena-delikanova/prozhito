@@ -1,0 +1,9 @@
+.editor__title {
+  margin: 0;
+  font-family: 'WF';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 100%;
+  grid-area: editor__title;
+}

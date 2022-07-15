@@ -1,0 +1,10 @@
+.editor__paragraph {
+  margin: 32px 0 0;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 26px;
+  color: rgba(50, 50, 50, 0.7);
+  max-width: 660.29px;
+  grid-area: editor__paragraph;
+}

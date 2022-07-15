@@ -1,0 +1,8 @@
+.editor__application {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 26px;
+  grid-area: editor__application;
+  margin: auto auto;
+}

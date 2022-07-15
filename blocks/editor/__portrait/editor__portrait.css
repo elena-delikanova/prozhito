@@ -1,0 +1,8 @@
+.editor__portrait {
+  background-image:  url(../../../images/portret.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  grid-area: editor__portrait;
+  width: 329px;
+  min-height: 440px;
+}
