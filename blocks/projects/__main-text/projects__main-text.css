@@ -6,7 +6,7 @@
   flex: 1 0;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1024px) {
   .projects__main-text {
     margin-top: 8px;
     font-size: 14px;

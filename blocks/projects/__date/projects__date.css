@@ -4,7 +4,7 @@
   line-height: 18px;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1024px) {
   .projects__date {
     font-size: 12px;
     line-height: 16px;
