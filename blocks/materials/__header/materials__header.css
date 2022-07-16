@@ -1,0 +1,19 @@
+.materials__header {
+background-color: #A5CDAB;
+border: none;
+border-radius: 8px;
+padding: 8px 32px;
+position: absolute;
+    margin: 0;
+    left: 50%;
+transform:translate(-50%, -50%);
+font-size: 14px;
+text-transform: uppercase;
+white-space: nowrap;
+}
+@media screen and (max-width: 880px) {
+  .materials__header {
+    font-size: 12px;
+    padding: 4px 12px;
+  }
+}

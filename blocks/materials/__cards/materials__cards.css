@@ -1,0 +1,10 @@
+.materials__cards {
+  width: 328px;
+  text-align: center;
+  background-color: #E7E4DE;
+  position: relative;
+}
+@media screen and (max-width: 922px) {
+  .materials__cards {
+}
+}
