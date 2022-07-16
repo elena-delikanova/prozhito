@@ -1,0 +1,9 @@
+.all-news__item {
+  height: 373px;
+}
+
+@media screen and (max-width: 767px) {
+  .all-news__item {
+    height: 246px;
+  }
+}
