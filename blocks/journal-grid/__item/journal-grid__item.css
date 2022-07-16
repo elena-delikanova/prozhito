@@ -1,13 +1,7 @@
 .journal-grid__item{
-  background: brown; /* TODO: Цвета для дебага, убрать после реализации карточек */
   aspect-ratio: 0.62;
-}
-
-
-@media screen and (max-width: 768px) {
-  .journal-grid__item:nth-child(n+4){
-    display: none;
-  }
+  border: 1px solid red;  /* TODO: Цвета для дебага, убрать после реализации карточек */
+  background: antiquewhite;
 }
 
 @media screen and (max-width: 360px) {
@@ -16,14 +10,8 @@
     width: 252px;
     height: 352px;
   }
-  .journal-grid__item:nth-child(n+2){
-    left: calc(50% - 126px);
-    z-index: -1;
-    background: lightcoral; /* TODO: Цвета для дебага, убрать после реализации карточек */
-  }
-   .journal-grid__item:nth-child(n+3){
-    left: calc(100% - 252px);
-     z-index: -2;
-     background: rosybrown; /* TODO: Цвета для дебага, убрать после реализации карточек */
-  }
+}
+
+.journal-grid__item_swipe {
+  transition: left 500ms linear;
 }
