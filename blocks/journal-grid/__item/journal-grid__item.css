@@ -1,0 +1,17 @@
+.journal-grid__item{
+  aspect-ratio: 0.62;
+  border: 1px solid red;  /* TODO: Цвета для дебага, убрать после реализации карточек */
+  background: antiquewhite;
+}
+
+@media screen and (max-width: 360px) {
+  .journal-grid__item{
+    position: absolute;
+    width: 252px;
+    height: 352px;
+  }
+}
+
+.journal-grid__item_swipe {
+  transition: left 500ms linear;
+}
