@@ -21,6 +21,9 @@
 @import url(../blocks/pager/__arrow-image/pager__arrow-image.css);
 @import url(../blocks/journal-grid/journal-grid.css);
 @import url(../blocks/journal-grid/__item/journal-grid__item.css);
+@import url(../blocks/journal-grid/__item/_hidden/journal-grid__item_hidden.css);
+@import url(../blocks/journal-grid/__item/_pos/journal-grid__item_pos_2.css);
+@import url(../blocks/journal-grid/__item/_pos/journal-grid__item_pos_3.css);
 @import url(../blocks/footer/footer.css);
 @import url(../blocks/footer/__menu/footer__menu.css);
 @import url(../blocks/footer/__menu-link/footer__menu-link.css);
