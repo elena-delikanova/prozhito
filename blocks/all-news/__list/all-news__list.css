@@ -1,0 +1,16 @@
+.all-news__list {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 62px 80px;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+@media screen and (max-width: 767px) {
+  .all-news__list {
+    grid-template-columns: repeat(1, 1fr);
+    gap: 16px;
+    padding: 0 12px 84px;
+  }
+}
