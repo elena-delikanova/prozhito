@@ -1,9 +1,9 @@
 .all-news__item {
-  height: 373px;
+  min-height: 373px;
 }
 
 @media screen and (max-width: 767px) {
   .all-news__item {
-    height: 246px;
+    min-height: 246px;
   }
 }
