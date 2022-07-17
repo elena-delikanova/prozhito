@@ -1,8 +1,13 @@
 .sort__list {
   padding: 16px 10px;
+  font-size: 14px;
+  line-height: 18.13px;
+  text-transform: uppercase;
 }
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1024px) {
   .sort__list {
     max-width: 482px;
+    font-size: 12px;
+    line-height: 15.54px;
   }
 }
