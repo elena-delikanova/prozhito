@@ -11,37 +11,50 @@
   <main class="content">
     <section>
 
-      <h1 class="section-title">Материалы</h1>
-      <div class="materials">
+            <!--<h1 class="section-title">Материалы</h1>-->
 
-        <div class="materials__cards">
-           <p class="materials__header">нужен наборщик</p>
-            <p class="materials__name">Артамонов Виктор</p>
-            <img class="materials__image" src="./images/image 1.png" alt="">
-            <p class="materials__description">Петербургский краевед и педагог. Нам необходимо набрать 20 рукописных тетрадей</p>
-        </div>
+            <div class="slyder">
 
 
-        <div class="materials__cards">
-          <p class="materials__header">
-            нуженa сверка
-           </p>
-            <p class="materials__name">Анонимный блокадный дневник</p>
-            <img class="materials__image" src="./images/image 1.png" alt="">
-            <p class="materials__description">Музей Ахматовой передал нам для работы рукопись анонимного преподавателя ФЗУ,
-               ставшего свидетелем блокады Ленинграда</p>
-        </div>
+              <div class="materials">
+                <input name="slideButton" id="slideOne"  type="radio" checked>
+            <input name="slideButton" id="slideTwo"  type="radio">
+            <input name="slideButton" id="slideThree"  type="radio">
 
-        <div class="materials__cards">
-          <p class="materials__header">
-            новые материалы
-           </p>
-            <p class="materials__name">Родоман Борис</p>
-            <img class="materials__image" src="./images/Rodomon.png" alt="">
-            <p class="materials__description">Документы из домашнего архива географа: переписка, дневники и материалы для его научных статей</p>
+
+                <div class="materials__cards s1">
+                  <p class="materials__header">нужен наборщик</p>
+                    <p class="materials__name">Артамонов Виктор</p>
+                    <img class="materials__image" src="./images/image 1.png" alt="">
+                    <p class="materials__description">Петербургский краевед и педагог. Нам необходимо набрать 20 рукописных тетрадей</p>
+                </div>
+
+                <div class="materials__cards">
+                  <p class="materials__header">
+                    нуженa сверка
+                  </p>
+                    <p class="materials__name">Анонимный блокадный дневник</p>
+                    <img class="materials__image" src="./images/image 1.png" alt="">
+                    <p class="materials__description">Музей Ахматовой передал нам для работы рукопись анонимного преподавателя ФЗУ,
+                      ставшего свидетелем блокады Ленинграда</p>
+                </div>
+
+                <div class="materials__cards">
+                  <p class="materials__header">
+                    новые материалы
+                  </p>
+                    <p class="materials__name">Родоман Борис</p>
+                    <img class="materials__image" src="./images/Rodomon.png" alt="">
+                    <p class="materials__description">Документы из домашнего архива географа: переписка, дневники и материалы для его научных статей</p>
+                  </div>
+
+              </div>
           </div>
-
-      </div>
+              <div class="navigation">
+                <label class="navigation__bar" for="slideOne"></label>
+                <label class="navigation__bar" for="slideTwo"></label>
+                <label class="navigation__bar" for="slideThree"></label>
+              </div>
     </section>
   </main>
   <footer class="footer"></footer>

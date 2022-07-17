@@ -1,0 +1,25 @@
+.slyder {
+
+}
+@media screen and (max-width: 747px) {
+  .slyder {
+    width: 360px;
+overflow: hidden;
+border: 2px solid;
+position: absolute;
+top: 50%;
+left: 50%;
+transform: translate(-50%, -50%);
+}
+}
+@media screen and (max-width: 360px) {
+  .slyder {
+    width: 360px;
+overflow: hidden;
+border: 2px solid;
+position: absolute;
+top: 50%;
+left: 50%;
+transform: translate(-50%, -50%);
+}
+}

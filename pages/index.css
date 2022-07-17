@@ -10,7 +10,21 @@
 @import url(../blocks/materials/__name/materials__name.css);
 @import url(../blocks/materials/__image/materials__image.css);
 @import url(../blocks/materials/__description/materials__description.css);
-@import url(../blocks);
-@import url(../blocks);
-@import url(../blocks);
-@import url(../blocks);
+@import url(../blocks/slyder/slyder.css);
+@import url(../blocks/navigation/navigation.css);
+@import url(../blocks/navigation/__bar/navigation__bar.css);
+@import url(../blocks/s1/s1.css);
+
+#slideOne:checked ~ .s1 {
+  margin-left: 0%;
+}
+#slideTwo:checked ~ .s1 {
+  margin-left: -25%;
+}
+#slideThree:checked ~ .s1 {
+  margin-left: -50%;
+}
+input[name="slideButton"] {
+  position: absolute;
+  visibility: hidden;
+}
