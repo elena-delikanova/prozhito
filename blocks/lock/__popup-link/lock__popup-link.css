@@ -1,0 +1,25 @@
+.lock__popup-link {
+    display: block;
+    margin: 0 38px 16px 24px;
+    font-family: 'PT Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+    text-decoration: none;
+    margin: 16px 33px 12px 24px;
+}
+
+@media screen and (max-width: 768px) {
+    .lock__popup-link {
+        margin: 0 20px 12px 20px;
+        font-size: 12px;
+        line-height: 16px;
+    }
+}
+
+@media screen and (max-width: 360px) {
+    .lock__popup-link {
+        margin: 0 16px 12px 16px;
+    }
+}
