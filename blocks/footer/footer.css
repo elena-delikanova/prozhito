@@ -8,13 +8,13 @@
   .footer {
     padding-top: 32px;
     width: calc(100% - 34px);
-    margin: 0 17px;
+    margin: 0 auto;
   }
 }
 
 @media screen and (max-width: 420px) {
   .footer {
     width: calc(100% - 24px);
-    margin: 0 12px;
+    margin: 0 auto;
   }
 }
