@@ -6,14 +6,11 @@
 }
 @media screen and (max-width: 922px) {
   .materials__cards {
-}
+  }
 }
 @media screen and (max-width: 749px) {
   .materials__cards {
     width: 276px;
     transition: all 0.6s ease;
-
-
-}
-
+  }
 }

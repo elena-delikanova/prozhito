@@ -1,6 +1,5 @@
 .navigation {
-
-display: none;
+  display: none;
 }
 @media screen and (max-width: 749px) {
   .navigation {
@@ -10,6 +9,27 @@ display: none;
     display: flex;
     bottom: -24px;
     gap: 12px;
+  }
 }
+
+#slideOne:checked ~ .materials__container .materials__list .s1 {
+  margin-left: 0%;
+}
+#slideTwo:checked ~ .materials__container .materials__list .s1 {
+  margin-left: -25%;
+}
+#slideThree:checked ~ .materials__container .materials__list .s1 {
+  margin-left: -50%;
+}
+
+input[name="slideButton"] {
+  position: absolute;
+  visibility: hidden;
+}
+
+#slideOne:checked ~ .navigation label[for="slideOne"],
+#slideTwo:checked ~ .navigation label[for="slideTwo"],
+#slideThree:checked ~ .navigation label[for="slideThree"] {
+  background-color: #3A543E;
 }
 
