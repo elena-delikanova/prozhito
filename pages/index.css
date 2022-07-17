@@ -7,6 +7,9 @@
 @import url(../blocks/editor/__portrait/editor__portrait.css);
 @import url(../blocks/editor/__title/editor__title.css);
 @import url(../blocks/editor/__paragraph/editor__paragraph.css);
-@import url(../blocks/editor/__materials/editor__materials.css);
+@import url(../blocks/editor/__materials-link/editor__materials-link.css);
 @import url(../blocks/editor/__application/editor__application.css);
+@import url(../blocks/editor/__arrow/editor__arrow.css);
+@import url(../blocks/editor/__buttons/editor__buttons.css);
+@import url(../blocks/editor/__buttons-text/editor__buttons-text.css);
 @import url(../blocks/footer/footer.css);

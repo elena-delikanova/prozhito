@@ -2,7 +2,21 @@
   background-image:  url(../../../images/portret.jpg);
   background-size: cover;
   background-repeat: no-repeat;
+  background-position: center;
   grid-area: editor__portrait;
-  width: 329px;
+  width: 100%;
   min-height: 440px;
+}
+
+@media screen and (max-width: 860px) {
+  .editor__portrait { 
+    min-height: 259px;
+  }
+}
+
+@media screen and (max-width: 860px) {
+  .editor__portrait { 
+    max-width: 164px;
+    min-height: 258px;
+  }
 }

@@ -1,29 +1,32 @@
-.editor__application {
-  margin: 0;
+.editor__materials-link {
   display: flex;
   justify-content: center;
   align-items: center;
   width: 329px;
-  height: 60px;
-  grid-area: editor__application;
-  background: #A5CDAB;
+  height: 59px;
+  grid-area: editor__materials;
+  border: 1px solid #323232;
   border-radius: 8px;
+  text-decoration: none;
+  color: #323232;
 }
 
 @media screen and (max-width: 1200px) {
-  .editor__application {
+  .editor__materials-link {
     width: 237px;
   }
 }
 
 @media screen and (max-width: 860px) {
-  .editor__application {
+  .editor__materials-link {
     height: 48px;
+    margin-right: 12px;
   }
 }
 
 @media screen and (max-width: 773px) {
-  .editor__application {
+  .editor__materials-link {
+    margin: 0;
     width: 335px;;
   }
 }
