@@ -2,5 +2,21 @@
   width: 8px;
   height: 8px;
   border-radius: 10px;
-  background-color: #A5CDAB;;
+  background-color: #A5CDAB;
+
   }
+  .navigation__bar:hover {
+    background-color: #3A543E;
+    transition: all 0.5s ease;
+    }
+  .navigation__bar:last-of-type {
+    display: none;
+  }
+
+  @media screen and (max-width: 600px) {
+    .navigation__bar:last-of-type {
+      display: block;
+  }
+  }
+
+

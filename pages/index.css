@@ -14,6 +14,8 @@
 @import url(../blocks/navigation/navigation.css);
 @import url(../blocks/navigation/__bar/navigation__bar.css);
 @import url(../blocks/s1/s1.css);
+@import url(../blocks/custom-checkbox/custom-checkbox.css);
+
 
 #slideOne:checked ~ .s1 {
   margin-left: 0%;

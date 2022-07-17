@@ -9,11 +9,12 @@ flex-wrap: nowrap;
 }
 @media screen and (max-width: 1176px) {
   .materials {
-line-height: 1.3;
+    line-height: 1.3;
     gap: 12px;
+    margin: 0 17px;
   }
 }
-@media screen and (max-width: 747px) {
+@media screen and (max-width: 749px) {
   .materials {
     position: relative;
     width: 300%;

@@ -1,13 +1,15 @@
 .navigation {
 
-
+display: none;
 }
-@media screen and (max-width: 747px) {
+@media screen and (max-width: 749px) {
   .navigation {
     position: absolute;
     left: 50%;
     transform: translateX(-50%);
     display: flex;
     bottom: -24px;
+    gap: 12px;
 }
 }
+
