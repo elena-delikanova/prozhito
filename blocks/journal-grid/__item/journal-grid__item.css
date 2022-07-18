@@ -4,7 +4,7 @@
   background: antiquewhite;
 }
 
-@media screen and (max-width: 360px) {
+@media screen and (max-width: 425px) {
   .journal-grid__item{
     position: absolute;
     width: 252px;
