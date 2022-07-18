@@ -1,14 +1,16 @@
 if (document.querySelector('body').clientWidth < 769) {
   const cards = document.querySelectorAll('.journal-grid__item');
-  let start = null;
+  let start;
   let curPos = 0;
 
-  cards.forEach((v, i) => {
-    v.addEventListener('touchstart', evt => {
+  cards.forEach((card, i) => {
+    card.addEventListener('touchstart', evt => {
       start = evt.changedTouches[0].pageX;
     });
-    v.addEventListener('touchend', evt => {
-      if (!start) return;
+    card.addEventListener('touchend', evt => {
+      if (!start) {
+        return;
+      }
       if (evt.changedTouches[0].clientX < start) {//left
         for (let j = i; j < cards.length && j < i + 3; j++) {
           cards[j].classList.add('swipe');
