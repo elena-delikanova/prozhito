@@ -15,6 +15,17 @@
 @import url(../blocks/navigation/navigation.css);
 @import url(../blocks/navigation/__bar/navigation__bar.css);
 @import url(../blocks/s1/s1.css);
+@import url(../blocks/materials/__image/_mask/materials__image_mask.css);
+@import url(../blocks/materials/__figureOne/materials__figureOne.css);
+@import url(../blocks/materials/__figureTwo/materials__figureTwo.css);
+@import url(../blocks/materials/__figureThree/materials__figureThree.css);
+@import url(../blocks/materials/__figureFour/materials__figureFour.css);
+@import url(../blocks/materials/__figureFive/materials__figureFive.css);
+@import url(../blocks/materials/__figureSix/materials__figureSix.css);
+@import url(../blocks);
+@import url(../blocks);
+@import url(../blocks);
+
 
 
 
