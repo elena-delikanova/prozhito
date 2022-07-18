@@ -1,3 +1,19 @@
 .editor__arrow {
-    
+  margin-left: 8px;
+  width: 16.61px;
+  height: 12.02px;
+}
+
+@media screen and (max-width: 768px) {
+  .editor__arrow {
+    margin-left: 16px;
+  }
+}
+
+@media screen and (max-width: 360px) {
+  .editor__arrow {
+    margin-left: 14.67px;
+    width: 11.07px;
+    height: 8.01px;
+  }
 }

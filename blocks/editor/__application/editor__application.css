@@ -8,6 +8,20 @@
   grid-area: editor__application;
   background: #A5CDAB;
   border-radius: 8px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 26px;
+  border: 0;
+  cursor: pointer;
+}
+
+.editor__application:hover {
+  background: #97BA9C;
+}
+
+.editor__application:active {
+  background: #7A9F80;
 }
 
 @media screen and (max-width: 1200px) {
@@ -19,6 +33,8 @@
 @media screen and (max-width: 860px) {
   .editor__application {
     height: 48px;
+    font-size: 14px;
+  line-height: 18px;
   }
 }
 

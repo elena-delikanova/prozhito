@@ -9,6 +9,10 @@
   border-radius: 8px;
   text-decoration: none;
   color: #323232;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 26px;
 }
 
 @media screen and (max-width: 1200px) {
@@ -21,6 +25,8 @@
   .editor__materials-link {
     height: 48px;
     margin-right: 12px;
+    font-size: 14px;
+    line-height: 18px;
   }
 }
 
