@@ -1,4 +1,4 @@
-@media screen and (max-width: 360px) {
+@media screen and (max-width: 425px) {
   .journal-grid__item_pos_2{
     left: calc(50% - 130px);
     z-index: -1;
