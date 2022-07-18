@@ -4,6 +4,10 @@
   background-color: #E7E4DE;
   position: relative;
 }
+.materials__cards:hover {
+  opacity: 0.8;
+  cursor: pointer;
+}
 @media screen and (max-width: 922px) {
   .materials__cards {
   }
