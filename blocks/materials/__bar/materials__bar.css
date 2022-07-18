@@ -1,4 +1,4 @@
-.navigation__bar {
+.materials__bar {
   width: 8px;
   height: 8px;
   border-radius: 10px;
@@ -6,15 +6,16 @@
   transition: all 0.6s ease;
   }
 
-.navigation__bar:hover {
+.materials__bar:hover {
   background-color: #3A543E;
-    }
-.navigation__bar:last-of-type {
+  cursor: pointer;
+}
+.materials__bar:last-of-type {
   display: none;
   }
 
 @media screen and (max-width: 600px) {
-  .navigation__bar:last-of-type {
+  .materials__bar:last-of-type {
     display: block;
   }
 }
