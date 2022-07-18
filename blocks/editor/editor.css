@@ -6,7 +6,7 @@
   display: grid;
   grid-template-columns: 28.76% auto;
   grid-template-rows: 36px 344px 60px;
-  column-gap: 9.88%;
+  column-gap: 11.88%;
   grid-template-areas:
   "editor__portrait editor__title"
   "editor__portrait editor__paragraph"

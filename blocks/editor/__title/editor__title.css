@@ -21,6 +21,7 @@
   .editor__title {
     width: 300px;
     text-align: center;
-    font-size: 24px;
+    font-size: 26px;
+    line-height: 100%;
   }
 }
