@@ -5,6 +5,8 @@
     max-width: 237px;
     min-height: 132px;
     background: #A5CDAB;
+    opacity: 1;
+    visibility: visible;
 }
 
 @media screen and (max-width: 768px) {

@@ -1,0 +1,10 @@
+.lock__popup-close {
+  border: 0;
+  background-image: url(../../../images/close.svg);
+  background-color: rgba(0, 0, 0, 0);
+  position: absolute;
+  width: 16.71px;
+  height: 16.71px;
+  left: -20.36px;
+  cursor: pointer;
+}
