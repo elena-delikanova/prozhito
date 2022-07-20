@@ -1,0 +1,13 @@
+.header__menu-button {
+  display: none;
+  width: 24px;
+  height: 24px;
+  padding: 5px 4px;
+  box-sizing: border-box;
+  cursor: pointer;
+}
+@media screen and (max-width: 767px) {
+  .header__menu-button {
+    display: inline-block;
+  }
+}
