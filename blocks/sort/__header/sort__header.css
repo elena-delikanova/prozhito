@@ -2,11 +2,11 @@
   margin: 0 auto;
   text-align: center;
   font-size: 20px;
-  line-height: 25.9px;
+  line-height: 26px;
 }
 @media screen and (max-width: 1024px) {
 .sort__header {
   font-size: 14px;
-  line-height: 18.3px;
+  line-height: 18px;
 }
 }
