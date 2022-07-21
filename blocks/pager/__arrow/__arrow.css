@@ -1,9 +1,0 @@
-.pager__arrow {
-  width: 24px;
-  height: 24px;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  box-sizing: border-box;
-}
