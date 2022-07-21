@@ -1,0 +1,9 @@
+.pager__page-link {
+  font-size: 14px;
+  line-height: 18px;
+  font-style: normal;
+  font-weight: normal;
+  text-decoration: none;
+  text-align: center;
+  color: #323232;
+}

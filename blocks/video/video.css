@@ -1,0 +1,46 @@
+.video {
+  width: 100%;
+  padding-top: 32px;
+  margin: 0;
+
+  /* Для проверки раскомментить
+
+  max-width: 678px;
+  margin: 0 auto;
+
+  */
+}
+
+.video div {
+  position: relative;
+  width: 100%;
+  line-height: 0;
+}
+
+.video video {
+  width: 100%;
+  background: #E7E4DE;
+  aspect-ratio: 1.79;
+}
+
+.video figcaption {
+  width: 83%;
+  margin: 16px 0 0 auto;
+  padding-bottom: 16px;
+  border-bottom: 1px solid rgba(12, 6, 38, 0.7);
+  font-size: 14px;
+  line-height: 18px;
+}
+
+.video button {
+  width: 110px;
+  height: 110px;
+  position: absolute;
+  left: calc(50% - 55px);
+  top: calc(50% - 55px);
+  cursor: pointer;
+  border: none;
+  padding: 0;
+  background: transparent url("../../images/play.svg") no-repeat;
+  background-size: contain;
+}
