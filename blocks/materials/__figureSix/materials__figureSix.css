@@ -1,8 +1,10 @@
 .materials__figureSix {
   transform: scale(-1, 1);
   position: absolute;
-  bottom: 49px;
+  bottom: 22%;
   left: 50%;
+  height: 14.74%;
   z-index: 1;
 
 }
+
