@@ -2,13 +2,13 @@
 <html lang="ru">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
   <title>Главная страница</title>
-  <link rel="stylesheet" href="pages/index.css">
+  <link href="pages/index.css" rel="stylesheet">
 </head>
-<body class="page">
-  <header class="header"></header>
-  <main class="content">
+<body class="page">    
+<header class="header"></header>
+<main class="content">
     <section class="lock">
       <p class="lock__paragraph">
         Центр «Прожито» собирает, описывает и публикует документы личного происхождения и разрабатывает исследовательские инструменты для работы с ними. Материалы публикуются и описываются силами участников-волонтёров, к сообществу которых может присоединиться каждый.
@@ -23,7 +23,56 @@
         </a>
       </div>
     </section>
-  </main>
+    <section class="editor">
+      <div class="editor__portrait">
+      </div>
+      <h2 class="editor__title">Ищем редактора для дневника</h2>
+      <p class="editor__paragraph">
+        «Отец мой, Георгий Васильевич Антипов, из богатой семьи. У его отца и деда были участки леса, земли. Имел мой дед, Василий Кузьмич, лавку, в которой торговал бакалеей и красным товаром, и, конечно, занимался крестьянством, т.е. земледелием. Жили они богато. Дети у дедушки Василия были все грамотные, и земледелием занимались неохотно».
+      </p>
+      <div class="editor__buttons">
+        <a class="editor__materials-link" href="#" target="_blank">
+          Перейти к материалу
+          <img class="editor__arrow" src="./images/arrow.svg" alt="Стрелка в право">
+        </a>
+        <button type="button" class="editor__application">
+          Оставить заявку
+          <img class="editor__arrow" src="./images/arrow.svg" alt="Стрелка в право">
+        </button>
+      </div>
+    </section>
+  <section class="projects">
+    <h1 class="section-title">Спецпроекты</h1>
+    <div class="projects__articles">
+      <article class="projects__item">
+        <img alt="«Прожито» в Перми" class="projects__image" src="images/proj1.png">
+        <div class="projects__text-area">
+          <h3 class="article-title">«Прожито» в Перми</h3>
+          <p class="projects__main-text">Проект осуществляет поиск и копирование документов в пермских государственных
+            и семейных архивах для того, чтобы собрать цифровую народную коллекцию документов по истории города
+            и края</p>
+          <p class="projects__date">13 декабря 2021</p>
+        </div>
+      </article>
+      <article class="projects__item">
+        <img alt="Блокада" class="projects__image" src="images/proj2.png">
+        <div class="projects__text-area">
+          <h3 class="article-title">Блокада</h3>
+          <p class="projects__main-text">В условиях катастрофического голода, холода, вражеских бомбардировок
+            и обстрелов сотни тысяч людей оказались заперты в городе. У многих из них был доступ к бумаге и чернилам,
+            и некоторые начали вести дневники.</p>
+          <p class="projects__date">13 декабря 2021</p>
+        </div>
+      </article>
+    </div>
+    <a class="link" href="#">
+      <button class="button button_theme_green">
+        <p class="button__text">Все спецпроекты</p>
+        <img alt="стрелочка" class="button__arrow" src="images/arrow.svg">
+      </button>
+    </a>
+  </section>
+</main>
   <footer class="footer">
     <nav class="footer__menu">
       <a class="footer__menu-link" href="#">О команде</a>

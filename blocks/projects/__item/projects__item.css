@@ -1,0 +1,22 @@
+.projects__item {
+  display: flex;
+  flex-flow: row nowrap;
+  background: #F7F4F0;
+  width: calc((100% - 20px) / 2);
+  min-height: 354px;
+}
+
+@media screen and (max-width: 1024px) {
+  .projects__item {
+    flex-direction: column;
+    min-height: 354px;
+  }
+}
+
+@media screen and (max-width: 360px) {
+  .projects__item {
+    width: 100%;
+    min-height: 386px;
+    background: #FFF;
+  }
+}
