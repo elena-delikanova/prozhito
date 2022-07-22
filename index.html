@@ -1,107 +1,184 @@
 <!DOCTYPE html>
 <html lang="ru">
-<head>
-  <meta charset="UTF-8">
-  <meta content="width=device-width, initial-scale=1.0" name="viewport">
-  <title>Главная страница</title>
-  <link href="pages/index.css" rel="stylesheet">
-</head>
-<body class="page">
-<header class="header">
-<!--
-  <div class="header__container">
-
-      <img class="logo" src="./images/pogito-logo.svg" alt="Логотип прожито">
-      <nav class="header__menu">
-        <a class="header__menu-list" target="_blank" href="https://prozhito.org/page/archive">Архив</a>
-        <a class="header__menu-list" target="_blank" href="https://prozhito.org/persons">Корпус</a>
+  <head>
+    <meta charset="UTF-8" />
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+    <title>Главная страница</title>
+    <link href="pages/index.css" rel="stylesheet" />
+  </head>
+  <body class="page">
+    <header class="header">
+      <div class="header__container">
+        <img
+          class="logo"
+          src="./images/pogito-logo.svg"
+          alt="Логотип прожито"
+        />
+        <nav class="header__menu">
+          <a
+            class="header__menu-list"
+            target="_blank"
+            href="https://prozhito.org/page/archive"
+            >Архив</a
+          >
+          <a
+            class="header__menu-list"
+            target="_blank"
+            href="https://prozhito.org/persons"
+            >Корпус</a
+          >
           <div class="header__menu-list_hover">
-                <a class="header__menu-list " href="">О проекте</a>
-              <div class="header__dropdown-menu">
-                <a class="header__dropdown-list" href="#">О&nbsp;прожито</a>
-                <a class="header__dropdown-list" href="#">Как&nbsp;работать?</a>
-                <a class="header__dropdown-list" href="#">Медиа</a>
-                <a class="header__dropdown-list" href="#">Новости</a>
-                <a class="header__dropdown-list" href="#">Спецпроекты</a>
-              </div>
-           </div>
-       </nav>
+            <a class="header__menu-list" href="./index.html">О проекте</a>
+            <div class="header__dropdown-menu">
+              <a class="header__dropdown-list" href="#">О&nbsp;прожито</a>
+              <a class="header__dropdown-list" href="#">Как&nbsp;работать?</a>
+              <a class="header__dropdown-list" href="#">Медиа</a>
+              <a class="header__dropdown-list" href="#">Новости</a>
+              <a class="header__dropdown-list" href="#">Спецпроекты</a>
+            </div>
+          </div>
+        </nav>
+        <img
+          class="header__menu-button"
+          src="./images/Vector.svg"
+          alt="Кнопка"
+        />
+      </div>
+    </header>
 
-        <img class="header__menu-button" src="./images/Vector.svg" alt="">
-  </div>-->
-
-  <div class="popup">
-    <div class="header__container">
-      <img class="logo" src="./images/pogito-logo.svg" alt="Логотип прожито">
-
-    </div>
-  </div>
-
-</header>
-<main class="content">
-  <section class="projects">
-    <h1 class="section-title">Спецпроекты</h1>
-    <div class="projects__articles">
-      <article class="projects__item">
-        <img alt="«Прожито» в Перми" class="projects__image" src="images/proj1.png">
-        <div class="projects__text-area">
-          <h3 class="article-title">«Прожито» в Перми</h3>
-          <p class="projects__main-text">Проект осуществляет поиск и копирование документов в пермских государственных
-            и семейных архивах для того, чтобы собрать цифровую народную коллекцию документов по истории города
-            и края</p>
-          <p class="projects__date">13 декабря 2021</p>
+    <div class="header__popup">
+      <div class="header__popup-container">
+        <div class="header__container header__container_padding">
+          <img
+            class="logo"
+            src="./images/pogito-logo.svg"
+            alt="Логотип прожито"
+          />
+          <img
+            class="header__menu-button header__menu-button_close"
+            src="./images/Vector1.svg"
+            alt="Крестик"
+          />
         </div>
-      </article>
-      <article class="projects__item">
-        <img alt="Блокада" class="projects__image" src="images/proj2.png">
-        <div class="projects__text-area">
-          <h3 class="article-title">Блокада</h3>
-          <p class="projects__main-text">В условиях катастрофического голода, холода, вражеских бомбардировок
-            и обстрелов сотни тысяч людей оказались заперты в городе. У многих из них был доступ к бумаге и чернилам,
-            и некоторые начали вести дневники.</p>
-          <p class="projects__date">13 декабря 2021</p>
+        <div class="header__popup-block">
+          <nav class="header__popup-menu">
+            <a
+              class="header__popup-list"
+              target="_blank"
+              href="https://prozhito.org/page/archive"
+              >Архив</a
+            >
+            <a
+              class="header__popup-list"
+              target="_blank"
+              href="https://prozhito.org/persons"
+              >Корпус</a
+            >
+            <a class="header__popup-list" href="./index.html">О проекте</a>
+          </nav>
         </div>
-      </article>
-    </div>
-    <a class="link" href="#">
-      <button class="button button_theme_green">
-        <p class="button__text">Все спецпроекты</p>
-        <img alt="стрелочка" class="button__arrow" src="images/arrow.svg">
-      </button>
-    </a>
-  </section>
-</main>
-  <footer class="footer">
-    <nav class="footer__menu">
-      <a class="footer__menu-link" href="#">О команде</a>
-      <a class="footer__menu-link" href="#">Благодарности</a>
-      <a class="footer__menu-link" href="#">Партнёры</a>
-      <a class="footer__menu-link" href="#">FAQ</a>
-      <a class="footer__menu-link" href="#">Инструкции</a>
-    </nav>
-    <div class="footer__social-information">
-      <div class="footer__social-conteiner">
-        <img class="logo" src="./images/pogito-logo.svg" alt="Логотип прожито">
-        <div class="footer__social">
-          <a class="footer__link footer__link_covert-text" href="https://t.me/prozhito" target="_blank">
-            <img  class="footer__social-icon" src="./images/telegram.svg" alt="Логотип Телеграмм">
-            Телеграм
-          </a>
-          <a class="footer__link footer__link_covert-text" href="https://vk.com/prozhito" target="_blank">
-            <img  class="footer__social-icon" src="./images/vcontacte.svg" alt="Логотип Вконтакте">
-            Вконтакте
-          </a>
+        <div class="header__popup-block">
+          <div class="header__popup-menu">
+            <a class="header__popup-list" href="#">О&nbsp;прожито</a>
+            <a class="header__popup-list" href="#">Как&nbsp;работать?</a>
+            <a class="header__popup-list" href="#">Медиа</a>
+            <a class="header__popup-list" href="#">Новости</a>
+            <a class="header__popup-list" href="#">Спецпроекты</a>
+          </div>
         </div>
       </div>
-      <div class="footer__information">
-        <a class="footer__link" href="#">
-          Юридическая информация
-        </a>
-        <a class="footer__link" href="#">
-          Политика конфиденциальности
-        </a>
-      </div>
     </div>
-  </footer>
-</body>
+
+    <main class="content">
+      <section class="projects">
+        <h1 class="section-title">Спецпроекты</h1>
+        <div class="projects__articles">
+          <article class="projects__item">
+            <img
+              alt="«Прожито» в Перми"
+              class="projects__image"
+              src="images/proj1.png"
+            />
+            <div class="projects__text-area">
+              <h3 class="article-title">«Прожито» в Перми</h3>
+              <p class="projects__main-text">
+                Проект осуществляет поиск и копирование документов в пермских
+                государственных и семейных архивах для того, чтобы собрать
+                цифровую народную коллекцию документов по истории города и края
+              </p>
+              <p class="projects__date">13 декабря 2021</p>
+            </div>
+          </article>
+          <article class="projects__item">
+            <img alt="Блокада" class="projects__image" src="images/proj2.png" />
+            <div class="projects__text-area">
+              <h3 class="article-title">Блокада</h3>
+              <p class="projects__main-text">
+                В условиях катастрофического голода, холода, вражеских
+                бомбардировок и обстрелов сотни тысяч людей оказались заперты
+                в городе. У многих из них был доступ к бумаге и чернилам,
+                и некоторые начали вести дневники.
+              </p>
+              <p class="projects__date">13 декабря 2021</p>
+            </div>
+          </article>
+        </div>
+        <a class="link" href="#">
+          <button class="button button_theme_green">
+            <p class="button__text">Все спецпроекты</p>
+            <img alt="стрелочка" class="button__arrow" src="images/arrow.svg" />
+          </button>
+        </a>
+      </section>
+    </main>
+    <footer class="footer">
+      <nav class="footer__menu">
+        <a class="footer__menu-link" href="#">О команде</a>
+        <a class="footer__menu-link" href="#">Благодарности</a>
+        <a class="footer__menu-link" href="#">Партнёры</a>
+        <a class="footer__menu-link" href="#">FAQ</a>
+        <a class="footer__menu-link" href="#">Инструкции</a>
+      </nav>
+      <div class="footer__social-information">
+        <div class="footer__social-conteiner">
+          <img
+            class="logo"
+            src="./images/pogito-logo.svg"
+            alt="Логотип прожито"
+          />
+          <div class="footer__social">
+            <a
+              class="footer__link footer__link_covert-text"
+              href="https://t.me/prozhito"
+              target="_blank"
+            >
+              <img
+                class="footer__social-icon"
+                src="./images/telegram.svg"
+                alt="Логотип Телеграмм"
+              />
+              Телеграм
+            </a>
+            <a
+              class="footer__link footer__link_covert-text"
+              href="https://vk.com/prozhito"
+              target="_blank"
+            >
+              <img
+                class="footer__social-icon"
+                src="./images/vcontacte.svg"
+                alt="Логотип Вконтакте"
+              />
+              Вконтакте
+            </a>
+          </div>
+        </div>
+        <div class="footer__information">
+          <a class="footer__link" href="#"> Юридическая информация </a>
+          <a class="footer__link" href="#"> Политика конфиденциальности </a>
+        </div>
+      </div>
+    </footer>
+    <script src="./scripts/header-popup.js"></script>
+  </body>
 </html>

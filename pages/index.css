@@ -11,10 +11,14 @@
 @import url(../blocks/header/__menu-list/_hover/header__menu-list_hover.css);
 @import url(../blocks/header/__menu/header__menu.css);
 @import url(../blocks/header/__menu-button/header__menu-button.css);
-@import url(../blocks);
-@import url(../blocks);
-@import url(../blocks);
-@import url(../blocks);
+@import url(../blocks/header/__popup/header__popup.css);
+@import url(../blocks/header/__popup/_opened/header__popup_opened.css);
+@import url(../blocks/header/__popup-container/header__popup-container.css);
+@import url(../blocks/header/__container_padding/header__container_padding.css);
+@import url(../blocks/header/__popup-block/header__popup-block.css);
+@import url(../blocks/header/__popup-menu/header__popup-menu.css);
+@import url(../blocks/header/__popup-list/header__popup-list.css);
+
 
 
 
