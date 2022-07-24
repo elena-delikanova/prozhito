@@ -23,6 +23,24 @@
 
 
 @import url(../blocks/content/content.css);
+
+@import url(../blocks/lock/lock.css);
+@import url(../blocks/lock/__paragraph/lock__paragraph.css);
+@import url(../blocks/lock/__popup/lock__popup.css);
+@import url(../blocks/lock/__popup-title/lock__popup-title.css);
+@import url(../blocks/lock/__popup-link/lock__popup-link.css);
+@import url(../blocks/lock/__popup-close/lock__popup-close.css);
+@import url(../blocks/lock/__popup/_closed/lock__popup_closed.css);
+
+@import url(../blocks/editor/editor.css);
+@import url(../blocks/editor/__portrait/editor__portrait.css);
+@import url(../blocks/editor/__title/editor__title.css);
+@import url(../blocks/editor/__paragraph/editor__paragraph.css);
+@import url(../blocks/editor/__materials-link/editor__materials-link.css);
+@import url(../blocks/editor/__application/editor__application.css);
+@import url(../blocks/editor/__arrow/editor__arrow.css);
+@import url(../blocks/editor/__buttons/editor__buttons.css);
+@import url(../blocks/editor/__buttons-text/editor__buttons-text.css);
 @import url(../blocks/footer/footer.css);
 
 
@@ -42,6 +60,7 @@
 @import url(../blocks/button/__text/button__text.css);
 
 @import url(../blocks/link/link.css);
+
 @import url(../blocks/footer/footer.css);
 @import url(../blocks/footer/__menu/footer__menu.css);
 @import url(../blocks/footer/__menu-link/footer__menu-link.css);
