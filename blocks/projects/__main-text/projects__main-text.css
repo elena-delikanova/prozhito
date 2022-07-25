@@ -1,0 +1,15 @@
+.projects__main-text {
+  margin: 18px 0 0;
+  font-size: 20px;
+  line-height: 1.2;
+  opacity: 0.6;
+  flex: 1 0;
+}
+
+@media screen and (max-width: 1024px) {
+  .projects__main-text {
+    margin-top: 8px;
+    font-size: 14px;
+    opacity: 1;
+  }
+}

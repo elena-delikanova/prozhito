@@ -1,0 +1,19 @@
+.projects__date {
+  margin: 0;
+  font-size: 14px;
+  line-height: 18px;
+}
+
+@media screen and (max-width: 1024px) {
+  .projects__date {
+    font-size: 12px;
+    line-height: 16px;
+  }
+}
+
+@media screen and (max-width: 360px) {
+  .projects__date {
+    font-size: 14px;
+    line-height: 18px;
+  }
+}
