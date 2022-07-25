@@ -1,0 +1,12 @@
+.news__arrows {
+  height: 36px;
+  border: 1px solid;
+  border-radius: 50%;
+  width: 36px;
+  padding: 5px;
+  box-sizing: border-box;
+}
+.news__arrows:hover,
+.news__arrows:focus {
+  opacity: 0.5;
+}

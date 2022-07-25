@@ -1,0 +1,7 @@
+.news__cadrs {
+  display: flex;
+  overflow: scroll;
+  gap: 20px;
+}
+
+
