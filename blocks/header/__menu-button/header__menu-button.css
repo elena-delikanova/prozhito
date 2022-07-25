@@ -1,0 +1,17 @@
+.header__menu-button {
+  display: none;
+  width: 24px;
+  height: 24px;
+  padding: 5px 4px;
+  box-sizing: border-box;
+  cursor: pointer;
+  transition: all 0.5s ease;
+}
+@media screen and (max-width: 767px) {
+  .header__menu-button {
+    display: inline-block;
+  }
+}
+.header__menu-button:hover {
+  box-shadow: 0 0 5px rgba(0,0,0,0.3);
+}

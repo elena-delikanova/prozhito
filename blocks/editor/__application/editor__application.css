@@ -1,0 +1,45 @@
+.editor__application {
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 329px;
+  height: 60px;
+  grid-area: editor__application;
+  background: #A5CDAB;
+  border-radius: 8px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 26px;
+  border: 0;
+  cursor: pointer;
+}
+
+.editor__application:hover {
+  background: #97BA9C;
+}
+
+.editor__application:active {
+  background: #7A9F80;
+}
+
+@media screen and (max-width: 1200px) {
+  .editor__application {
+    width: 237px;
+  }
+}
+
+@media screen and (max-width: 860px) {
+  .editor__application {
+    height: 48px;
+    font-size: 14px;
+  line-height: 18px;
+  }
+}
+
+@media screen and (max-width: 773px) {
+  .editor__application {
+    width: 335px;;
+  }
+}
