@@ -1,0 +1,15 @@
+.header__popup {
+  display: flex;
+  background-color: rgba(0, 0, 0, 0.5);
+  width: 100vw;
+  height: 100vh;
+  position: fixed;
+  margin: 0 auto;
+  top: 0;
+  left: 0;
+  opacity: 0;
+  transition: visibility 0.3s, opacity 0.3s linear;
+  visibility: hidden;
+  z-index: 2;
+}
+
