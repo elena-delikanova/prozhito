@@ -11,6 +11,7 @@ if (document.querySelector('body').clientWidth < 769) {
       if (!start) {
         return;
       }
+      card.style.transform=`translateX(0)`;
       if (evt.changedTouches[0].clientX < start) {//left
         for (let j = i; j < cards.length && j < i + 3; j++) {
           cards[j].classList.add('swipe');
@@ -48,6 +49,10 @@ if (document.querySelector('body').clientWidth < 769) {
         }
       }
       start = null
+    });
+    card.addEventListener('touchmove', evt => {
+      card.style.transition='transform 0s';
+      card.style.transform=`translateX(${evt.changedTouches[0].clientX-start}px)`;
     });
   });
 }
