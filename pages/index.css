@@ -19,10 +19,25 @@
 @import url(../blocks/header/__popup-menu/header__popup-menu.css);
 @import url(../blocks/header/__popup-list/header__popup-list.css);
 
-
-
-
 @import url(../blocks/content/content.css);
+@import url(../blocks/materials/materials.css);
+@import url(../blocks/materials/__bar/materials__bar.css);
+@import url(../blocks/materials/__cards/materials__cards.css);
+@import url(../blocks/materials/__container/materials__container.css);
+@import url(../blocks/materials/__description/materials__description.css);
+@import url(../blocks/materials/__figureOne/materials__figureOne.css);
+@import url(../blocks/materials/__figureTwo/materials__figureTwo.css);
+@import url(../blocks/materials/__figureThree/materials__figureThree.css);
+@import url(../blocks/materials/__figureFour/materials__figureFour.css);
+@import url(../blocks/materials/__figureFive/materials__figureFive.css);
+@import url(../blocks/materials/__figureSix/materials__figureSix.css);
+@import url(../blocks/materials/__header/materials__header.css);
+@import url(../blocks/materials/__image/materials__image.css);
+@import url(../blocks/materials/__image/_mask/materials__image_mask.css);
+@import url(../blocks/materials/__list/materials__list.css);
+@import url(../blocks/materials/__name/materials__name.css);
+@import url(../blocks/materials/__navigation/materials__navigation.css);
+@import url(../blocks/footer/footer.css);
 
 @import url(../blocks/lock/lock.css);
 @import url(../blocks/lock/__paragraph/lock__paragraph.css);
