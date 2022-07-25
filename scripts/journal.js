@@ -1,21 +1,16 @@
 if (document.querySelector('body').clientWidth < 769) {
   const cards = document.querySelectorAll('.journal-grid__item');
-  let start;
+
   let curPos = 0;
 
   cards.forEach((card, i) => {
+    let start;
     card.addEventListener('touchstart', evt => {
       start = evt.changedTouches[0].pageX;
     });
     card.addEventListener('touchend', evt => {
-      if (!start) {
-        return;
-      }
       card.style.transform=`translateX(0)`;
       if (evt.changedTouches[0].clientX < start) {//left
-        for (let j = i; j < cards.length && j < i + 3; j++) {
-          cards[j].classList.add('swipe');
-        }
         if (curPos < cards.length - 1) {
           cards[curPos].classList.add('journal-grid__item_hidden');
           curPos++;
@@ -31,9 +26,6 @@ if (document.querySelector('body').clientWidth < 769) {
         }
 
       } else {
-        for (let j = i; j > 0 && j > i - 3; j--) {
-          cards[j].classList.add('swipe');
-        }
         if (curPos > 0) {
           cards[curPos].classList.add('journal-grid__item_pos_2');
           curPos--;
@@ -48,7 +40,6 @@ if (document.querySelector('body').clientWidth < 769) {
           cards[curPos + 3].classList.add('journal-grid__item_hidden')
         }
       }
-      start = null
     });
     card.addEventListener('touchmove', evt => {
       card.style.transition='transform 0s';
