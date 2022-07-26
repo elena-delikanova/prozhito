@@ -1,7 +1,19 @@
 .news__cadrs {
   display: flex;
-  overflow: scroll;
+  overflow-y: scroll;
   gap: 20px;
+  padding-bottom: 70px;
+  margin: 0 0 18px 20px;
+}
+.news__cadrs::-webkit-scrollbar {
+  width: 0;
+  height: 4px;
+}
+.news__cadrs::-webkit-scrollbar-track {
+  background: #E7E4DE;
+}
+.news__cadrs::-webkit-scrollbar-thumb {
+  background-color: #323232;
 }
 
 

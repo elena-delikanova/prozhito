@@ -1,0 +1,4 @@
+.news__follow {
+  display: flex;
+  justify-content: flex-end;
+}

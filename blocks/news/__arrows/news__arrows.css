@@ -5,6 +5,9 @@
   width: 36px;
   padding: 5px;
   box-sizing: border-box;
+  background: rgba(0, 0, 0, 0);
+  cursor: pointer;
+  transition: all 0.6s ease;
 }
 .news__arrows:hover,
 .news__arrows:focus {

@@ -48,6 +48,14 @@
 @import url(../blocks/news/__arrows/news__arrows.css);
 @import url(../blocks/news/__cadrs/news__cadrs.css);
 @import url(../blocks/news/__container/news__container.css);
+@import url(../blocks/news/__follow/news__follow.css);
+@import url(../blocks/news/__name/news__name.css);
+@import url(../blocks/news/__description/news__description.css);
+@import url(../blocks/news/__topic/news__topic.css);
+@import url(../blocks/news/__article/news__article.css);
+@import url(../blocks);
+@import url(../blocks);
+@import url(../blocks);
 @import url(../blocks);
 @import url(../blocks);
 @import url(../blocks);
