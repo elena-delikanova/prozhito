@@ -6,6 +6,8 @@
 @media screen and (max-width: 1126px) {
   .news__article {
     font-size: 14px;
-  line-height: 18px;
+   line-height: 18px;
+   margin: 0;
+
   }
 }

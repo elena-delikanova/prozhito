@@ -2,6 +2,7 @@
   color: #FFFFFF;
   font-size: 20px;
   line-height: 26px;
+  text-align: end;
 }
 @media screen and (max-width: 1126px) {
   .news__follow-button {
