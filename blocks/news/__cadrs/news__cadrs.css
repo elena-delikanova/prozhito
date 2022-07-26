@@ -15,5 +15,10 @@
 .news__cadrs::-webkit-scrollbar-thumb {
   background-color: #323232;
 }
+@media screen and (max-width: 1126px) {
+  .news__cadrs {
+    padding-bottom: 50px;
+  }
+}
 
 

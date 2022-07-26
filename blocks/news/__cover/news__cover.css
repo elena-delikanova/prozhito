@@ -1,8 +1,11 @@
 .news__cover {
   background-color: #323232;
   width: 477px;
-  height: 560px;
   display: flex;
   justify-content: space-between;
   flex-direction: column;
+}
+@media screen and (max-width: 1126px) {
+  .news__cover {
+  }
 }

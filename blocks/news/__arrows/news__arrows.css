@@ -13,3 +13,10 @@
 .news__arrows:focus {
   opacity: 0.5;
 }
+@media screen and (max-width: 1126px) {
+  .news__arrows {
+    width: 32px;
+    height: 32px;
+    padding: 3px;
+  }
+}

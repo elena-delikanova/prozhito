@@ -1,7 +1,10 @@
 .news__card {
   width: 328px;
-  height: 373px;
   flex: 1 0 34.061%;
   box-sizing: border-box;
+  transition: all 0.6s ease;
+}
+.news__card:hover {
+  opacity: .8;
 }
 

@@ -3,3 +3,9 @@
   font-family: 'WF';
   margin: 0;
 }
+@media screen and (max-width: 1126px) {
+  .news__name {
+    font-size: 30px;
+    line-height: 37px;
+  }
+}

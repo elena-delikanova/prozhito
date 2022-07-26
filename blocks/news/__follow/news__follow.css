@@ -1,4 +1,12 @@
 .news__follow {
   display: flex;
   justify-content: flex-end;
+  margin: 0 32px 40px auto;
+  gap: 20px;
+  align-items: center;
+}
+@media screen and (max-width: 1126px) {
+  .news__follow {
+    margin: 0 20px 40px auto;
+  }
 }

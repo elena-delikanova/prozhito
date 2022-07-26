@@ -3,3 +3,9 @@
   justify-content: space-between;
   gap: 28px;
 }
+@media screen and (max-width: 1126px) {
+  .news__description {
+    gap: 12px;
+  }
+}
+
