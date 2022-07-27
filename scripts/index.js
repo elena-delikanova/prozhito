@@ -23,14 +23,15 @@ buttonClose.addEventListener('click', evt => {
 lockCloseButton.addEventListener( "click", () => togglePopup(popupLock));
 
 
+const slidesContainer = document.querySelector('#newsCadrs');
+const slide = document.querySelector('#newsCard');
+const prevButton = document.querySelector('#arrowLeftNews');
+const nextButton = document.querySelector('#arrowRightNews');
+const slidesContainerJournal = document.querySelector('#journalCadrs');
+const slideJournal = document.querySelector('#journalCadrs');
+const prevButtonJournal = document.querySelector('#arrowLeftJournal');
+const nextButtonJournal = document.querySelector('#arrowRightJournal');
 
-
-
-/*-------*/
-const slidesContainer = document.querySelector('.news__cadrs');
-const slide = document.querySelector('.news__card');
-const prevButton = document.querySelector('.news__arrows_left');
-const nextButton = document.querySelector('.news__arrows_right');
 
 nextButton.addEventListener("click", () => {
   const slideWidth = slide.clientWidth;
@@ -40,4 +41,13 @@ nextButton.addEventListener("click", () => {
 prevButton.addEventListener("click", () => {
   const slideWidth = slide.clientWidth;
   slidesContainer.scrollLeft -= slideWidth;
+});
+nextButtonJournal.addEventListener("click", () => {
+  const slideWidth = slideJournal.clientWidth;
+  slidesContainerJournal.scrollLeft += slideWidth;
+});
+
+prevButtonJournal.addEventListener("click", () => {
+  const slideWidth = slideJournal.clientWidth;
+  slidesContainerJournal.scrollLeft -= slideWidth;
 });

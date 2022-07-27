@@ -55,10 +55,10 @@
 @import url(../blocks/news/__article/news__article.css);
 @import url(../blocks/news/__arrow-green/news__arrow-green.css);
 @import url(../blocks/news/__image/news__image.css);
-@import url(../blocks);
-@import url(../blocks);
-@import url(../blocks);
-@import url(../blocks);
+@import url(../blocks/news/__mobile/news__mobile.css);
+@import url(../blocks/news/__date/news__date.css);
+@import url(../blocks/news/__mobile-cards/news__mobile-cards.css);
+@import url(../blocks/news/__cadrs/_padding/news__cards_padding.css);
 @import url(../blocks);
 
 @import url(../blocks/footer/footer.css);

@@ -114,14 +114,14 @@
         <div class="news__navigation">
           <p class="news__name">Свежее</p>
           <div>
-            <button class="news__arrows news__arrows_left" >
+            <button class="news__arrows news__arrows_left" id="arrowLeftNews">
             <img src="./images/left.svg" alt=""></button>
-            <button class="news__arrows news__arrows_right" >
+            <button class="news__arrows news__arrows_right" id="arrowRightNews" >
             <img src="./images/right.svg" alt=""></button>
           </div>
         </div>
-        <div class="news__cadrs">
-          <div class="news__card">
+        <div class="news__cadrs" id="newsCadrs">
+          <div class="news__card" id="newsCard">
             <div class="news__description">
               <div class="news__date">
                 <p class="news__topic"> 27.01.2022</p>
@@ -129,7 +129,8 @@
               </div>
                 <img class="news__image" src="./images/photo1.png" alt="">
             </div>
-            <p class="news__article">В издательстве Европейского университета в Санкт-Петербурге вышла первая книга из серии «Библиотека Прожито. Блокада»</p>
+            <p class="news__article">В издательстве Европейского университета в Санкт-Петербурге
+               вышла первая книга из серии «Библиотека Прожито. Блокада»</p>
           </div>
           <div class="news__card">
             <div class="news__description">
@@ -139,7 +140,8 @@
               </div>
                 <img class="news__image" src="./images/photo22.png" alt="">
             </div>
-            <p class="news__article">Центр изучения эго-документов «Прожито» проведёт исследовательскую лабораторию, посвящённую работе с дембельскими альбомами</p>
+            <p class="news__article">Центр изучения эго-документов «Прожито» проведёт
+              исследовательскую лабораторию, посвящённую работе с дембельскими альбомами</p>
           </div>
           <div class="news__card">
             <div class="news__description">
@@ -149,8 +151,10 @@
               </div>
                 <img class="news__image" src="./images/3.png" alt="">
             </div>
-            <p class="news__article">4 октября на фестивале «Тверской переплёт» выступит Михаил Мельниченко — историк, директор Центра «Прожито» ЕУСПб</p>
+            <p class="news__article">4 октября на фестивале «Тверской переплёт» выступит
+              Михаил Мельниченко — историк, директор Центра «Прожито» ЕУСПб</p>
           </div>
+
         </div>
       </div>
 
@@ -158,12 +162,38 @@
 
     <section class="news__mobile">
       <p class="news__header">Новости и события</p>
-      <p class="news__follow-button">Ко всем новостям</p>
-      <div>
-
+      <div class="news__follow">
+        <p class="news__follow-button">Ко всем новостям</p>
+        <img src="./images/VectorSmall.svg" alt="">
       </div>
-      <div></div>
-      <div></div>
+
+      <div class="news__mobile-cards">
+        <img class="news__image" src="./images/photo1.png" alt="">
+        <p class="news__article">В издательстве Европейского университета в Санкт-Петербурге
+          вышла первая книга из серии «Библиотека Прожито. Блокада»</p>
+          <div class="news__date">
+            <p class="news__topic"> 27.01.2022</p>
+            <p class="news__topic">Спецпроект</p>
+          </div>
+      </div>
+      <div class="news__mobile-cards">
+        <img class="news__image" src="./images/photo22.png" alt="">
+        <p class="news__article">Центр изучения эго-документов «Прожито» проведёт
+          исследовательскую лабораторию, посвящённую работе с дембельскими альбомами</p>
+          <div class="news__date">
+            <p class="news__topic"> 27.01.2022</p>
+            <p class="news__topic"></p>
+          </div>
+      </div>
+      <div class="news__mobile-cards">
+        <img class="news__image" src="./images/3.png" alt="">
+        <p class="news__article">4 октября на фестивале «Тверской переплёт» выступит
+          Михаил Мельниченко — историк, директор Центра «Прожито» ЕУСПб</p>
+          <div class="news__date">
+            <p class="news__topic"> 27.01.2022</p>
+            <p class="news__topic">Лекция</p>
+          </div>
+      </div>
 
 
     </section>
@@ -288,14 +318,14 @@
         <div class="news__navigation">
           <p class="news__name">Новые материалы</p>
           <div>
-            <button class="news__arrows news__arrows_left" >
+            <button class="news__arrows news__arrows_left" id="arrowLeftJournal" >
             <img src="./images/left.svg" alt=""></button>
-            <button class="news__arrows news__arrows_right" >
+            <button class="news__arrows news__arrows_right" id="arrowRightJournal" >
             <img src="./images/right.svg" alt=""></button>
           </div>
         </div>
-        <div class="news__cadrs">
-          <div class="news__card">1</div>
+        <div class="news__cadrs news__cards_padding" id="journalCadrs">
+          <div class="news__card" id="journalCadrs"><img src="./images/Stalin.png" alt=""></div>
           <div class="news__card">2</div>
           <div class="news__card">3</div>
         </div>

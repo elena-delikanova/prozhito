@@ -10,3 +10,10 @@
   line-height: 18px;
   }
 }
+@media screen and (max-width: 600px) {
+  .news__follow-button {
+    color: #323232;
+    margin: 0;
+    text-align: start;
+  }
+}

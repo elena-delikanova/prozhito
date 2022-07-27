@@ -11,3 +11,8 @@
 
   }
 }
+@media screen and (max-width: 600px) {
+  .news__article {
+    margin: 8px 0;
+  }
+}
