@@ -53,7 +53,7 @@
 @import url(../blocks/news/__description/news__description.css);
 @import url(../blocks/news/__topic/news__topic.css);
 @import url(../blocks/news/__article/news__article.css);
-@import url(../blocks/news/__arrow-green/news__arrow-green.css);
+@import url(../blocks/arrow-green/arrow-green.css);
 @import url(../blocks/news/__image/news__image.css);
 @import url(../blocks/news/__mobile/news__mobile.css);
 @import url(../blocks/news/__date/news__date.css);
