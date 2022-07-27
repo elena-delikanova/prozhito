@@ -1,0 +1,30 @@
+.journal-grid {
+  list-style-type: none;
+  max-width: 1144px;
+  margin: 0 auto;
+  padding: 36px 80px 0;
+  display: grid;
+  gap: 62px 80px;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+}
+
+
+@media screen and (max-width: 768px) {
+  .journal-grid {
+    grid-template-rows: 1fr;
+    gap: 40.5px;
+    padding: 18px 42px 0;
+    max-width: 612px;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .journal-grid {
+    position: relative;
+    display: block;
+    padding: 24px 0 0;
+    min-height: 352px;
+    overflow: hidden;
+  }
+}
