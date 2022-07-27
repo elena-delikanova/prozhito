@@ -12,11 +12,10 @@
     margin: 16px auto 0 16px;
   }
 }
-
 @media screen and (max-width: 600px) {
   .news__header {
     font-size: 32px;
     color: #323232;
     margin: 0;
-}
+  }
 }
