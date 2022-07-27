@@ -2,4 +2,18 @@
   font-size: 20px;
   line-height: 26px;
   opacity: .5;
+  margin: 0;
 }
+@media screen and (max-width: 1126px) {
+  .instructions__lets {
+    font-size: 14px;
+    line-height: 18px;
+  }
+}
+@media screen and (max-width: 360px) {
+  .instructions__lets {
+    font-size: 12px;
+    line-height: 16px;
+  }
+}
+
