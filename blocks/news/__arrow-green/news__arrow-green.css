@@ -1,6 +1,13 @@
 .news__arrow-green {
   transition: all 0.6s ease;
   cursor: pointer;
+  height: 50px;
+  border: 1px solid;
+  border-radius: 50%;
+  width: 50px;
+  padding: 12px;
+  box-sizing: border-box;
+  background: #A5CDAB;
 }
 .news__arrow-green:hover {
   opacity: 0.5;
@@ -9,5 +16,6 @@
   .news__arrow-green {
     width: 32px;
     height: 32px;
+    padding: 3px;
   }
 }

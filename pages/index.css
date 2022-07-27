@@ -59,7 +59,18 @@
 @import url(../blocks/news/__date/news__date.css);
 @import url(../blocks/news/__mobile-cards/news__mobile-cards.css);
 @import url(../blocks/news/__cadrs/_padding/news__cards_padding.css);
+@import url(../blocks/news/__topic/_italic/news__topic_italic.css);
+@import url(../blocks/journal-card/journal-card.css);
+@import url(../blocks/news/__cadrs/_padding-small/news__cards_padding-small.css);
+@import url(../blocks/news/__cadrs/_padding-big/news__cards_padding-big.css);
+@import url(../blocks/news/__buttons-arrows/news__buttons-arrows.css);
+@import url(../blocks/news/_padding/news_padding.css);
+@import url(../blocks/materials/__title/materials__title.css);
 @import url(../blocks);
+@import url(../blocks);
+
+
+
 
 @import url(../blocks/footer/footer.css);
 

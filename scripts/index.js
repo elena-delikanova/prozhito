@@ -28,7 +28,7 @@ const slide = document.querySelector('#newsCard');
 const prevButton = document.querySelector('#arrowLeftNews');
 const nextButton = document.querySelector('#arrowRightNews');
 const slidesContainerJournal = document.querySelector('#journalCadrs');
-const slideJournal = document.querySelector('#journalCadrs');
+const slideJournal = document.querySelector('#journalCadr');
 const prevButtonJournal = document.querySelector('#arrowLeftJournal');
 const nextButtonJournal = document.querySelector('#arrowRightJournal');
 

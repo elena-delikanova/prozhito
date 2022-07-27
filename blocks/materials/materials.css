@@ -2,3 +2,8 @@
   position: relative;
   padding-top: 56px;
 }
+@media screen and (max-width: 1024px) {
+  .materials {
+    padding-top: 32px;
+  }
+}

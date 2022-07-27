@@ -107,25 +107,25 @@
         <p class="news__header">Новости и события</p>
         <div class="news__follow">
           <p class="news__follow-button">Ко всем новостям</p>
-          <img class="news__arrow-green" src="./images/arrowGreen.svg" alt="Стрелка вправо">
+          <img class="news__arrow-green" src="./images/right.svg" alt="Стрелка вправо">
         </div>
       </div>
       <div class="news__container">
         <div class="news__navigation">
           <p class="news__name">Свежее</p>
-          <div>
+          <div class="news__buttons-arrows">
             <button class="news__arrows news__arrows_left" id="arrowLeftNews">
             <img src="./images/left.svg" alt=""></button>
             <button class="news__arrows news__arrows_right" id="arrowRightNews" >
             <img src="./images/right.svg" alt=""></button>
           </div>
         </div>
-        <div class="news__cadrs" id="newsCadrs">
+        <div class="news__cadrs news__cards_padding-big" id="newsCadrs">
           <div class="news__card" id="newsCard">
             <div class="news__description">
               <div class="news__date">
                 <p class="news__topic"> 27.01.2022</p>
-                <p class="news__topic">Спецпроект</p>
+                <p class="news__topic news__topic_italic">Спецпроект</p>
               </div>
                 <img class="news__image" src="./images/photo1.png" alt="">
             </div>
@@ -136,7 +136,7 @@
             <div class="news__description">
               <div class="news__date">
                 <p class="news__topic"> 27.01.2022</p>
-                <p class="news__topic"></p>
+                <p class="news__topic news__topic_italic"></p>
               </div>
                 <img class="news__image" src="./images/photo22.png" alt="">
             </div>
@@ -147,7 +147,7 @@
             <div class="news__description">
               <div class="news__date">
                 <p class="news__topic"> 27.01.2022</p>
-                <p class="news__topic">Лекция</p>
+                <p class="news__topic news__topic_italic">Лекция</p>
               </div>
                 <img class="news__image" src="./images/3.png" alt="">
             </div>
@@ -203,7 +203,7 @@
 
 
       <section class="materials">
-        <h1 class="section-title">Материалы</h1>
+        <h1 class="materials__title">Материалы</h1>
         <input name="slideButton" id="slideOne" type="radio" checked />
         <input name="slideButton" id="slideTwo" type="radio" />
         <input name="slideButton" id="slideThree" type="radio" />
@@ -306,28 +306,28 @@
         </button>
       </div>
     </section>
-    <section class="news">
+    <section class="news news_padding">
       <div class="news__cover">
         <p class="news__header">Журнал «Прожито»</p>
         <div class="news__follow">
           <p class="news__follow-button">Посмотреть всю подборку</p>
-          <img class="news__arrow-green" src="./images/arrowGreen.svg" alt="Стрелка вправо">
+          <img class="news__arrow-green" src="./images/right.svg" alt="Стрелка вправо">
         </div>
       </div>
       <div class="news__container">
         <div class="news__navigation">
           <p class="news__name">Новые материалы</p>
-          <div>
+          <div class="news__buttons-arrows">
             <button class="news__arrows news__arrows_left" id="arrowLeftJournal" >
             <img src="./images/left.svg" alt=""></button>
             <button class="news__arrows news__arrows_right" id="arrowRightJournal" >
             <img src="./images/right.svg" alt=""></button>
           </div>
         </div>
-        <div class="news__cadrs news__cards_padding" id="journalCadrs">
-          <div class="news__card" id="journalCadrs"><img src="./images/Stalin.png" alt=""></div>
-          <div class="news__card"><img src="./images/card2.png" alt=""></div>
-          <div class="news__card"><img src="./images/experiencedesktop.png" alt=""></div>
+        <div class="news__cadrs news__cards_padding-small" id="journalCadrs">
+          <div class="news__card " id="journalCadr"><img class="journal-card" src="./images/Stalin.png" alt=""></div>
+          <div class="news__card"><img class="journal-card" src="./images/card2.png" alt=""></div>
+          <div class="news__card"><img class="journal-card" src="./images/experiencedesktop.png" alt=""></div>
         </div>
       </div>
     </section>
