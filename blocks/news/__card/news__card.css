@@ -7,4 +7,9 @@
 .news__card:hover {
   opacity: .8;
 }
+@media screen and (max-width: 768px) {
+  .news__card {
+    width: 180px;
+  }
+}
 

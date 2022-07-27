@@ -1,14 +1,11 @@
 .news__navigation {
   display: flex;
   justify-content: space-between;
-  height: 95px;
-  justify-content: space-between;
   align-items: center;
-  padding: 0 20px 0 32px;
+  padding: 16px 20px 24px 32px;
 }
 @media screen and (max-width: 1126px) {
   .news__navigation {
-    padding: 0 16px 0 12px;
-    height: 69px;
+    padding: 16px 16px 16px 12px;
   }
 }

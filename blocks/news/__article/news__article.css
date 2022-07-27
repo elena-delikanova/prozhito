@@ -7,12 +7,12 @@
   .news__article {
     font-size: 14px;
    line-height: 18px;
-   margin: 0;
+   margin: 8px 0;
 
   }
 }
 @media screen and (max-width: 600px) {
   .news__article {
-    margin: 8px 0;
+    margin: 0;
   }
 }
