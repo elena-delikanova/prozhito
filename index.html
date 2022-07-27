@@ -1,206 +1,220 @@
 <!DOCTYPE html>
 <html lang="ru">
-<head>
-  <meta charset="UTF-8">
-  <meta content="width=device-width, initial-scale=1.0" name="viewport">
-  <title>Главная страница</title>
-  <link href="pages/index.css" rel="stylesheet">
-</head>
-<body class="page">
-  <header class="header">
-    <div class="header__container">
-      <img
-        class="logo"
-        src="./images/pogito-logo.svg"
-        alt="Логотип прожито"
-      />
-      <nav class="header__menu">
-        <a
-          class="header__menu-list"
-          target="_blank"
-          href="https://prozhito.org/page/archive"
-          >Архив</a
-        >
-        <a
-          class="header__menu-list"
-          target="_blank"
-          href="https://prozhito.org/persons"
-          >Корпус</a
-        >
-        <div class="header__menu-list_hover">
-          <a class="header__menu-list" href="./index.html">О проекте</a>
-          <div class="header__dropdown-menu">
-            <a class="header__dropdown-list" href="#">О&nbsp;прожито</a>
-            <a class="header__dropdown-list" href="#">Как&nbsp;работать?</a>
-            <a class="header__dropdown-list" href="#">Медиа</a>
-            <a class="header__dropdown-list" href="#">Новости</a>
-            <a class="header__dropdown-list" href="#">Спецпроекты</a>
+  <head>
+    <meta charset="UTF-8" />
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+    <title>Главная страница</title>
+    <link href="pages/index.css" rel="stylesheet" />
+  </head>
+  <body class="page">
+    <header class="header">
+      <div class="header__container">
+        <img
+          class="logo"
+          src="./images/pogito-logo.svg"
+          alt="Логотип прожито"
+        />
+        <nav class="header__menu">
+          <a
+            class="header__menu-list"
+            target="_blank"
+            href="https://prozhito.org/page/archive"
+            >Архив</a
+          >
+          <a
+            class="header__menu-list"
+            target="_blank"
+            href="https://prozhito.org/persons"
+            >Корпус</a
+          >
+          <div class="header__menu-list_hover">
+            <a class="header__menu-list" href="./index.html">О проекте</a>
+            <div class="header__dropdown-menu">
+              <a class="header__dropdown-list" href="#">О&nbsp;прожито</a>
+              <a class="header__dropdown-list" href="#">Как&nbsp;работать?</a>
+              <a class="header__dropdown-list" href="#">Медиа</a>
+              <a class="header__dropdown-list" href="#">Новости</a>
+              <a class="header__dropdown-list" href="#">Спецпроекты</a>
+            </div>
           </div>
-        </div>
-      </nav>
-      <img
-        class="header__menu-button"
-        src="./images/Vector.svg"
-        alt="Кнопка"
-      />
-    </div>
-    <div class="header__popup">
-      <div class="header__popup-container">
-        <div class="header__container header__container_padding">
-          <img
-            class="logo"
-            src="./images/pogito-logo.svg"
-            alt="Логотип прожито"
-          />
-          <img
-            class="header__menu-button header__menu-button_close"
-            src="./images/Vector1.svg"
-            alt="Крестик"
-          />
-        </div>
-        <div class="header__popup-block">
-          <nav class="header__popup-menu">
-            <a
-              class="header__popup-list"
-              target="_blank"
-              href="https://prozhito.org/page/archive"
-              >Архив</a
-            >
-            <a
-              class="header__popup-list"
-              target="_blank"
-              href="https://prozhito.org/persons"
-              >Корпус</a
-            >
-            <a class="header__popup-list" href="./index.html">О проекте</a>
-          </nav>
-        </div>
-        <div class="header__popup-block">
-          <div class="header__popup-menu">
-            <a class="header__popup-list" href="#">О&nbsp;прожито</a>
-            <a class="header__popup-list" href="#">Как&nbsp;работать?</a>
-            <a class="header__popup-list" href="#">Медиа</a>
-            <a class="header__popup-list" href="#">Новости</a>
-            <a class="header__popup-list" href="#">Спецпроекты</a>
+        </nav>
+        <img
+          class="header__menu-button"
+          src="./images/Vector.svg"
+          alt="Кнопка"
+        />
+      </div>
+      <div class="header__popup">
+        <div class="header__popup-container">
+          <div class="header__container header__container_padding">
+            <img
+              class="logo"
+              src="./images/pogito-logo.svg"
+              alt="Логотип прожито"
+            />
+            <img
+              class="header__menu-button header__menu-button_close"
+              src="./images/Vector1.svg"
+              alt="Крестик"
+            />
+          </div>
+          <div class="header__popup-block">
+            <nav class="header__popup-menu">
+              <a
+                class="header__popup-list"
+                target="_blank"
+                href="https://prozhito.org/page/archive"
+                >Архив</a
+              >
+              <a
+                class="header__popup-list"
+                target="_blank"
+                href="https://prozhito.org/persons"
+                >Корпус</a
+              >
+              <a class="header__popup-list" href="./index.html">О проекте</a>
+            </nav>
+          </div>
+          <div class="header__popup-block">
+            <div class="header__popup-menu">
+              <a class="header__popup-list" href="#">О&nbsp;прожито</a>
+              <a class="header__popup-list" href="#">Как&nbsp;работать?</a>
+              <a class="header__popup-list" href="#">Медиа</a>
+              <a class="header__popup-list" href="#">Новости</a>
+              <a class="header__popup-list" href="#">Спецпроекты</a>
+            </div>
           </div>
         </div>
       </div>
-    </div>
-  </header>
-<main class="content">
-    <section class="lock">
-      <p class="lock__paragraph">
-        Центр «Прожито» собирает, описывает и публикует документы личного происхождения и разрабатывает исследовательские инструменты для работы с ними. Материалы публикуются и описываются силами участников-волонтёров, к сообществу которых может присоединиться каждый.
-      </p>
-      <div class="lock__popup">
-        <button type="button" class="lock__popup-close"></button>
-        <h2 class="lock__popup-title">
-          СПЕЦПРОЕКТ БЛОКАДА
-        </h2>
-        <a class="lock__popup-link">
-          Исследование блокадных дневников
-        </a>
-      </div>
-    </section>
-    <section class="news">
-      <div class="news__cover">
+    </header>
+    <main class="content">
+      <section class="lock">
+        <p class="lock__paragraph">
+          Центр «Прожито» собирает, описывает и публикует документы личного
+          происхождения и разрабатывает исследовательские инструменты для работы
+          с ними. Материалы публикуются и описываются силами
+          участников-волонтёров, к сообществу которых может присоединиться
+          каждый.
+        </p>
+        <div class="lock__popup">
+          <button type="button" class="lock__popup-close"></button>
+          <h2 class="lock__popup-title">СПЕЦПРОЕКТ БЛОКАДА</h2>
+          <a class="lock__popup-link"> Исследование блокадных дневников </a>
+        </div>
+      </section>
+      <section class="news">
+        <div class="news__cover">
+          <p class="news__header">Новости и события</p>
+          <div class="news__follow">
+            <p class="news__follow-button">Ко всем новостям</p>
+            <img
+              class="news__arrow-green"
+              src="./images/right.svg"
+              alt="Стрелка вправо"
+            />
+          </div>
+        </div>
+        <div class="news__container">
+          <div class="news__navigation">
+            <p class="news__name">Свежее</p>
+            <div class="news__buttons-arrows">
+              <button class="news__arrows news__arrows_left" id="arrowLeftNews">
+                <img src="./images/left.svg" alt="" />
+              </button>
+              <button
+                class="news__arrows news__arrows_right"
+                id="arrowRightNews"
+              >
+                <img src="./images/right.svg" alt="" />
+              </button>
+            </div>
+          </div>
+          <div class="news__cadrs news__cards_padding-big" id="newsCadrs">
+            <div class="news__card" id="newsCard">
+              <div class="news__description">
+                <div class="news__date">
+                  <p class="news__topic">27.01.2022</p>
+                  <p class="news__topic news__topic_italic">Спецпроект</p>
+                </div>
+                <img class="news__image" src="./images/photo1.png" alt="" />
+              </div>
+              <p class="news__article">
+                В издательстве Европейского университета в Санкт-Петербурге
+                вышла первая книга из серии «Библиотека Прожито. Блокада»
+              </p>
+            </div>
+            <div class="news__card">
+              <div class="news__description">
+                <div class="news__date">
+                  <p class="news__topic">27.01.2022</p>
+                  <p class="news__topic news__topic_italic"></p>
+                </div>
+                <img class="news__image" src="./images/photo22.png" alt="" />
+              </div>
+              <p class="news__article">
+                Центр изучения эго-документов «Прожито» проведёт
+                исследовательскую лабораторию, посвящённую работе с дембельскими
+                альбомами
+              </p>
+            </div>
+            <div class="news__card">
+              <div class="news__description">
+                <div class="news__date">
+                  <p class="news__topic">27.01.2022</p>
+                  <p class="news__topic news__topic_italic">Лекция</p>
+                </div>
+                <img class="news__image" src="./images/3.png" alt="" />
+              </div>
+              <p class="news__article">
+                4 октября на фестивале «Тверской переплёт» выступит Михаил
+                Мельниченко — историк, директор Центра «Прожито» ЕУСПб
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="news__mobile">
         <p class="news__header">Новости и события</p>
         <div class="news__follow">
           <p class="news__follow-button">Ко всем новостям</p>
-          <img class="news__arrow-green" src="./images/right.svg" alt="Стрелка вправо">
+          <img src="./images/VectorSmall.svg" alt="" />
         </div>
-      </div>
-      <div class="news__container">
-        <div class="news__navigation">
-          <p class="news__name">Свежее</p>
-          <div class="news__buttons-arrows">
-            <button class="news__arrows news__arrows_left" id="arrowLeftNews">
-            <img src="./images/left.svg" alt=""></button>
-            <button class="news__arrows news__arrows_right" id="arrowRightNews" >
-            <img src="./images/right.svg" alt=""></button>
-          </div>
-        </div>
-        <div class="news__cadrs news__cards_padding-big" id="newsCadrs">
-          <div class="news__card" id="newsCard">
-            <div class="news__description">
-              <div class="news__date">
-                <p class="news__topic"> 27.01.2022</p>
-                <p class="news__topic news__topic_italic">Спецпроект</p>
-              </div>
-                <img class="news__image" src="./images/photo1.png" alt="">
-            </div>
-            <p class="news__article">В издательстве Европейского университета в Санкт-Петербурге
-               вышла первая книга из серии «Библиотека Прожито. Блокада»</p>
-          </div>
-          <div class="news__card">
-            <div class="news__description">
-              <div class="news__date">
-                <p class="news__topic"> 27.01.2022</p>
-                <p class="news__topic news__topic_italic"></p>
-              </div>
-                <img class="news__image" src="./images/photo22.png" alt="">
-            </div>
-            <p class="news__article">Центр изучения эго-документов «Прожито» проведёт
-              исследовательскую лабораторию, посвящённую работе с дембельскими альбомами</p>
-          </div>
-          <div class="news__card">
-            <div class="news__description">
-              <div class="news__date">
-                <p class="news__topic"> 27.01.2022</p>
-                <p class="news__topic news__topic_italic">Лекция</p>
-              </div>
-                <img class="news__image" src="./images/3.png" alt="">
-            </div>
-            <p class="news__article">4 октября на фестивале «Тверской переплёт» выступит
-              Михаил Мельниченко — историк, директор Центра «Прожито» ЕУСПб</p>
-          </div>
 
-        </div>
-      </div>
-
-    </section>
-
-    <section class="news__mobile">
-      <p class="news__header">Новости и события</p>
-      <div class="news__follow">
-        <p class="news__follow-button">Ко всем новостям</p>
-        <img src="./images/VectorSmall.svg" alt="">
-      </div>
-
-      <div class="news__mobile-cards">
-        <img class="news__image" src="./images/photo1.png" alt="">
-        <p class="news__article">В издательстве Европейского университета в Санкт-Петербурге
-          вышла первая книга из серии «Библиотека Прожито. Блокада»</p>
+        <div class="news__mobile-cards">
+          <img class="news__image" src="./images/photo1.png" alt="" />
+          <p class="news__article">
+            В издательстве Европейского университета в Санкт-Петербурге вышла
+            первая книга из серии «Библиотека Прожито. Блокада»
+          </p>
           <div class="news__date">
-            <p class="news__topic"> 27.01.2022</p>
+            <p class="news__topic">27.01.2022</p>
             <p class="news__topic">Спецпроект</p>
           </div>
-      </div>
-      <div class="news__mobile-cards">
-        <img class="news__image" src="./images/photo22.png" alt="">
-        <p class="news__article">Центр изучения эго-документов «Прожито» проведёт
-          исследовательскую лабораторию, посвящённую работе с дембельскими альбомами</p>
+        </div>
+        <div class="news__mobile-cards">
+          <img class="news__image" src="./images/photo22.png" alt="" />
+          <p class="news__article">
+            Центр изучения эго-документов «Прожито» проведёт исследовательскую
+            лабораторию, посвящённую работе с дембельскими альбомами
+          </p>
           <div class="news__date">
-            <p class="news__topic"> 27.01.2022</p>
+            <p class="news__topic">27.01.2022</p>
             <p class="news__topic"></p>
           </div>
-      </div>
-      <div class="news__mobile-cards">
-        <img class="news__image" src="./images/3.png" alt="">
-        <p class="news__article">4 октября на фестивале «Тверской переплёт» выступит
-          Михаил Мельниченко — историк, директор Центра «Прожито» ЕУСПб</p>
+        </div>
+        <div class="news__mobile-cards">
+          <img class="news__image" src="./images/3.png" alt="" />
+          <p class="news__article">
+            4 октября на фестивале «Тверской переплёт» выступит Михаил
+            Мельниченко — историк, директор Центра «Прожито» ЕУСПб
+          </p>
           <div class="news__date">
-            <p class="news__topic"> 27.01.2022</p>
+            <p class="news__topic">27.01.2022</p>
             <p class="news__topic">Лекция</p>
           </div>
-      </div>
-
-
-    </section>
-
-
-
-
+        </div>
+      </section>
 
       <section class="materials">
         <h1 class="materials__title">Материалы</h1>
@@ -288,81 +302,123 @@
           <label class="materials__bar" for="slideThree"></label>
         </div>
       </section>
-    <section class="editor">
-      <div class="editor__portrait">
-      </div>
-      <h2 class="editor__title">Ищем редактора для дневника</h2>
-      <p class="editor__paragraph">
-        «Отец мой, Георгий Васильевич Антипов, из богатой семьи. У его отца и деда были участки леса, земли. Имел мой дед, Василий Кузьмич, лавку, в которой торговал бакалеей и красным товаром, и, конечно, занимался крестьянством, т.е. земледелием. Жили они богато. Дети у дедушки Василия были все грамотные, и земледелием занимались неохотно».
-      </p>
-      <div class="editor__buttons">
-        <a class="editor__materials-link" href="#" target="_blank">
-          Перейти к материалу
-          <img class="editor__arrow" src="./images/arrow.svg" alt="Стрелка в право">
-        </a>
-        <button type="button" class="editor__application">
-          Оставить заявку
-          <img class="editor__arrow" src="./images/arrow.svg" alt="Стрелка в право">
-        </button>
-      </div>
-    </section>
-    <section class="news news_padding">
-      <div class="news__cover">
-        <p class="news__header">Журнал «Прожито»</p>
-        <div class="news__follow">
-          <p class="news__follow-button">Посмотреть всю подборку</p>
-          <img class="news__arrow-green" src="./images/right.svg" alt="Стрелка вправо">
+      <section class="editor">
+        <div class="editor__portrait"></div>
+        <h2 class="editor__title">Ищем редактора для дневника</h2>
+        <p class="editor__paragraph">
+          «Отец мой, Георгий Васильевич Антипов, из богатой семьи. У его отца
+          и деда были участки леса, земли. Имел мой дед, Василий Кузьмич, лавку,
+          в которой торговал бакалеей и красным товаром, и, конечно, занимался
+          крестьянством, т.е. земледелием. Жили они богато. Дети у дедушки
+          Василия были все грамотные, и земледелием занимались неохотно».
+        </p>
+        <div class="editor__buttons">
+          <a class="editor__materials-link" href="#" target="_blank">
+            Перейти к материалу
+            <img
+              class="editor__arrow"
+              src="./images/arrow.svg"
+              alt="Стрелка в право"
+            />
+          </a>
+          <button type="button" class="editor__application">
+            Оставить заявку
+            <img
+              class="editor__arrow"
+              src="./images/arrow.svg"
+              alt="Стрелка в право"
+            />
+          </button>
         </div>
-      </div>
-      <div class="news__container">
-        <div class="news__navigation">
-          <p class="news__name">Новые материалы</p>
-          <div class="news__buttons-arrows">
-            <button class="news__arrows news__arrows_left" id="arrowLeftJournal" >
-            <img src="./images/left.svg" alt=""></button>
-            <button class="news__arrows news__arrows_right" id="arrowRightJournal" >
-            <img src="./images/right.svg" alt=""></button>
+      </section>
+      <section class="news news_padding">
+        <div class="news__cover">
+          <p class="news__header">Журнал «Прожито»</p>
+          <div class="news__follow">
+            <p class="news__follow-button">Посмотреть всю подборку</p>
+            <img
+              class="news__arrow-green"
+              src="./images/right.svg"
+              alt="Стрелка вправо"
+            />
           </div>
         </div>
-        <div class="news__cadrs news__cards_padding-small" id="journalCadrs">
-          <div class="news__card " id="journalCadr"><img class="journal-card" src="./images/Stalin.png" alt=""></div>
-          <div class="news__card"><img class="journal-card" src="./images/card2.png" alt=""></div>
-          <div class="news__card"><img class="journal-card" src="./images/experiencedesktop.png" alt=""></div>
+        <div class="news__container">
+          <div class="news__navigation">
+            <p class="news__name">Новые материалы</p>
+            <div class="news__buttons-arrows">
+              <button
+                class="news__arrows news__arrows_left"
+                id="arrowLeftJournal"
+              >
+                <img src="./images/left.svg" alt="" />
+              </button>
+              <button
+                class="news__arrows news__arrows_right"
+                id="arrowRightJournal"
+              >
+                <img src="./images/right.svg" alt="" />
+              </button>
+            </div>
+          </div>
+          <div class="news__cadrs news__cards_padding-small" id="journalCadrs">
+            <div class="news__card" id="journalCadr">
+              <img class="journal-card" src="./images/Stalin.png" alt="" />
+            </div>
+            <div class="news__card">
+              <img class="journal-card" src="./images/card2.png" alt="" />
+            </div>
+            <div class="news__card">
+              <img
+                class="journal-card"
+                src="./images/experiencedesktop.png"
+                alt=""
+              />
+            </div>
+          </div>
         </div>
-      </div>
-    </section>
-  <section class="projects">
-    <h1 class="section-title">Спецпроекты</h1>
-    <div class="projects__articles">
-      <article class="projects__item">
-        <img alt="«Прожито» в Перми" class="projects__image" src="images/proj1.png">
-        <div class="projects__text-area">
-          <h3 class="article-title">«Прожито» в Перми</h3>
-          <p class="projects__main-text">Проект осуществляет поиск и копирование документов в пермских государственных
-            и семейных архивах для того, чтобы собрать цифровую народную коллекцию документов по истории города
-            и края</p>
-          <p class="projects__date">13 декабря 2021</p>
+      </section>
+      <section class="projects">
+        <h1 class="section-title">Спецпроекты</h1>
+        <div class="projects__articles">
+          <article class="projects__item">
+            <img
+              alt="«Прожито» в Перми"
+              class="projects__image"
+              src="images/proj1.png"
+            />
+            <div class="projects__text-area">
+              <h3 class="article-title">«Прожито» в Перми</h3>
+              <p class="projects__main-text">
+                Проект осуществляет поиск и копирование документов в пермских
+                государственных и семейных архивах для того, чтобы собрать
+                цифровую народную коллекцию документов по истории города и края
+              </p>
+              <p class="projects__date">13 декабря 2021</p>
+            </div>
+          </article>
+          <article class="projects__item">
+            <img alt="Блокада" class="projects__image" src="images/proj2.png" />
+            <div class="projects__text-area">
+              <h3 class="article-title">Блокада</h3>
+              <p class="projects__main-text">
+                В условиях катастрофического голода, холода, вражеских
+                бомбардировок и обстрелов сотни тысяч людей оказались заперты
+                в городе. У многих из них был доступ к бумаге и чернилам,
+                и некоторые начали вести дневники.
+              </p>
+              <p class="projects__date">13 декабря 2021</p>
+            </div>
+          </article>
         </div>
-      </article>
-      <article class="projects__item">
-        <img alt="Блокада" class="projects__image" src="images/proj2.png">
-        <div class="projects__text-area">
-          <h3 class="article-title">Блокада</h3>
-          <p class="projects__main-text">В условиях катастрофического голода, холода, вражеских бомбардировок
-            и обстрелов сотни тысяч людей оказались заперты в городе. У многих из них был доступ к бумаге и чернилам,
-            и некоторые начали вести дневники.</p>
-          <p class="projects__date">13 декабря 2021</p>
-        </div>
-      </article>
-    </div>
-    <a class="link" href="#">
-      <button class="button button_theme_green">
-        <p class="button__text">Все спецпроекты</p>
-        <img alt="стрелочка" class="button__arrow" src="images/arrow.svg">
-      </button>
-    </a>
-  </section>
-</main>
+        <a class="link" href="#">
+          <button class="button button_theme_green">
+            <p class="button__text">Все спецпроекты</p>
+            <img alt="стрелочка" class="button__arrow" src="images/arrow.svg" />
+          </button>
+        </a>
+      </section>
+    </main>
     <footer class="footer">
       <nav class="footer__menu">
         <a class="footer__menu-link" href="#">О команде</a>
@@ -410,7 +466,7 @@
           <a class="footer__link" href="#"> Политика конфиденциальности </a>
         </div>
       </div>
-  </footer>
-  <script src="./scripts/index.js"></script>
-</body>
+    </footer>
+    <script src="./scripts/index.js"></script>
+  </body>
 </html>
