@@ -3,11 +3,20 @@
 @import url(../blocks/page/page.css);
 @import url(../blocks/header/header.css);
 @import url(../blocks/content/content.css);
+
 @import url(../blocks/bread-crumbs/bread-crumbs.css);
 @import url(../blocks/bread-crumbs/__element/bread-crumbs__element.css);
 @import url(../blocks/bread-crumbs/__title/bread-crumbs__title.css);
 @import url(../blocks/title/title.css);
 @import url(../blocks/title/__text/title__text.css);
+
+@import url(../blocks/sort/sort.css);
+@import url(../blocks/sort/__container/sort__container.css);
+@import url(../blocks/sort/__header/sort__header.css);
+@import url(../blocks/sort/__link/sort__link.css);
+@import url(../blocks/sort/__link/_active/sort__list_active.css);
+@import url(../blocks/sort/__list/sort__list.css);
+@import url(../blocks/sort/__lists/sort__lists.css);
 
 @import url(../blocks/pager/pager.css);
 @import url(../blocks/pager/__pages/pager__pages.css);
@@ -18,6 +27,11 @@
 @import url(../blocks/pager/__arrow/__arrow.css);
 @import url(../blocks/pager/__arrow/_disabled/pager__arrow_disabled.css);
 @import url(../blocks/pager/__arrow-image/pager__arrow-image.css);
+@import url(../blocks/journal-grid/journal-grid.css);
+@import url(../blocks/journal-grid/__item/journal-grid__item.css);
+@import url(../blocks/journal-grid/__item/_hidden/journal-grid__item_hidden.css);
+@import url(../blocks/journal-grid/__item/_pos/journal-grid__item_pos_2.css);
+@import url(../blocks/journal-grid/__item/_pos/journal-grid__item_pos_3.css);
 @import url(../blocks/footer/footer.css);
 @import url(../blocks/footer/__menu/footer__menu.css);
 @import url(../blocks/footer/__menu-link/footer__menu-link.css);
@@ -28,3 +42,4 @@
 @import url(../blocks/footer/__link/footer__link.css);
 @import url(../blocks/footer/__link/_covert-text/footer__link_covert-text.css);
 @import url(../blocks/footer/__information/footer__information.css);
+

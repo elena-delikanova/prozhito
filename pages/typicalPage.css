@@ -3,6 +3,9 @@
 @import url(../blocks/page/page.css);
 @import url(../blocks/header/header.css);
 @import url(../blocks/content/content.css);
+@import url(../blocks/part/part.css);
+
+
 @import url(../blocks/footer/footer.css);
 @import url(../blocks/bread-crumbs/bread-crumbs.css);
 @import url(../blocks/bread-crumbs/__element/bread-crumbs__element.css);

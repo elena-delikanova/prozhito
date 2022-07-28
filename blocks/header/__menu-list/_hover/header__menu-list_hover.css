@@ -1,0 +1,9 @@
+.header__menu-list_hover {
+  margin: 0;
+  position: relative;
+  display: inline-block;
+}
+.header__menu-list_hover:hover  .header__dropdown-menu {
+  display: flex;
+}
+

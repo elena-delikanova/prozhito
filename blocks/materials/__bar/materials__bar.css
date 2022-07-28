@@ -1,0 +1,23 @@
+.materials__bar {
+  width: 8px;
+  height: 8px;
+  border-radius: 10px;
+  background-color: #A5CDAB;
+  transition: all 0.6s ease;
+  }
+
+.materials__bar:hover {
+  background-color: #3A543E;
+  cursor: pointer;
+}
+.materials__bar:last-of-type {
+  display: none;
+  }
+
+@media screen and (max-width: 600px) {
+  .materials__bar:last-of-type {
+    display: block;
+  }
+}
+
+

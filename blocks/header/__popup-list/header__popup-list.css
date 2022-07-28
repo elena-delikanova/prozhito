@@ -1,0 +1,10 @@
+.header__popup-list {
+  text-decoration: none;
+    color: #323232;
+    font-size: 14px;
+    line-height: 18px;
+    border-bottom: 1px solid transparent;
+    transition: all 0.6s ease;
+    box-sizing: border-box;
+    height: 18px;
+}

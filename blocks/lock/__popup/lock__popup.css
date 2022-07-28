@@ -1,0 +1,26 @@
+.lock__popup {
+    position: absolute;
+    right: 0;
+    top: 70px;
+    max-width: 237px;
+    min-height: 132px;
+    background: #A5CDAB;
+    opacity: 1;
+    visibility: visible;
+}
+
+@media screen and (max-width: 768px) {
+    .lock__popup {
+        top: 40px;
+        max-width: 191px;
+        min-height: 112px;
+    }
+}
+
+@media screen and (max-width: 360px) {
+    .lock__popup {
+        top: 17px;
+        max-width: 157px;
+        min-height: 104px;
+    }
+}

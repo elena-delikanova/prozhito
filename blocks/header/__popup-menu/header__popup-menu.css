@@ -1,0 +1,8 @@
+.header__popup-menu {
+  display: flex;
+  gap: 28px;
+  flex-direction: column;
+  flex-wrap: wrap;
+  height: 113px;
+  align-items: flex-start;
+}
