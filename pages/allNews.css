@@ -45,7 +45,3 @@
 @import url(../blocks/footer/__link/footer__link.css);
 @import url(../blocks/footer/__link/_covert-text/footer__link_covert-text.css);
 @import url(../blocks/footer/__information/footer__information.css);
-
-* {
-  border: 1px solid red;
-}
