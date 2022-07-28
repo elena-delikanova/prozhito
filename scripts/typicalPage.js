@@ -56,7 +56,6 @@ photoGallaries.forEach((gallary) => {
     buttonPrevious.classList.add("gallery__previous-button");
 
     buttonPrevious.addEventListener("click", (event) => {
-      console.log('Клик ' + index)
       photoCounterCaption.textContent = `${index}/${figureElements.length}`;
       event.target.closest(".image").classList.add("image_hidden");
       figureElements[index - 1].classList.remove("image_hidden");

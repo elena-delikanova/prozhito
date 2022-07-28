@@ -1,5 +1,5 @@
 .part {
- margin: 0 auto;
+  margin: 0 auto;
   max-width: 676px;
   padding-top: 32px;
   font-family: 'WF';
@@ -36,4 +36,19 @@
   border-left: 2px solid #3A543E;
 }
 
+@media screen AND (max-width: 767px) {
+  .part {
+    max-width: calc(100% - 80px);
+  }
 
+  .part p {
+    font-size: 14px;
+    line-height: 18px;
+  }
+}
+
+@media screen AND (max-width: 424px) {
+  .part {
+    max-width: calc(100% - 60px);
+  }
+}

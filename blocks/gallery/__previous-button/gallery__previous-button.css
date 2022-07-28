@@ -1,0 +1,16 @@
+.gallery__previous-button {
+  background-image: url(../images/previous-arrow.svg);
+  width: 18px;
+  height: 9.64px;
+  padding: 0;
+  border: none;
+  box-sizing: border-box;
+  position: absolute;
+  right: 184px;
+  bottom: 122.47px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-color: unset;
+  cursor: pointer;
+}

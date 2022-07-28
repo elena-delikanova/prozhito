@@ -30,6 +30,7 @@
   border-bottom: 1px solid rgba(12, 6, 38, 0.7);
   font-size: 14px;
   line-height: 18px;
+  font-family: 'PT Sans';
 }
 
 .video button {
@@ -43,4 +44,11 @@
   padding: 0;
   background: transparent url("../../images/play.svg") no-repeat;
   background-size: contain;
+}
+
+@media screen AND (max-width: 424px) {
+  .video figcaption  {
+    font-size: 12px;
+    line-height: 14px;
+  }
 }
