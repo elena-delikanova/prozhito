@@ -5,11 +5,6 @@
 .news:last-child {
   padding-top: 76px;
 }
-@media screen and (max-width: 1126px) {
-  .news {
-    height: 380px;
-  }
-}
 @media screen and (max-width: 600px) {
   .news {
     display: none;

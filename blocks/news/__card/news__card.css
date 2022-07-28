@@ -11,4 +11,9 @@
     min-width: 180px;
   }
 }
+@media screen and (max-width: 1126px) {
+  .news__card {
+    min-width: 180px;
+  }
+}
 
