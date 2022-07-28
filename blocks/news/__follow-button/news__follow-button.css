@@ -1,0 +1,20 @@
+.news__follow-button {
+  color: #FFFFFF;
+  font-size: 20px;
+  line-height: 26px;
+  text-align: end;
+  margin: 0;
+}
+@media screen and (max-width: 1126px) {
+  .news__follow-button {
+    font-size: 14px;
+  line-height: 18px;
+  }
+}
+@media screen and (max-width: 600px) {
+  .news__follow-button {
+    color: #323232;
+    margin: 0;
+    text-align: start;
+  }
+}

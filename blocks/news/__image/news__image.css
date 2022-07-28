@@ -1,0 +1,17 @@
+.news__image {
+  width: 212px;
+  height: 223px;
+  object-fit: cover;
+}
+@media screen and (max-width: 1126px) {
+  .news__image {
+    height: 120px;
+    width: 102px;
+  }
+}
+@media screen and (max-width: 600px) {
+  .news__image {
+    height: 160px;
+    width: 336px;
+  }
+}

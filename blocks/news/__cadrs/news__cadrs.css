@@ -1,0 +1,23 @@
+.news__cadrs {
+  display: flex;
+  overflow-y: scroll;
+  gap: 20px;
+  margin-left: 20px;
+}
+@media screen and (max-width: 1126px) {
+  .news__cadrs {
+    margin-left: 12px;
+  }
+}
+.news__cadrs::-webkit-scrollbar {
+  width: 0;
+  height: 4px;
+}
+.news__cadrs::-webkit-scrollbar-track {
+  background: #E7E4DE;
+}
+.news__cadrs::-webkit-scrollbar-thumb {
+  background-color: #323232;
+}
+
+
