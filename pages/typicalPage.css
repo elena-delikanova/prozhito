@@ -52,3 +52,8 @@
 @import url(../blocks/footer/__link/_covert-text/footer__link_covert-text.css);
 @import url(../blocks/footer/__information/footer__information.css);
 @import url(../blocks/video/video.css);
+
+@import url(../blocks/title-tag/title-tag.css);
+@import url(../blocks/title-tag/__list/title-tag__list.css);
+@import url(../blocks/title-tag/__item/title-tag__item.css);
+@import url(../blocks/title-tag/__link/title-tag__link.css);
