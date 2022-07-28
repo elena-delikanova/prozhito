@@ -1,3 +1,6 @@
 .card-rectangle__header {
-
+  margin: 0;
+  font-family: 'WF';
+  font-size: 26px;
+  line-height: 26px;
 }

@@ -1,3 +1,8 @@
 .card-rectangle {
   color: white;
+  display: flex;
+  flex-direction: column;
+  aspect-ratio: calc(328 / 526);
+  justify-content: space-between;
+  color: #F5F5F5;
 }
