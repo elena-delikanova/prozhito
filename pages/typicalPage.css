@@ -3,9 +3,9 @@
 @import url(../blocks/page/page.css);
 @import url(../blocks/header/header.css);
 @import url(../blocks/content/content.css);
+@import url(../blocks/table-button/table-button.css);
+@import url(../blocks/table-button/__text/table-button__text.css);
 @import url(../blocks/part/part.css);
-
-
 @import url(../blocks/footer/footer.css);
 @import url(../blocks/bread-crumbs/bread-crumbs.css);
 @import url(../blocks/bread-crumbs/__element/bread-crumbs__element.css);
@@ -13,6 +13,12 @@
 @import url(../blocks/title/title.css);
 @import url(../blocks/title/__text/title__text.css);
 @import url(../blocks/title/__text/_underlined/title__text_underlined.css);
+@import url(../blocks/note/note.css);
+@import url(../blocks/note/__container/note__container.css);
+@import url(../blocks/note/__tatle/note__tatle.css);
+@import url(../blocks/note/__paragraph/note__paragraph.css);
+@import url(../blocks/note/__close/note__close.css);
+@import url(../blocks/lock/__popup/_closed/lock__popup_closed.css);
 @import url(../blocks/footer/__menu/footer__menu.css);
 @import url(../blocks/footer/__menu-link/footer__menu-link.css);
 @import url(../blocks/footer/__social-information/footer__social-information.css);
@@ -23,3 +29,8 @@
 @import url(../blocks/footer/__link/_covert-text/footer__link_covert-text.css);
 @import url(../blocks/footer/__information/footer__information.css);
 @import url(../blocks/video/video.css);
+@import url(../blocks/table/table.css);
+@import url(../blocks/table/__container/table__container.css);
+@import url(../blocks/table/__title/table__title.css);
+@import url(../blocks/table/__close/table__close.css);
+@import url(../blocks/table/_opened/table_opened.css);

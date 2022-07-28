@@ -1,0 +1,7 @@
+.table-button {
+  padding: 0;
+  position: absolute;
+  top: 380px;
+  left: -30px;
+  transform: rotate(-90deg);
+}

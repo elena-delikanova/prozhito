@@ -1,0 +1,13 @@
+.table__close {
+  border: 0;
+  background-image: url(../../../images/close.svg);
+  background-color: rgba(0, 0, 0, 0);
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: absolute;
+  width: 22.28px;
+  height: 22.28px;
+  top: 36.86px;
+  right: -192.86px;
+  cursor: pointer;
+}
