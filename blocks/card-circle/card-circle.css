@@ -7,4 +7,29 @@
     background-color: #E7E4DE;
     align-items: center;
     box-sizing: border-box;
+    width: 100%;
+    max-width: 328px;
+    height: 100%;
+    max-height: 526px;
+    flex: 1 0 34.061%;
+    transition: all 0.6s ease;
+    cursor: pointer;
+}
+.card-circle:hover {
+  opacity: .8;
+}
+@media screen and (max-width: 1100px) {
+  .card-circle {
+    padding: 12px 4px 8px;
+  }
+}
+@media screen and (max-width: 1024px) {
+  .card-circle {
+    min-width: 180px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .card-circle {
+    max-height: 280px;
+  }
 }

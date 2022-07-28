@@ -4,3 +4,9 @@
   line-height: 18px;
   text-transform: uppercase;
 }
+@media screen and (max-width: 1024px) {
+  .card-circle__experience {
+    font-size: 12px;
+    line-height: 16px;
+  }
+}
