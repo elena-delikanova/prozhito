@@ -1,0 +1,39 @@
+.part {
+ margin: 0 auto;
+  max-width: 676px;
+  padding-top: 32px;
+  font-family: 'WF';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 26px;
+  line-height: 100%;
+}
+
+.part h2 {
+  padding-top: 32px;
+  text-align: center;
+  margin: 0;
+}
+
+.part p {
+  margin: 0;
+  padding-top: 32px;
+  font-family: 'PT Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 30px;
+  max-width: 676px;
+}
+
+.part p:first-child {
+  padding-top: 28px;
+}
+
+.part blockquote {
+  margin: 32px 0 0;
+  padding-left: 16px;
+  border-left: 2px solid #3A543E;
+}
+
+
