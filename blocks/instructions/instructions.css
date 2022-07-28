@@ -1,0 +1,25 @@
+.instructions {
+  padding: 114px 148px 164px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  background-color: #F7F4F0;
+  gap: 20px;
+}
+@media screen and (max-width: 1200px) {
+  .instructions {
+    padding: 28px 16px 36px;
+    gap: 12px;
+  }
+}
+@media screen and (max-width: 600px) {
+  .instructions {
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+  }
+}
+@media screen and (max-width: 360px) {
+  .instructions {
+    padding: 92px 12px 98px;
+  }
+}

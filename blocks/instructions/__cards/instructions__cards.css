@@ -1,0 +1,18 @@
+.instructions__cards {
+  max-width: 562px;
+  max-height: 276px;
+  padding: 32px;
+  border: 1px solid rgba(50, 50, 50, .5);;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+@media screen and (max-width: 768px) {
+  .instructions__cards {
+    max-width: 362px;
+    max-height: 212px;
+    padding: 11px;
+  }
+}
+
