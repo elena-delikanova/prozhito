@@ -33,6 +33,14 @@
 @import url(../blocks/title/title.css);
 @import url(../blocks/title/__text/title__text.css);
 @import url(../blocks/title/__text/_underlined/title__text_underlined.css);
+
+@import url(../blocks/card-circle/card-circle.css);
+@import url(../blocks/card-circle/__content/card-circle__content.css);
+@import url(../blocks/card-circle/__description/card-circle__description.css);
+@import url(../blocks/card-circle/__experience/card-circle__experience.css);
+@import url(../blocks/card-circle/__header/card-circle__header.css);
+@import url(../blocks/card-circle/__image/card-circle__image.css);
+
 @import url(../blocks/footer/__menu/footer__menu.css);
 @import url(../blocks/footer/__menu-link/footer__menu-link.css);
 @import url(../blocks/footer/__social-information/footer__social-information.css);

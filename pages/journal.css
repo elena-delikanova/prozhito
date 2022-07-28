@@ -23,6 +23,25 @@
 @import url(../blocks/bread-crumbs/bread-crumbs.css);
 @import url(../blocks/bread-crumbs/__element/bread-crumbs__element.css);
 @import url(../blocks/bread-crumbs/__title/bread-crumbs__title.css);
+
+@import url(../blocks/card-circle/card-circle.css);
+@import url(../blocks/card-circle/__content/card-circle__content.css);
+@import url(../blocks/card-circle/__description/card-circle__description.css);
+@import url(../blocks/card-circle/__experience/card-circle__experience.css);
+@import url(../blocks/card-circle/__header/card-circle__header.css);
+@import url(../blocks/card-circle/__image/card-circle__image.css);
+@import url(../blocks/card-rectangle/card-rectangle.css);
+@import url(../blocks/card-rectangle/__article/card-rectangle__article.css);
+@import url(../blocks/card-rectangle/__description/card-rectangle__description.css);
+@import url(../blocks/card-rectangle/__header/card-rectangle__header.css);
+@import url(../blocks/card-rectangle/__image/card-rectangle__image.css);
+@import url(../blocks/card-rectangle/__text/card-rectangle__text.css);
+@import url(../blocks/card-rectangle/__type/card-rectangle__type.css);
+@import url(../blocks);
+@import url(../blocks);
+@import url(../blocks);
+@import url(../blocks);
+
 @import url(../blocks/title/title.css);
 @import url(../blocks/title/__text/title__text.css);
 
