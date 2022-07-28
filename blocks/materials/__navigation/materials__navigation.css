@@ -7,7 +7,7 @@
     left: 50%;
     transform: translateX(-50%);
     display: flex;
-    bottom: -24px;
+    bottom: -32px;
     gap: 12px;
   }
 }

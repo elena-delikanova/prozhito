@@ -1,0 +1,10 @@
+.journal-card {
+  width: 328px;
+  height: 526px;
+}
+@media screen and (max-width: 1024px) {
+  .journal-card {
+    width: 180px;
+    height: 280px;
+  }
+}

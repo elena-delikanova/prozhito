@@ -1,0 +1,12 @@
+.news__mobile-cards {
+
+}
+@media screen and (max-width: 600px) {
+  .news__mobile-cards {
+    font-size: 0;
+    padding-bottom: 16px;
+  }
+  .news__mobile-cards:last-of-type {
+    padding: 0;
+  }
+}

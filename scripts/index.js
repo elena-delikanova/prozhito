@@ -21,3 +21,33 @@ buttonClose.addEventListener('click', evt => {
   closePopup(popups);
 });
 lockCloseButton.addEventListener( "click", () => togglePopup(popupLock));
+
+
+const slidesContainer = document.querySelector('#newsCadrs');
+const slide = document.querySelector('#newsCard');
+const prevButton = document.querySelector('#arrowLeftNews');
+const nextButton = document.querySelector('#arrowRightNews');
+const slidesContainerJournal = document.querySelector('#journalCadrs');
+const slideJournal = document.querySelector('#journalCadr');
+const prevButtonJournal = document.querySelector('#arrowLeftJournal');
+const nextButtonJournal = document.querySelector('#arrowRightJournal');
+
+
+nextButton.addEventListener("click", () => {
+  const slideWidth = slide.clientWidth;
+  slidesContainer.scrollLeft += slideWidth;
+});
+
+prevButton.addEventListener("click", () => {
+  const slideWidth = slide.clientWidth;
+  slidesContainer.scrollLeft -= slideWidth;
+});
+nextButtonJournal.addEventListener("click", () => {
+  const slideWidth = slideJournal.clientWidth;
+  slidesContainerJournal.scrollLeft += slideWidth;
+});
+
+prevButtonJournal.addEventListener("click", () => {
+  const slideWidth = slideJournal.clientWidth;
+  slidesContainerJournal.scrollLeft -= slideWidth;
+});

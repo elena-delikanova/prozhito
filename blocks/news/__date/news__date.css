@@ -1,0 +1,8 @@
+.news__date {
+}
+@media screen and (max-width: 600px) {
+  .news__date {
+    display: flex;
+    justify-content: space-between;
+  }
+}
