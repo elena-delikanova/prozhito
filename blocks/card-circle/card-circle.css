@@ -1,0 +1,10 @@
+.card-circle {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    aspect-ratio: calc(328 / 526);
+    padding: 32px 15.5px 28px;
+    background-color: #E7E4DE;
+    align-items: center;
+    box-sizing: border-box;
+}

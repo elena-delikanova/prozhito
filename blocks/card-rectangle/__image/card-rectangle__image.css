@@ -1,0 +1,4 @@
+.card-rectangle__image {
+  position: absolute;
+  z-index: 0;
+}
