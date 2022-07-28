@@ -23,6 +23,9 @@
 @import url(../blocks/bread-crumbs/__title/bread-crumbs__title.css);
 @import url(../blocks/title/title.css);
 @import url(../blocks/title/__text/title__text.css);
+@import url(../blocks/all-news/all-news.css);
+@import url(../blocks/all-news/__list/all-news__list.css);
+@import url(../blocks/all-news/__item/all-news__item.css);
 @import url(../blocks/pager/pager.css);
 @import url(../blocks/pager/__pages/pager__pages.css);
 @import url(../blocks/pager/__page-item/pager__page-item.css);
