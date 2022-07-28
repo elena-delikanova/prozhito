@@ -19,7 +19,7 @@
 
 
 .audio audio {
-    
+
 }
 
 .audio figcaption {
@@ -34,49 +34,49 @@
 .audio .play button {
     cursor: pointer;
     padding: 0;
-    background-image: url("/images/playaudio.svg");
+    background-image: url("../../images/playaudio.svg");
     background-size: cover;
     background-color: #BFE9D5;
     border: 0;
-    width: 24.09px;  
+    width: 24.09px;
     height: 27.81px;
 }
 
 .audio .rewind-back button {
     cursor: pointer;
     padding: 0;
-    background-image: url("/images/playb.svg");
+    background-image: url("../../images/playb.svg");
     background-size: cover;
     background-color: #BFE9D5;
     border: 0;
-    width: 22.67px;  
+    width: 22.67px;
     height: 26.82px;
 }
 
 .audio .rewind button {
     cursor: pointer;
     padding: 0;
-    background-image: url("/images/playu.svg");
+    background-image: url("../../images/playu.svg");
     background-size: cover;
     background-color: #BFE9D5;
     border: 0;
-    width: 22.67px;  
+    width: 22.67px;
     height: 26.82px;
 }
 
 .audio .mute button {
     cursor: pointer;
     padding: 0;
-    background-image: url("/images/mute.svg");
+    background-image: url("../../images/mute.svg");
     background-size: cover;
     background-color: #BFE9D5;
     border: 0;
-    width: 25.74px;  
+    width: 25.74px;
     height: 26.44px;
 }
 
 .audio .story div {
-    background-image: url("/images/story.svg");
+    background-image: url("../../images/story.svg");
     width: 357px;
     height: 52px;
 }
