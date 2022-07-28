@@ -1,5 +1,5 @@
 .gallery__previous-button {
-  background-image: url(../images/previous-arrow.svg);
+  background-image: url("../../../images/previous-arrow.svg");
   width: 18px;
   height: 9.64px;
   padding: 0;

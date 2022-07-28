@@ -26,6 +26,7 @@
 @import url(../blocks/gallery/__previous-button/gallery__previous-button.css);
 @import url(../blocks/gallery/__photo-counter/gallery__photo-counter.css);
 @import url(../blocks/gallery/__caption/gallery__caption.css);
+@import url(../blocks/audio/audio.css);
 @import url(../blocks/footer/footer.css);
 @import url(../blocks/bread-crumbs/bread-crumbs.css);
 @import url(../blocks/bread-crumbs/__element/bread-crumbs__element.css);
