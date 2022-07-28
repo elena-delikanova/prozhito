@@ -1,0 +1,11 @@
+.title-tag__list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0;
+  margin: 0;
+}
+
+.title-tag__list :first-child {
+  list-style: none;
+}
