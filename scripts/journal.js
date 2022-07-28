@@ -1,3 +1,8 @@
+
+const pageTitle = document.querySelector('.title__text');
+const textBreadCrumbs = document.querySelector('.bread-crumbs__title');
+textBreadCrumbs.textContent = pageTitle.textContent;
+
 if (document.querySelector('body').clientWidth < 769) {
   const cards = document.querySelectorAll('.journal-grid__item');
 
@@ -47,3 +52,4 @@ if (document.querySelector('body').clientWidth < 769) {
     });
   });
 }
+
