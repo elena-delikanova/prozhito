@@ -7,10 +7,18 @@
   margin: 0;
 }
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 768px) {
+  .all-news__list {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 16px;
+    padding: 0 12px;
+  }
+}
+
+@media screen and (max-width: 425px) {
   .all-news__list {
     grid-template-columns: 1fr;
     gap: 16px;
-    padding: 0 12px 84px;
+    padding: 0 12px;
   }
 }
