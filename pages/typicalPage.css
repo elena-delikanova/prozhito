@@ -38,3 +38,83 @@
 @import url(../blocks/footer/__link/_covert-text/footer__link_covert-text.css);
 @import url(../blocks/footer/__information/footer__information.css);
 @import url(../blocks/video/video.css);
+
+.image {
+  margin: 0;
+  object-fit: cover;
+}
+.image_hidden {
+  display: none;
+}
+
+.gallery {
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+  padding-top: 32px;
+  align-items: center;
+}
+.content {
+  background-color: #F7F4F0;
+  opacity: 0.9;
+  display: flex;
+  margin: 0 auto;
+  align-items: center;
+  justify-content: center;
+  width: 910px;
+  height: 520px;
+  position: relative;
+}
+
+.gallery__next-button {
+  background-image: url(../images/next-arrow.svg);
+  width: 18px;
+  height: 9.64px;
+  padding: 0;
+  border: none;
+  box-sizing: border-box;
+  position: absolute;
+  right: 116px;
+  bottom: 122.47px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-color: unset;
+  cursor: pointer;
+}
+
+.gallery__previous-button {
+  background-image: url(../images/previous-arrow.svg);
+  width: 18px;
+  height: 9.64px;
+  padding: 0;
+  border: none;
+  box-sizing: border-box;
+  position: absolute;
+  right: 184px;
+  bottom: 122.47px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-color: unset;
+  cursor: pointer;
+}
+
+.gallery__caption {
+  border-bottom: 1px solid rgba(12, 6, 38, 0.7);
+  font-size: 14px;
+  line-height: 18px;
+  font-weight: normal;
+  font-style: normal;
+  min-width: 678px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.gallery__photo-counter {
+  margin: 0;
+  font-size: 14px;
+  line-height: 18px;
+  font-weight: normal;
+  font-style: normal;
+}

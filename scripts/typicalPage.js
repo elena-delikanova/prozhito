@@ -18,3 +18,53 @@ buttonAdd.addEventListener('click', evt => {
 buttonClose.addEventListener('click', evt => {
   closePopup(popups);
 });
+
+const photoGallaries = document.querySelectorAll(".gallery");
+photoGallaries.forEach((gallary) => {
+  const galleryCaption = Array.from(gallary.children).find((elem) => {
+    return elem.nodeName.toLowerCase() === "figcaption";
+  });
+  const content = gallary.querySelector(".content");
+  const figureElements = content.querySelectorAll(".image");
+
+  const photoCounterCaption = document.createElement("span");
+  photoCounterCaption.classList.add('gallery__photo-counter');
+  photoCounterCaption.textContent = `1/${figureElements.length}`;
+
+  galleryCaption.append(photoCounterCaption);
+
+  galleryCaption.classList.add("gallery__caption");
+
+  figureElements.forEach((figure, index) => {
+    const imageFigcaption = figure.querySelector("figcaption");
+    imageFigcaption.remove();
+
+    const buttonNext = document.createElement("button");
+    buttonNext.classList.add("gallery__next-button");
+
+    buttonNext.addEventListener("click", (event) => {
+      photoCounterCaption.textContent = `${index+2}/${figureElements.length}`;
+      event.target.closest(".image").classList.add("image_hidden");
+      figureElements[index + 1].classList.remove("image_hidden");
+    });
+
+    if (index !== figureElements.length - 1) {
+      figure.append(buttonNext);
+    }
+
+    const buttonPrevious = document.createElement("button");
+    buttonPrevious.classList.add("gallery__previous-button");
+
+    buttonPrevious.addEventListener("click", (event) => {
+      console.log('Клик ' + index)
+      photoCounterCaption.textContent = `${index}/${figureElements.length}`;
+      event.target.closest(".image").classList.add("image_hidden");
+      figureElements[index - 1].classList.remove("image_hidden");
+    });
+
+    if (index !== 0) {
+      figure.append(buttonPrevious);
+      figure.classList.add("image_hidden");
+    }
+  });
+});
