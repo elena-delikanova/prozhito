@@ -62,7 +62,7 @@
 @import url(../blocks/news/__navigation/news__navigation.css);
 @import url(../blocks/news/__card/news__card.css);
 @import url(../blocks/news/__arrows/news__arrows.css);
-@import url(../blocks/news/__cadrs/news__cadrs.css);
+@import url(../blocks/news/__cards/news__cards.css);
 @import url(../blocks/news/__container/news__container.css);
 @import url(../blocks/news/__follow/news__follow.css);
 @import url(../blocks/news/__name/news__name.css);
@@ -74,11 +74,10 @@
 @import url(../blocks/news/__mobile/news__mobile.css);
 @import url(../blocks/news/__date/news__date.css);
 @import url(../blocks/news/__mobile-cards/news__mobile-cards.css);
-@import url(../blocks/news/__cadrs/_padding/news__cards_padding.css);
 @import url(../blocks/news/__topic/_italic/news__topic_italic.css);
 @import url(../blocks/journal-card/journal-card.css);
-@import url(../blocks/news/__cadrs/_padding-small/news__cards_padding-small.css);
-@import url(../blocks/news/__cadrs/_padding-big/news__cards_padding-big.css);
+@import url(../blocks/news/__cards/_padding-small/news__cards_padding-small.css);
+@import url(../blocks/news/__cards/_padding-big/news__cards_padding-big.css);
 @import url(../blocks/news/__buttons-arrows/news__buttons-arrows.css);
 @import url(../blocks/news/_padding/news_padding.css);
 @import url(../blocks/materials/__title/materials__title.css);
@@ -99,7 +98,6 @@
 @import url(../blocks/editor/__application/editor__application.css);
 @import url(../blocks/editor/__arrow/editor__arrow.css);
 @import url(../blocks/editor/__buttons/editor__buttons.css);
-@import url(../blocks/editor/__buttons-text/editor__buttons-text.css);
 @import url(../blocks/footer/footer.css);
 
 
@@ -130,4 +128,3 @@
 @import url(../blocks/footer/__link/footer__link.css);
 @import url(../blocks/footer/__link/_covert-text/footer__link_covert-text.css);
 @import url(../blocks/footer/__information/footer__information.css);
-

@@ -23,12 +23,12 @@ buttonClose.addEventListener('click', evt => {
 lockCloseButton.addEventListener( "click", () => togglePopup(popupLock));
 
 
-const slidesContainer = document.querySelector('#newsCadrs');
+const slidesContainer = document.querySelector('#newsCards');
 const slide = document.querySelector('#newsCard');
 const prevButton = document.querySelector('#arrowLeftNews');
 const nextButton = document.querySelector('#arrowRightNews');
-const slidesContainerJournal = document.querySelector('#journalCadrs');
-const slideJournal = document.querySelector('#journalCadr');
+const slidesContainerJournal = document.querySelector('#journalCards');
+const slideJournal = document.querySelector('#journalCard');
 const prevButtonJournal = document.querySelector('#arrowLeftJournal');
 const nextButtonJournal = document.querySelector('#arrowRightJournal');
 
