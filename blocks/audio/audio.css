@@ -1,0 +1,92 @@
+.audio {
+    padding-top: 32px;
+    max-width: 678px;
+    margin: 0 auto;
+}
+
+.audio div {
+    position: relative;
+    width: 100%;
+    height: 112px;
+    line-height: 0;
+    background: #BFE9D5;
+    border-radius: 35px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+
+.audio audio {
+
+}
+
+.audio figcaption {
+    width: 83%;
+    margin: 16px 0 0 auto;
+    padding-bottom: 16px;
+    border-bottom: 1px solid rgba(12, 6, 38, 0.7);
+    font-size: 14px;
+    line-height: 18px;
+}
+
+.audio .play button {
+    cursor: pointer;
+    padding: 0;
+    background-image: url("../../images/playaudio.svg");
+    background-size: cover;
+    background-color: #BFE9D5;
+    border: 0;
+    width: 24.09px;
+    height: 27.81px;
+}
+
+.audio .rewind-back button {
+    cursor: pointer;
+    padding: 0;
+    background-image: url("../../images/playb.svg");
+    background-size: cover;
+    background-color: #BFE9D5;
+    border: 0;
+    width: 22.67px;
+    height: 26.82px;
+}
+
+.audio .rewind button {
+    cursor: pointer;
+    padding: 0;
+    background-image: url("../../images/playu.svg");
+    background-size: cover;
+    background-color: #BFE9D5;
+    border: 0;
+    width: 22.67px;
+    height: 26.82px;
+}
+
+.audio .mute button {
+    cursor: pointer;
+    padding: 0;
+    background-image: url("../../images/mute.svg");
+    background-size: cover;
+    background-color: #BFE9D5;
+    border: 0;
+    width: 25.74px;
+    height: 26.44px;
+}
+
+.audio .story div {
+    background-image: url("../../images/story.svg");
+    width: 357px;
+    height: 52px;
+}
+
+.audio p {
+    display: block;
+    margin: 0;
+    font-family: 'PT Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 26px;
+}

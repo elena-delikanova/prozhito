@@ -1,0 +1,8 @@
+.news-card__date {
+}
+@media screen and (max-width: 600px) {
+  .news-card__date {
+    display: flex;
+    justify-content: space-between;
+  }
+}

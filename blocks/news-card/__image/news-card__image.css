@@ -1,0 +1,19 @@
+.news-card__image {
+  width: 212px;
+  height: 223px;
+  object-fit: cover;
+}
+
+@media screen and (max-width: 1126px) {
+  .news-card__image {
+    height: 120px;
+    width: 102px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .news-card__image {
+    height: 160px;
+    width: 100%;
+  }
+}

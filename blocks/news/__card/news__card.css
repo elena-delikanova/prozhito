@@ -1,0 +1,19 @@
+.news__card {
+  min-width: 328px;
+  flex: 1 0 34.061%;
+  box-sizing: border-box;
+}
+.news__card:hover {
+  opacity: .8;
+}
+@media screen and (max-width: 768px) {
+  .news__card {
+    min-width: 180px;
+  }
+}
+@media screen and (max-width: 1126px) {
+  .news__card {
+    min-width: 180px;
+  }
+}
+
