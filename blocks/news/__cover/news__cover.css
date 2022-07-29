@@ -8,5 +8,6 @@
 @media screen and (max-width: 1126px) {
   .news__cover {
     min-width: 253px;
+    min-height: 380px;
   }
 }
