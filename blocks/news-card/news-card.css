@@ -1,0 +1,7 @@
+.news-card {
+  flex: 1 0 34.061%;
+  box-sizing: border-box;
+}
+.news-card:hover {
+  opacity: .8;
+}

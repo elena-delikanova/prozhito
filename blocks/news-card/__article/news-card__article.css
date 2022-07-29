@@ -1,17 +1,17 @@
-.news__article {
+.news-card__article {
   margin: 20px 0 0;
   font-size: 20px;
   line-height: 26px;
 }
 @media screen and (max-width: 1126px) {
-  .news__article {
+  .news-card__article {
     font-size: 14px;
     line-height: 18px;
     margin: 0;
   }
 }
 @media screen and (max-width: 600px) {
-  .news__article {
+  .news-card__article {
     margin: 8px 0;
   }
 }
