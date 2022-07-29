@@ -7,3 +7,9 @@
   font-size: 26px;
   line-height: 100%;
 }
+
+@media screen and (max-width: 720px) {
+  .note__tatle {
+    font-size: 18px;
+  }
+}

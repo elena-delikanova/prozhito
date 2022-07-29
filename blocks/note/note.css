@@ -7,3 +7,9 @@
   right: 0;
   top: 880px;
 }
+
+@media screen and (max-width: 720px) {
+  .note {
+    width: 189px;
+  }
+}

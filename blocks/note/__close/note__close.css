@@ -11,3 +11,10 @@
   right: 17.09px;
   top: 5px;
 }
+
+@media screen and (max-width: 720px) {
+  .note__close {
+    width: 12px;
+    height: 12px;
+  }
+}
