@@ -1,40 +1,40 @@
-const pageTitle = document.querySelector('.title__text');
-const textBreadCrumbs = document.querySelector('.bread-crumbs__title');
+const pageTitle = document.querySelector(".title__text");
+const textBreadCrumbs = document.querySelector(".bread-crumbs__title");
 textBreadCrumbs.textContent = pageTitle.textContent;
 
-const popupTable = document.querySelector('.table');
-const popupNote = document.querySelector('.note')
-const tableCloseButton = document.querySelector('.table__close');
-const tableOpenButton = document.querySelector('.table-button__text');
-const noteCloseButton = document.querySelector('.note__close');
+const popupTable = document.querySelector(".table");
+const popupNote = document.querySelector(".note");
+const tableCloseButton = document.querySelector(".table__close");
+const tableOpenButton = document.querySelector(".table-button__text");
+const noteCloseButton = document.querySelector(".note__close");
 
 function togglePopup(popup) {
-  popup.classList.toggle('table_opened');
+  popup.classList.toggle("table_opened");
 }
 
 function closeNotePopup(popup) {
-  popup.classList.toggle('lock__popup_closed');
+  popup.classList.toggle("lock__popup_closed");
 }
 
-tableCloseButton.addEventListener( "click", () => togglePopup(popupTable));
-tableOpenButton.addEventListener( "click", () => togglePopup(popupTable));
-noteCloseButton.addEventListener( "click", () => closeNotePopup(popupNote));
+tableCloseButton.addEventListener("click", () => togglePopup(popupTable));
+tableOpenButton.addEventListener("click", () => togglePopup(popupTable));
+noteCloseButton.addEventListener("click", () => closeNotePopup(popupNote));
 
-const buttonAdd = document.querySelector('.header__menu-button');
-const buttonClose = document.querySelector('.header__menu-button_close');
-const popups = document.querySelector('.header__popup');
+const buttonAdd = document.querySelector(".header__menu-button");
+const buttonClose = document.querySelector(".header__menu-button_close");
+const popups = document.querySelector(".header__popup");
 
 function openPopup(popup) {
-  popup.classList.add('header__popup_opened');
+  popup.classList.add("header__popup_opened");
 }
 function closePopup(popup) {
-  popup.classList.remove('header__popup_opened');
+  popup.classList.remove("header__popup_opened");
 }
 
-buttonAdd.addEventListener('click', evt => {
+buttonAdd.addEventListener("click", (evt) => {
   openPopup(popups);
 });
-buttonClose.addEventListener('click', evt => {
+buttonClose.addEventListener("click", (evt) => {
   closePopup(popups);
 });
 
@@ -47,7 +47,7 @@ photoGallaries.forEach((gallary) => {
   const figureElements = content.querySelectorAll(".image");
 
   const photoCounterCaption = document.createElement("span");
-  photoCounterCaption.classList.add('gallery__photo-counter');
+  photoCounterCaption.classList.add("gallery__photo-counter");
   photoCounterCaption.textContent = `1/${figureElements.length}`;
 
   galleryCaption.append(photoCounterCaption);
@@ -64,8 +64,10 @@ photoGallaries.forEach((gallary) => {
     buttonNext.classList.add("gallery__next-button");
 
     buttonNext.addEventListener("click", (event) => {
-      photoCounterCaption.textContent = `${index+2}/${figureElements.length}`;
-      event.target.closest(".gallery__image").classList.add("gallery__image_hidden");
+      photoCounterCaption.textContent = `${index + 2}/${figureElements.length}`;
+      event.target
+        .closest(".gallery__image")
+        .classList.add("gallery__image_hidden");
       figureElements[index + 1].classList.remove("gallery__image_hidden");
     });
 
@@ -78,7 +80,9 @@ photoGallaries.forEach((gallary) => {
 
     buttonPrevious.addEventListener("click", (event) => {
       photoCounterCaption.textContent = `${index}/${figureElements.length}`;
-      event.target.closest(".gallery__image").classList.add("gallery__image_hidden");
+      event.target
+        .closest(".gallery__image")
+        .classList.add("gallery__image_hidden");
       figureElements[index - 1].classList.remove("gallery__image_hidden");
     });
 
@@ -88,4 +92,3 @@ photoGallaries.forEach((gallary) => {
     }
   });
 });
-

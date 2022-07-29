@@ -74,6 +74,7 @@
 @import url(../blocks/news/__name/news__name.css);
 @import url(../blocks/arrow-green/arrow-green.css);
 @import url(../blocks/news/__mobile/news__mobile.css);
+@import url(../blocks/news/__mobile/_journal/news__mobile_journal.css);
 @import url(../blocks/news/__mobile-cards/news__mobile-cards.css);
 @import url(../blocks/journal-card/journal-card.css);
 @import url(../blocks/news/__cards/_padding-small/news__cards_padding-small.css);
