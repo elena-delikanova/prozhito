@@ -17,8 +17,3 @@
 .card-rectangle:hover {
   opacity: .8;
 }
-@media screen and (max-width: 768px) {
-  .card-rectangle {
-    max-height: 280px;
-  }
-}

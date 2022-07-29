@@ -24,8 +24,3 @@
     padding: 12px 4px 8px;
   }
 }
-@media screen and (max-width: 768px) {
-  .card-circle {
-    max-height: 280px;
-  }
-}

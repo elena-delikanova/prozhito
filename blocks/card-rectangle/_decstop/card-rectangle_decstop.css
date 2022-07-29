@@ -1,0 +1,8 @@
+.card-rectangle_decstop {
+
+}
+@media screen and (max-width: 768px) {
+  .ard-rectangle_decstop {
+    max-height: 280px;
+  }
+}
