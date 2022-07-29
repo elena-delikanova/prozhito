@@ -36,6 +36,8 @@ photoGallaries.forEach((gallary) => {
   galleryCaption.classList.add("gallery__caption");
 
   figureElements.forEach((figure, index) => {
+    figure.classList.add("gallery__image");
+    figure.classList.remove("image");
     const imageFigcaption = figure.querySelector("figcaption");
     imageFigcaption.remove();
 
@@ -44,8 +46,8 @@ photoGallaries.forEach((gallary) => {
 
     buttonNext.addEventListener("click", (event) => {
       photoCounterCaption.textContent = `${index+2}/${figureElements.length}`;
-      event.target.closest(".image").classList.add("image_hidden");
-      figureElements[index + 1].classList.remove("image_hidden");
+      event.target.closest(".gallery__image").classList.add("gallery__image_hidden");
+      figureElements[index + 1].classList.remove("gallery__image_hidden");
     });
 
     if (index !== figureElements.length - 1) {
@@ -57,13 +59,13 @@ photoGallaries.forEach((gallary) => {
 
     buttonPrevious.addEventListener("click", (event) => {
       photoCounterCaption.textContent = `${index}/${figureElements.length}`;
-      event.target.closest(".image").classList.add("image_hidden");
-      figureElements[index - 1].classList.remove("image_hidden");
+      event.target.closest(".gallery__image").classList.add("gallery__image_hidden");
+      figureElements[index - 1].classList.remove("gallery__image_hidden");
     });
 
     if (index !== 0) {
       figure.append(buttonPrevious);
-      figure.classList.add("image_hidden");
+      figure.classList.add("gallery__image_hidden");
     }
   });
 });
