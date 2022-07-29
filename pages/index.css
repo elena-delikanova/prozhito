@@ -83,6 +83,7 @@
 
 @import url(../blocks/news-card/news-card.css);
 @import url(../blocks/news-card/__article/news-card__article.css);
+@import url(../blocks/card-rectangle/__article/_mobile/card-rectangle__article_decstop.css);
 @import url(../blocks/news-card/__date/news-card__date.css);
 @import url(../blocks/news-card/__description/news-card__description.css);
 @import url(../blocks/news-card/__image/news-card__image.css);
