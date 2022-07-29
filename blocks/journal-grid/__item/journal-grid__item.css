@@ -1,7 +1,5 @@
 .journal-grid__item {
   aspect-ratio: calc(328 / 526);
-  border: 1px solid red; /* TODO: Цвета для дебага, убрать после реализации карточек */
-  background: antiquewhite;
 }
 
 @media screen and (max-width: 425px) {
