@@ -28,7 +28,14 @@
       width: 189px;
       height: 44;
     }
-  }
+}
+
+@media screen and (max-width: 460px) {
+    .audio img {
+      width: 100px;
+      height: 40;
+    }
+}
 
 .audio figcaption {
     width: 83%;
@@ -129,5 +136,11 @@
     .audio p {
         font-size: 16px;
         margin-bottom: 30px;
+    }
+}
+
+@media screen and (max-width: 460px) {
+    .audio p {
+        font-size: 12px;
     }
 }
