@@ -1,0 +1,18 @@
+.materials__image {
+  width: 200px;
+  height: 224px;
+  object-fit: cover;
+  display: block;
+  margin: 0 auto;
+}
+@media screen and (max-width: 880px) {
+  .materials__image {
+    height: 180px;
+    width: 173px;
+  }
+}
+@media screen and (max-width: 880px) {
+  .materials__image {
+    width: 160px;
+  }
+}

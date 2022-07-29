@@ -25,11 +25,11 @@
   .editor {
     padding: 20px;
     grid-template-columns: 174px auto;
-    grid-template-rows: 30px 259px 48px;
+    grid-template-rows: 42px 169px 48px;
   }
 }
 
-@media screen and (max-width: 773px) {
+@media screen and (max-width: 766px) {
   .editor {
     padding: 20px 12px;
     justify-items: center;

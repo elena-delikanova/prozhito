@@ -1,0 +1,8 @@
+.card-circle_decstop.css {
+
+}
+@media screen and (max-width: 768px) {
+  .card-circle_decstop.css  {
+    max-height: 280px;
+  }
+}

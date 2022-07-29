@@ -1,0 +1,11 @@
+.header__popup-container {
+  padding: 13px 12px 0;
+  width: 360px;
+  height: 531px;
+  background-color: #E7E4DE;
+  position: absolute;
+  left: 50%;
+  transition: -50%;
+  transform: translate(-50%);
+  box-sizing: border-box;
+}

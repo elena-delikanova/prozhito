@@ -1,0 +1,11 @@
+.card-circle__description {
+  margin: 0;
+  font-size: 14px;
+  line-height: 18px;
+}
+@media screen and (max-width: 1024px) {
+  .card-circle__description {
+    font-size: 12px;
+  line-height: 16px;
+  }
+}

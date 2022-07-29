@@ -1,0 +1,9 @@
+.title-tag__link {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 18px;
+  color: #323232;
+  text-transform: uppercase;
+  text-decoration: none;
+}

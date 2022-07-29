@@ -1,34 +1,567 @@
 <!DOCTYPE html>
 <html lang="ru">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Главная страница</title>
-  <link rel="stylesheet" href="pages/index.css">
-</head>
-<body class="page">
-  <header class="header"></header>
-  <main class="content">
-    <section class="editor">
-      <div class="editor__portrait">
 
+<head>
+  <meta charset="UTF-8" />
+  <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+  <title>Главная страница</title>
+  <link href="pages/index.css" rel="stylesheet" />
+</head>
+
+<body class="page">
+  <header class="header">
+    <div class="header__container">
+      <img class="logo" src="./images/pogito-logo.svg" alt="Логотип прожито" />
+      <nav class="header__menu">
+        <a class="header__menu-list" target="_blank" href="https://prozhito.org/page/archive">Архив</a>
+        <a class="header__menu-list" target="_blank" href="https://prozhito.org/persons">Корпус</a>
+        <div class="header__menu-list_hover">
+          <a class="header__menu-list" href="./index.html">О проекте</a>
+          <div class="header__dropdown-menu">
+            <a class="header__dropdown-list" href="#">О&nbsp;прожито</a>
+            <a class="header__dropdown-list" href="#">Как&nbsp;работать?</a>
+            <a class="header__dropdown-list" href="#">Медиа</a>
+            <a class="header__dropdown-list" href="#">Новости</a>
+            <a class="header__dropdown-list" href="#">Спецпроекты</a>
+          </div>
+        </div>
+      </nav>
+      <img class="header__menu-button" src="./images/Vector.svg" alt="Кнопка" />
+    </div>
+    <div class="header__popup">
+      <div class="header__popup-container">
+        <div class="header__container header__container_padding">
+          <img class="logo" src="./images/pogito-logo.svg" alt="Логотип прожито" />
+          <img class="header__menu-button header__menu-button_close" src="./images/Vector1.svg" alt="Крестик" />
+        </div>
+        <div class="header__popup-block">
+          <nav class="header__popup-menu">
+            <a class="header__popup-list" target="_blank" href="https://prozhito.org/page/archive">Архив</a>
+            <a class="header__popup-list" target="_blank" href="https://prozhito.org/persons">Корпус</a>
+            <a class="header__popup-list" href="./index.html">О проекте</a>
+          </nav>
+        </div>
+        <div class="header__popup-block">
+          <div class="header__popup-menu">
+            <a class="header__popup-list" href="#">О&nbsp;прожито</a>
+            <a class="header__popup-list" href="#">Как&nbsp;работать?</a>
+            <a class="header__popup-list" href="#">Медиа</a>
+            <a class="header__popup-list" href="#">Новости</a>
+            <a class="header__popup-list" href="#">Спецпроекты</a>
+          </div>
+        </div>
       </div>
+    </div>
+  </header>
+  <main class="main">
+    <section class="lock">
+      <p class="lock__paragraph">
+        Центр «Прожито» собирает, описывает и публикует документы личного
+        происхождения и разрабатывает исследовательские инструменты для работы
+        с ними. Материалы публикуются и описываются силами
+        участников-волонтёров, к сообществу которых может присоединиться
+        каждый.
+      </p>
+      <div class="lock__popup">
+        <button type="button" class="lock__popup-close"></button>
+        <h2 class="lock__popup-title">СПЕЦПРОЕКТ БЛОКАДА</h2>
+        <a class="lock__popup-link"> Исследование блокадных дневников </a>
+      </div>
+    </section>
+    <section class="instructions">
+      <div class="instructions__cards">
+        <div>
+          <p class="instructions__header">Передать документы</p>
+          <p class="instructions__information">
+            Передайте в «Прожито» копии документов из семейного архива, чтобы
+            сделать их доступнее исследователям и читателям
+          </p>
+        </div>
+        <div class="instructions__follow">
+          <p class="instructions__lets">Подробнее</p>
+          <a class="arrow-green" href="#">
+            <img src="./images/right.svg" alt="Стрелка вправо" />
+          </a>
+        </div>
+      </div>
+      <div class="instructions__cards">
+        <div>
+          <p class="instructions__header">Стать волонтёром</p>
+          <p class="instructions__information">
+            Вы можете помочь нашему делу — для работы с документами нужен
+            компьютер и несколько свободных часов в неделю
+          </p>
+        </div>
+
+        <div class="instructions__follow">
+          <p class="instructions__lets">Узнать больше</p>
+          <a class="arrow-green" href="#">
+            <img src="./images/right.svg" alt="Стрелка вправо" />
+          </a>
+        </div>
+      </div>
+      <div class="instructions__cards">
+        <div>
+          <p class="instructions__header">Дневники и воспоминания</p>
+          <p class="instructions__information">
+            Мы собрали тексты опубликованных дневников и воспоминаний и
+            сделали по ним расширенный поиск
+          </p>
+        </div>
+        <div class="instructions__follow">
+          <p class="instructions__lets">Ознакомиться</p>
+          <a class="arrow-green" href="#">
+            <img src="./images/right.svg" alt="Стрелка вправо" />
+          </a>
+        </div>
+      </div>
+      <div class="instructions__cards">
+        <div>
+          <p class="instructions__header">Работа с архивом</p>
+          <p class="instructions__information">
+            Как устроен наш архив и поиск по сохранённым документам
+          </p>
+        </div>
+        <div class="instructions__follow">
+          <p class="instructions__lets">Перейти к архиву</p>
+          <a class="arrow-green" href="#">
+            <img src="./images/right.svg" alt="Стрелка вправо" />
+          </a>
+        </div>
+      </div>
+    </section>
+    <section class="news">
+      <div class="news__cover">
+        <p class="news__header">Новости и события</p>
+        <div class="news__follow">
+          <p class="news__follow-button">Ко всем новостям</p>
+          <a class="arrow-green" href="./allNews.html" target="_blank">
+            <img src="./images/right.svg" alt="Стрелка вправо" />
+          </a>
+        </div>
+      </div>
+      <div class="news__container">
+        <div class="news__navigation">
+          <p class="news__name">Свежее</p>
+          <div class="news__buttons-arrows">
+            <button class="news__arrows news__arrows_left" id="arrowLeftNews">
+              <img src="./images/left.svg" alt="Стрелка влево" />
+            </button>
+            <button class="news__arrows news__arrows_right" id="arrowRightNews">
+              <img src="./images/right.svg" alt="Стрелка вправо" />
+            </button>
+          </div>
+        </div>
+        <div class="news__cards news__cards_padding-big" id="newsCards">
+          <div class="news-card" id="newsCard">
+            <div class="news-card__description">
+              <div class="news-card__date">
+                <p class="news-card__topic">27.01.2022</p>
+                <p class="news-card__topic news__topic_italic">Спецпроект</p>
+              </div>
+              <img class="news-card__image" src="./images/photo1.png" alt="Изображение" />
+            </div>
+            <p class="news-card__article">
+              В издательстве Европейского университета в Санкт-Петербурге
+              вышла первая книга из серии «Библиотека Прожито. Блокада»
+            </p>
+          </div>
+          <div class="news-card">
+            <div class="news-card__description">
+              <div class="news-card__date">
+                <p class="news-card__topic">27.01.2022</p>
+                <p class="news-card__topic news__topic_italic"></p>
+              </div>
+              <img class="news-card__image" src="./images/photo22.png" alt="Изображение" />
+            </div>
+            <p class="news-card__article">
+              Центр изучения эго-документов «Прожито» проведёт
+              исследовательскую лабораторию, посвящённую работе с дембельскими
+              альбомами
+            </p>
+          </div>
+          <div class="news-card">
+            <div class="news-card__description">
+              <div class="news-card__date">
+                <p class="news-card__topic">27.01.2022</p>
+                <p class="news-card__topic news__topic_italic">Лекция</p>
+              </div>
+              <img class="news-card__image" src="./images/3.png" alt="Изображение" />
+            </div>
+            <p class="news-card__article">
+              4 октября на фестивале «Тверской переплёт» выступит Михаил
+              Мельниченко — историк, директор Центра «Прожито» ЕУСПб
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="news__mobile">
+      <p class="news__header">Новости и события</p>
+      <div class="news__follow">
+        <p class="news__follow-button">Ко всем новостям</p>
+        <a href="./allNews.html" target="_blank">
+          <img src="./images/VectorSmall.svg" alt="Стрелка вправо" />
+        </a>
+      </div>
+
+      <div class="news__mobile-cards">
+        <img class="news-card__image" src="./images/photo1.png" alt="Изображение" />
+        <p class="news-card__article">
+          В издательстве Европейского университета в Санкт-Петербурге вышла
+          первая книга из серии «Библиотека Прожито. Блокада»
+        </p>
+        <div class="news-card__date">
+          <p class="news-card__topic">27.01.2022</p>
+          <p class="news-card__topic">Спецпроект</p>
+        </div>
+      </div>
+      <div class="news__mobile-cards">
+        <img class="news-card__image" src="./images/photo22.png" alt="Изображение" />
+        <p class="news-card__article">
+          Центр изучения эго-документов «Прожито» проведёт исследовательскую
+          лабораторию, посвящённую работе с дембельскими альбомами
+        </p>
+        <div class="news-card__date">
+          <p class="news-card__topic">27.01.2022</p>
+          <p class="news-card__topic"></p>
+        </div>
+      </div>
+      <div class="news__mobile-cards">
+        <img class="news-card__image" src="./images/3.png" alt="Изображение" />
+        <p class="news-card__article">
+          4 октября на фестивале «Тверской переплёт» выступит Михаил
+          Мельниченко — историк, директор Центра «Прожито» ЕУСПб
+        </p>
+        <div class="news-card__date">
+          <p class="news-card__topic">27.01.2022</p>
+          <p class="news-card__topic">Лекция</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="materials">
+      <h1 class="materials__title">Материалы</h1>
+      <input name="slideButton" id="slideOne" type="radio" checked />
+      <input name="slideButton" id="slideTwo" type="radio" />
+      <input name="slideButton" id="slideThree" type="radio" />
+
+      <div class="materials__container">
+        <div class="materials__list">
+          <div class="materials__cards materials__cards_checked">
+            <p class="materials__header">нужен наборщик</p>
+            <p class="materials__name">Артамонов Виктор</p>
+            <img class="materials__image" src="./images/image1.png" alt="Изображение" />
+            <p class="materials__description">
+              Петербургский краевед и педагог. Нам необходимо набрать 20
+              рукописных тетрадей
+            </p>
+          </div>
+
+          <div class="materials__cards">
+            <p class="materials__header">нужнa сверка</p>
+            <p class="materials__name">Анонимный блокадный дневник</p>
+
+            <div class="materials__image materials__image_mask">
+              <img class="materials__figureOne" src="./images/Ellipse1.svg" alt="Изображение" />
+              <img class="materials__figureTwo" src="./images/Ellipse2.svg" alt="Изображение" />
+              <img class="materials__figureThree" src="./images/Ellipse3.svg" alt="Изображение" />
+              <img class="materials__figureFour" src="./images/Ellipse4.svg" alt="Изображение" />
+              <img class="materials__figureFive" src="./images/Vector11.svg" alt="Изображение" />
+              <img class="materials__figureSix" src="./images/Vector11.svg" alt="Изображение" />
+            </div>
+
+            <p class="materials__description">
+              Музей Ахматовой передал нам для работы рукопись анонимного
+              преподавателя ФЗУ, ставшего свидетелем блокады Ленинграда
+            </p>
+          </div>
+
+          <div class="materials__cards">
+            <p class="materials__header">новые материалы</p>
+            <p class="materials__name">Родоман Борис</p>
+            <img class="materials__image" src="./images/Rodomon.png" alt="Изображение" />
+            <p class="materials__description">
+              Документы из домашнего архива географа: переписка, дневники и
+              материалы для его научных статей
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="materials__navigation">
+        <label class="materials__bar" for="slideOne"></label>
+        <label class="materials__bar" for="slideTwo"></label>
+        <label class="materials__bar" for="slideThree"></label>
+      </div>
+    </section>
+    <section class="editor">
+      <div class="editor__portrait"></div>
       <h2 class="editor__title">Ищем редактора для дневника</h2>
       <p class="editor__paragraph">
-        «Отец мой, Георгий Васильевич Антипов, из богатой семьи. У его отца и деда были участки леса, земли. Имел мой дед, Василий Кузьмич, лавку, в которой торговал бакалеей и красным товаром, и, конечно, занимался крестьянством, т.е. земледелием. Жили они богато. Дети у дедушки Василия были все грамотные, и земледелием занимались неохотно».
+        «Отец мой, Георгий Васильевич Антипов, из богатой семьи. У его отца
+        и деда были участки леса, земли. Имел мой дед, Василий Кузьмич, лавку,
+        в которой торговал бакалеей и красным товаром, и, конечно, занимался
+        крестьянством, т.е. земледелием. Жили они богато. Дети у дедушки
+        Василия были все грамотные, и земледелием занимались неохотно».
       </p>
       <div class="editor__buttons">
         <a class="editor__materials-link" href="#" target="_blank">
           Перейти к материалу
-          <img class="editor__arrow" src="./images/arrow.svg" alt="Стрелка в право">
+          <img class="editor__arrow" src="./images/arrow.svg" alt="Стрелка в право" />
         </a>
         <button type="button" class="editor__application">
           Оставить заявку
-          <img class="editor__arrow" src="./images/arrow.svg" alt="Стрелка в право">
+          <img class="editor__arrow" src="./images/arrow.svg" alt="Стрелка в право" />
         </button>
       </div>
     </section>
+    <section class="news news_padding">
+      <div class="news__cover">
+        <p class="news__header">Журнал «Прожито»</p>
+        <div class="news__follow">
+          <p class="news__follow-button">Посмотреть всю подборку</p>
+          <a class="arrow-green" href="#">
+            <img src="./images/right.svg" alt="Стрелка вправо" />
+          </a>
+        </div>
+      </div>
+      <div class="news__container">
+        <div class="news__navigation">
+          <p class="news__name">Новые материалы</p>
+          <div class="news__buttons-arrows">
+            <button class="news__arrows news__arrows_left" id="arrowLeftJournal">
+              <img src="./images/left.svg" alt="Стрелка влево" />
+            </button>
+            <button class="news__arrows news__arrows_right" id="arrowRightJournal">
+              <img src="./images/right.svg" alt="Стрелка вправо" />
+            </button>
+          </div>
+        </div>
+        <div class="news__cards news__cards_padding-small" id="journalCards">
+          <div class="news__card" id="journalCard">
+            <div class="card-rectangle card-rectangle_decstop">
+              <img class="card-rectangle__image" src="./images/Stalin1.png" alt="Изображение">
+              <p class="card-rectangle__type">Тематическая подборка</p>
+              <div class="card-rectangle__text">
+                <p class="card-rectangle__header">Сталин умер</p>
+                <p class="card-rectangle__description">Что теперь будет?! Как нам жить без него?</p>
+                <p class="card-rectangle__article card-rectangle__article_decstop">Все газеты впервые опубликовали
+                  портреты т.Сталина и многочисленные статьи. В них т.Сталин именуется вождём мирового пролетариата.</p>
+              </div>
+            </div>
+          </div>
+          <div class="news__card">
+            <div class="card-rectangle">
+              <img class="card-rectangle__image" src="./images/Blokada.png" alt="Изображение">
+              <p class="card-rectangle__type">Спецпроект</p>
+              <div class="card-rectangle__text">
+                <p class="card-rectangle__header">Блокада</p>
+                <p class="card-rectangle__description">Исследование блокадных дневников</p>
+                <p class="card-rectangle__article card-rectangle__article_decstop">В условиях катастрофического голода,
+                  холода, вражеских бомбардировок и обстрелов сотни тысяч людей оказались заперты в городе.
+                  У многих из них был доступ к бумаге и чернилам, и некоторые начали вести дневники.</p>
+              </div>
+            </div>
+          </div>
+          <div class="news__card">
+            <div class="card-circle">
+              <div class="card-circle__content">
+                <p class="card-circle__header">Галина Зеленина о дневниках Леонида Липкина</p>
+                <img class="card-circle__image" src="./images/Zelenina.png" alt="Изображение">
+                <p class="card-circle__description">историк, доцент кафедры теологии иудаизма, библеистики и иудаики
+                  РГГУ и ст. н. с.
+                  ШАГИ РАНХиГС</p>
+              </div>
+              <p class="card-circle__experience">опыт читателя</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="news__mobile news__mobile_journal">
+      <p class="news__header">Журнал «Прожито»</p>
+      <div class="news__follow">
+        <p class="news__follow-button">Посмотреть всю подборку</p>
+        <a href="./journal.html" target="_blank">
+          <img src="./images/VectorSmall.svg" alt="Стрелка вправо" />
+        </a>
+      </div>
+      <ul class="journal-grid">
+        <li class="journal-grid__item">
+          <div class="card-rectangle">
+            <img class="card-rectangle__image" src="./images/Stalin1.png" alt="Изображение">
+            <p class="card-rectangle__type">Тематическая подборка</p>
+            <div class="card-rectangle__text">
+              <p class="card-rectangle__header">Сталин умер</p>
+              <p class="card-rectangle__description">Что теперь будет?! Как нам жить без него?</p>
+              <p class="card-rectangle__article">Все газеты впервые опубликовали портреты т.Сталина и многочисленные
+                статьи. В них т.Сталин именуется вождём мирового пролетариата.</p>
+            </div>
+          </div>
+        </li>
+        <li class="journal-grid__item journal-grid__item_pos_2">
+          <div class="card-rectangle">
+            <img class="card-rectangle__image" src="./images/Blokada.png" alt="Изображение">
+            <p class="card-rectangle__type">Спецпроект</p>
+            <div class="card-rectangle__text">
+              <p class="card-rectangle__header">Блокада</p>
+              <p class="card-rectangle__description">Исследование блокадных дневников</p>
+              <p class="card-rectangle__article">В условиях катастрофического голода, холода, вражеских бомбардировок и
+                обстрелов сотни тысяч людей оказались заперты в городе.
+                У многих из них был доступ к бумаге и чернилам, и некоторые начали вести дневники.</p>
+            </div>
+          </div>
+        </li>
+        <li class="journal-grid__item journal-grid__item_pos_3">
+          <div class="card-circle">
+            <div class="card-circle__content">
+              <p class="card-circle__header">Галина Зеленина о дневниках Леонида Липкина</p>
+              <img class="card-circle__image" src="./images/Zelenina.png" alt="Изображение">
+              <p class="card-circle__description">историк, доцент кафедры теологии иудаизма, библеистики и иудаики РГГУ
+                и ст. н. с.
+                ШАГИ РАНХиГС</p>
+            </div>
+            <p class="card-circle__experience">опыт читателя</p>
+          </div>
+        </li>
+        <li class="journal-grid__item journal-grid__item_hidden">
+          <div class="card-rectangle">
+            <img class="card-rectangle__image" src="./images/Stalin1.png" alt="Изображение">
+            <p class="card-rectangle__type">Тематическая подборка</p>
+            <div class="card-rectangle__text">
+              <p class="card-rectangle__header">Сталин умер</p>
+              <p class="card-rectangle__description">Что теперь будет?! Как нам жить без него?</p>
+              <p class="card-rectangle__article">Все газеты впервые опубликовали портреты т.Сталина и многочисленные
+                статьи. В них т.Сталин именуется вождём мирового пролетариата.</p>
+            </div>
+          </div>
+        </li>
+        <li class="journal-grid__item journal-grid__item_hidden">
+          <div class="card-circle">
+            <div class="card-circle__content">
+              <p class="card-circle__header">Галина Зеленина о дневниках Леонида Липкина</p>
+              <img class="card-circle__image" src="./images/Zelenina.png" alt="Изображение">
+              <p class="card-circle__description">историк, доцент кафедры теологии иудаизма, библеистики и иудаики РГГУ
+                и ст. н. с.
+                ШАГИ РАНХиГС</p>
+            </div>
+            <p class="card-circle__experience">опыт читателя</p>
+          </div>
+        </li>
+        <li class="journal-grid__item journal-grid__item_hidden">
+          <div class="card-rectangle">
+            <img class="card-rectangle__image" src="./images/Blokada.png" alt="Изображение">
+            <p class="card-rectangle__type">Спецпроект</p>
+            <div class="card-rectangle__text">
+              <p class="card-rectangle__header">Блокада</p>
+              <p class="card-rectangle__description">Исследование блокадных дневников</p>
+              <p class="card-rectangle__article">В условиях катастрофического голода, холода, вражеских бомбардировок и
+                обстрелов сотни тысяч людей оказались заперты в городе.
+                У многих из них был доступ к бумаге и чернилам, и некоторые начали вести дневники.</p>
+            </div>
+          </div>
+        </li>
+        <li class="journal-grid__item journal-grid__item_hidden">
+          <div class="card-circle">
+            <div class="card-circle__content">
+              <p class="card-circle__header">Галина Зеленина о дневниках Леонида Липкина</p>
+              <img class="card-circle__image" src="./images/Zelenina.png" alt="Изображение">
+              <p class="card-circle__description">историк, доцент кафедры теологии иудаизма, библеистики и иудаики РГГУ
+                и ст. н. с.
+                ШАГИ РАНХиГС</p>
+            </div>
+            <p class="card-circle__experience">опыт читателя</p>
+          </div>
+        </li>
+        <li class="journal-grid__item journal-grid__item_hidden">
+          <div class="card-rectangle">
+            <img class="card-rectangle__image" src="./images/Blokada.png" alt="Изображение">
+            <p class="card-rectangle__type">Спецпроект</p>
+            <div class="card-rectangle__text">
+              <p class="card-rectangle__header">Блокада</p>
+              <p class="card-rectangle__description">Исследование блокадных дневников</p>
+              <p class="card-rectangle__article">В условиях катастрофического голода, холода, вражеских бомбардировок и
+                обстрелов сотни тысяч людей оказались заперты в городе.
+                У многих из них был доступ к бумаге и чернилам, и некоторые начали вести дневники.</p>
+            </div>
+          </div>
+        </li>
+        <li class="journal-grid__item journal-grid__item_hidden">
+          <div class="card-rectangle">
+            <img class="card-rectangle__image" src="./images/Stalin1.png" alt="Изображение">
+            <p class="card-rectangle__type">Тематическая подборка</p>
+            <div class="card-rectangle__text">
+              <p class="card-rectangle__header">Сталин умер</p>
+              <p class="card-rectangle__description">Что теперь будет?! Как нам жить без него?</p>
+              <p class="card-rectangle__article">Все газеты впервые опубликовали портреты т.Сталина и многочисленные
+                статьи. В них т.Сталин именуется вождём мирового пролетариата.</p>
+            </div>
+          </div>
+        </li>
+      </ul>
+    </section>
+    <section class="projects">
+      <h1 class="section-title">Спецпроекты</h1>
+      <div class="projects__articles">
+        <article class="projects__item">
+          <img alt="«Прожито» в Перми" class="projects__image" src="images/proj1.png">
+          <div class="projects__text-area">
+            <h3 class="article-title">«Прожито» в Перми</h3>
+            <p class="projects__main-text">Проект осуществляет поиск и копирование документов в пермских государственных
+              и семейных архивах для того, чтобы собрать цифровую народную коллекцию документов по истории города
+              и края</p>
+            <p class="projects__date">13 декабря 2021</p>
+          </div>
+        </article>
+        <article class="projects__item">
+          <img alt="Блокада" class="projects__image" src="images/proj2.png">
+          <div class="projects__text-area">
+            <h3 class="article-title">Блокада</h3>
+            <p class="projects__main-text">В условиях катастрофического голода, холода, вражеских бомбардировок
+              и обстрелов сотни тысяч людей оказались заперты в городе. У многих из них был доступ к бумаге и чернилам,
+              и некоторые начали вести дневники.</p>
+            <p class="projects__date">13 декабря 2021</p>
+          </div>
+        </article>
+      </div>
+      <a class="link" href="#">
+        <button class="button button_theme_green">
+          <p class="button__text">Все спецпроекты</p>
+          <img alt="стрелочка" class="button__arrow" src="images/arrow.svg">
+        </button>
+      </a>
+    </section>
   </main>
-  <footer class="footer"></footer>
+  <footer class="footer">
+    <nav class="footer__menu">
+      <a class="footer__menu-link" href="#">О команде</a>
+      <a class="footer__menu-link" href="#">Благодарности</a>
+      <a class="footer__menu-link" href="#">Партнёры</a>
+      <a class="footer__menu-link" href="#">FAQ</a>
+      <a class="footer__menu-link" href="#">Инструкции</a>
+    </nav>
+    <div class="footer__social-information">
+      <div class="footer__social-conteiner">
+        <img class="logo" src="./images/pogito-logo.svg" alt="Логотип прожито" />
+        <div class="footer__social">
+          <a class="footer__link footer__link_covert-text" href="https://t.me/prozhito" target="_blank">
+            <img class="footer__social-icon" src="./images/telegram.svg" alt="Логотип Телеграмм" />
+            Телеграм
+          </a>
+          <a class="footer__link footer__link_covert-text" href="https://vk.com/prozhito" target="_blank">
+            <img class="footer__social-icon" src="./images/vcontacte.svg" alt="Логотип Вконтакте" />
+            Вконтакте
+          </a>
+        </div>
+      </div>
+      <div class="footer__information">
+        <a class="footer__link" href="#"> Юридическая информация </a>
+        <a class="footer__link" href="#"> Политика конфиденциальности </a>
+      </div>
+    </div>
+  </footer>
+  <script src="./scripts/index.js"></script>
 </body>
+
 </html>

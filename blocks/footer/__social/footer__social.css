@@ -1,0 +1,16 @@
+.footer__social {
+  display: flex;
+  flex-direction: column;
+}
+
+@media screen and (max-width: 768px) {
+  .footer__social {
+    flex-direction: row;
+  }
+}
+
+@media screen and (max-width: 420px) {
+  .footer__social {
+    padding-bottom: 24px;
+  }
+}

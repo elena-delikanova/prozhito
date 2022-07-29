@@ -1,0 +1,12 @@
+.news {
+  max-width: 1440px;
+  display: flex;
+}
+.news:last-child {
+  padding-top: 76px;
+}
+@media screen and (max-width: 600px) {
+  .news {
+    display: none;
+  }
+}

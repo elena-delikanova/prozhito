@@ -1,0 +1,18 @@
+.footer__information {
+  display: flex;
+  flex-direction: column;
+  padding-right: 51px;
+}
+
+@media screen and (max-width: 768px) {
+  .footer__information {
+    padding-top: 36px;
+    padding-right: 0;
+  }
+}
+
+@media screen and (max-width: 420px) {
+  .footer__information {
+    padding-top: 29px;
+  }
+}

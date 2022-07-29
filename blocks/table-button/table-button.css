@@ -1,0 +1,25 @@
+.table-button {
+  padding: 0;
+  position: absolute;
+  top: 389px;
+  left: -30px;
+  transform: rotate(-90deg);
+}
+
+@media screen and (max-width: 900px) {
+  .table-button {
+    left: -45px;
+  }
+}
+
+@media screen and (max-width: 720px) {
+  .table-button {
+    top: 489px;
+  }
+}
+
+@media screen and (max-width: 420px) {
+  .table-button {
+    top: 650px;
+  }
+}
