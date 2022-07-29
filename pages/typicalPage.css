@@ -17,15 +17,22 @@
 @import url(../blocks/header/__popup-block/header__popup-block.css);
 @import url(../blocks/header/__popup-menu/header__popup-menu.css);
 @import url(../blocks/header/__popup-list/header__popup-list.css);
+@import url(../blocks/video/video.css);
+@import url(../blocks/title-tag/title-tag.css);
+@import url(../blocks/title-tag/__list/title-tag__list.css);
+@import url(../blocks/title-tag/__item/title-tag__item.css);
+@import url(../blocks/title-tag/__link/title-tag__link.css);
+@import url(../blocks/article/article.css);
 @import url(../blocks/content/content.css);
 @import url(../blocks/part/part.css);
 @import url(../blocks/image/image.css);
-@import url(../blocks/image/_hidden/image_hidden.css);
 @import url(../blocks/gallery/gallery.css);
 @import url(../blocks/gallery/__next-button/gallery__next-button.css);
 @import url(../blocks/gallery/__previous-button/gallery__previous-button.css);
 @import url(../blocks/gallery/__photo-counter/gallery__photo-counter.css);
 @import url(../blocks/gallery/__caption/gallery__caption.css);
+@import url(../blocks/gallery/__image/gallery__image.css);
+@import url(../blocks/gallery/__image/_hidden/gallery__image_hidden.css);
 @import url(../blocks/audio/audio.css);
 @import url(../blocks/footer/footer.css);
 @import url(../blocks/bread-crumbs/bread-crumbs.css);
@@ -51,9 +58,3 @@
 @import url(../blocks/footer/__link/footer__link.css);
 @import url(../blocks/footer/__link/_covert-text/footer__link_covert-text.css);
 @import url(../blocks/footer/__information/footer__information.css);
-@import url(../blocks/video/video.css);
-
-@import url(../blocks/title-tag/title-tag.css);
-@import url(../blocks/title-tag/__list/title-tag__list.css);
-@import url(../blocks/title-tag/__item/title-tag__item.css);
-@import url(../blocks/title-tag/__link/title-tag__link.css);
