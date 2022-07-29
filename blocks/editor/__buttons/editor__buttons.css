@@ -4,7 +4,7 @@
     grid-area: editor__conteiner;
 }
 
-@media screen and (max-width: 773px) {
+@media screen and (max-width: 766px) {
     .editor__buttons {
       flex-direction: column-reverse;
     }

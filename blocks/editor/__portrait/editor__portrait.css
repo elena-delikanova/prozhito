@@ -5,18 +5,18 @@
   background-position: center;
   grid-area: editor__portrait;
   width: 100%;
-  min-height: 440px;
+  height: 440px;
 }
 
 @media screen and (max-width: 860px) {
   .editor__portrait { 
-    min-height: 259px;
+    height: 259px;
   }
 }
 
-@media screen and (max-width: 860px) {
+@media screen and (max-width: 768px) {
   .editor__portrait { 
     max-width: 164px;
-    min-height: 258px;
+    height: 258px;
   }
 }
