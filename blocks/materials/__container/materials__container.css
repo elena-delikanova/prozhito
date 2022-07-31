@@ -10,7 +10,7 @@
 }
 @media screen and (max-width: 749px) {
   .materials__container {
-    width: 600px;
+    max-width: 600px;
     overflow: hidden;
     margin: 0 auto 64px;
     padding: 24px 0 0;
