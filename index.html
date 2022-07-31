@@ -30,7 +30,7 @@
     </div>
     <div class="header__popup">
       <div class="header__popup-container">
-        <div class="header__container header__container_padding">
+        <div class="header__container header__container_padding_bottom">
           <img class="logo" src="./images/pogito-logo.svg" alt="Логотип прожито" />
           <button class="header__menu-button header__menu-button_content_close" aria-label="Закрыть"
             type="button"></button>
@@ -71,7 +71,7 @@
     </section>
     <section class="instructions">
       <div class="instructions__cards">
-        <p class="instructions__header">Передать документы</p>
+        <h2 class="instructions__header">Передать документы</h2>
         <p class="instructions__information">
           Передайте в «Прожито» копии документов из семейного архива, чтобы
           сделать их доступнее исследователям и читателям
@@ -84,7 +84,7 @@
         </div>
       </div>
       <div class="instructions__cards">
-        <p class="instructions__header">Стать волонтёром</p>
+        <h2 class="instructions__header">Стать волонтёром</h2>
         <p class="instructions__information">
           Вы можете помочь нашему делу — для работы с документами нужен
           компьютер и несколько свободных часов в неделю
@@ -97,7 +97,7 @@
         </div>
       </div>
       <div class="instructions__cards">
-        <p class="instructions__header">Дневники и воспоминания</p>
+        <h2 class="instructions__header">Дневники и воспоминания</h2>
         <p class="instructions__information">
           Мы собрали тексты опубликованных дневников и воспоминаний и
           сделали по ним расширенный поиск
@@ -110,7 +110,7 @@
         </div>
       </div>
       <div class="instructions__cards">
-        <p class="instructions__header">Работа с архивом</p>
+        <h2 class="instructions__header">Работа с архивом</h2>
         <p class="instructions__information">
           Как устроен наш архив и поиск по сохранённым документам
         </p>
@@ -124,7 +124,7 @@
     </section>
     <section class="news">
       <div class="news__cover">
-        <p class="news__header">Новости и события</p>
+        <p class="news__header">Новости<br>и события</p>
         <div class="news__follow">
           <p class="news__follow-button">Ко всем новостям</p>
           <a class="arrow-green" href="./all-news.html" target="_blank">
@@ -136,20 +136,20 @@
         <div class="news__navigation">
           <p class="news__name">Свежее</p>
           <div class="news__buttons-arrows">
-            <button class="news__arrows news__arrows_left" id="arrowLeftNews" type="button">
+            <button class="news__arrows" id="arrowLeftNews" type="button">
               <img src="./images/left.svg" alt="Стрелка влево" />
             </button>
-            <button class="news__arrows news__arrows_right" id="arrowRightNews" type="button">
+            <button class="news__arrows" id="arrowRightNews" type="button">
               <img src="./images/right.svg" alt="Стрелка вправо" />
             </button>
           </div>
         </div>
-        <div class="news__cards news__cards_padding-big" id="newsCards">
+        <div class="news__cards news__cards_padding_big" id="newsCards">
           <div class="news-card" id="newsCard">
             <div class="news-card__description">
               <div class="news-card__date">
                 <p class="news-card__topic">27.01.2022</p>
-                <p class="news-card__topic news-card__topic_font-style_talic">Спецпроект</p>
+                <p class="news-card__topic news-card__topic_font-style_italic">Спецпроект</p>
               </div>
               <img class="news-card__image" src="./images/photo1.png" alt="Изображение" />
             </div>
@@ -162,7 +162,7 @@
             <div class="news-card__description">
               <div class="news-card__date">
                 <p class="news-card__topic">27.01.2022</p>
-                <p class="news-card__topic news-card__topic_font-style_talic"></p>
+                <p class="news-card__topic news-card__topic_font-style_italic"></p>
               </div>
               <img class="news-card__image" src="./images/photo22.png" alt="Изображение" />
             </div>
@@ -176,7 +176,7 @@
             <div class="news-card__description">
               <div class="news-card__date">
                 <p class="news-card__topic">27.01.2022</p>
-                <p class="news-card__topic news-card__topic_font-style_talic">Лекция</p>
+                <p class="news-card__topic news-card__topic_font-style_italic">Лекция</p>
               </div>
               <img class="news-card__image" src="./images/3.png" alt="Изображение" />
             </div>
@@ -322,15 +322,15 @@
         <div class="news__navigation">
           <p class="news__name">Новые материалы</p>
           <div class="news__buttons-arrows">
-            <button class="news__arrows news__arrows_left" id="arrowLeftJournal" type="button">
+            <button class="news__arrows" id="arrowLeftJournal" type="button">
               <img src="./images/left.svg" alt="Стрелка влево" />
             </button>
-            <button class="news__arrows news__arrows_right" id="arrowRightJournal" type="button">
+            <button class="news__arrows" id="arrowRightJournal" type="button">
               <img src="./images/right.svg" alt="Стрелка вправо" />
             </button>
           </div>
         </div>
-        <div class="news__cards news__cards_padding-small" id="journalCards">
+        <div class="news__cards news__cards_padding_small" id="journalCards">
           <div class="news__card" id="journalCard">
             <div class="card-rectangle card-rectangle_decstop">
               <img class="card-rectangle__image" src="./images/Stalin1.png" alt="Изображение">

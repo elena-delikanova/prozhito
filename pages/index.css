@@ -18,7 +18,7 @@
 @import url(../blocks/header/__popup/header__popup.css);
 @import url(../blocks/header/__popup/_opened/header__popup_opened.css);
 @import url(../blocks/header/__popup-container/header__popup-container.css);
-@import url(../blocks/header/__container_padding/header__container_padding.css);
+@import url(../blocks/header/__container/_padding/header__container_padding_bottom.css);
 @import url(../blocks/header/__popup-block/header__popup-block.css);
 @import url(../blocks/header/__popup-menu/header__popup-menu.css);
 @import url(../blocks/header/__popup-list/header__popup-list.css);
@@ -79,8 +79,8 @@
 @import url(../blocks/news/__mobile/_journal/news__mobile_journal.css);
 @import url(../blocks/news/__mobile-cards/news__mobile-cards.css);
 @import url(../blocks/journal-card/journal-card.css);
-@import url(../blocks/news/__cards/_padding-small/news__cards_padding-small.css);
-@import url(../blocks/news/__cards/_padding-big/news__cards_padding-big.css);
+@import url(../blocks/news/__cards/_padding/news__cards_padding-small.css);
+@import url(../blocks/news/__cards/_padding/news__cards_padding_big.css);
 @import url(../blocks/news/__buttons-arrows/news__buttons-arrows.css);
 @import url(../blocks/news/_padding/news_padding.css);
 
@@ -91,7 +91,7 @@
 @import url(../blocks/news-card/__description/news-card__description.css);
 @import url(../blocks/news-card/__image/news-card__image.css);
 @import url(../blocks/news-card/__topic/news-card__topic.css);
-@import url(../blocks/news-card/__topic/font-style/news-card__topic_font-style_talic.css);
+@import url(../blocks/news-card/__topic/font-style/news-card__topic_font-style_italic.css);
 
 @import url(../blocks/materials/__title/materials__title.css);
 

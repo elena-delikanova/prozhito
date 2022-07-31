@@ -1,9 +1,9 @@
-.news__cards_padding-big {
+.news__cards_padding_big {
   padding-bottom: 70px;
   margin-bottom: 20px;
 }
 @media screen and (max-width: 1126px) {
-  .news__cards_padding-big  {
+  .news__cards_padding_big  {
     padding-bottom: 50px;
   }
 }
