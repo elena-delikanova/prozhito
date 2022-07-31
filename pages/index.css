@@ -59,7 +59,7 @@
 @import url(../blocks/materials/__figureSix/materials__figureSix.css);
 @import url(../blocks/materials/__header/materials__header.css);
 @import url(../blocks/materials/__image/materials__image.css);
-@import url(../blocks/materials/__image/_mask/materials__image_mask.css);
+@import url(../blocks/materials/__image/_position/materials__image_position_relative.css);
 @import url(../blocks/materials/__list/materials__list.css);
 @import url(../blocks/materials/__name/materials__name.css);
 @import url(../blocks/materials/__navigation/materials__navigation.css);
@@ -76,7 +76,7 @@
 @import url(../blocks/news/__name/news__name.css);
 @import url(../blocks/arrow-green/arrow-green.css);
 @import url(../blocks/news/__mobile/news__mobile.css);
-@import url(../blocks/news/__mobile/_journal/news__mobile_journal.css);
+@import url(../blocks/news/__mobile/_padding/news__mobile_padding_top.css);
 @import url(../blocks/news/__mobile-cards/news__mobile-cards.css);
 @import url(../blocks/journal-card/journal-card.css);
 @import url(../blocks/news/__cards/_padding/news__cards_padding-small.css);
