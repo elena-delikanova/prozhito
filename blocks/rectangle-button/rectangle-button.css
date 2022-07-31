@@ -17,10 +17,10 @@
   margin: 0 auto;
 }
 .rectangle-button:hover {
-  border: 0 solid #97BA9C;
+  border: 1px solid #97BA9C;
 }
 .rectangle-button:active {
-  border: 0 solid #7A9F80;
+  border: 1px solid #7A9F80;
 }
 
 @media screen and (max-width: 1150px) {
