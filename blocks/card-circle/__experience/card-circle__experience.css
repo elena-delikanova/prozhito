@@ -10,3 +10,9 @@
     line-height: 16px;
   }
 }
+
+@media screen and (max-width: 600px) {
+  .card-circle__experience {
+    padding-bottom: 8px;
+  }
+}
