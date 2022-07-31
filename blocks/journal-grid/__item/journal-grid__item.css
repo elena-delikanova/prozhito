@@ -2,6 +2,13 @@
   aspect-ratio: calc(328 / 526);
 }
 
+@media screen and (max-width: 1024px) {
+  .journal-grid__item {
+    height: 277px;
+  }
+}
+
+
 @media screen and (max-width: 600px) {
   .journal-grid__item {
     position: absolute;

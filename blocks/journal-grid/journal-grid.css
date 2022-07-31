@@ -2,7 +2,7 @@
   list-style-type: none;
   max-width: 1144px;
   margin: 0 auto;
-  padding: 36px 80px 0;
+  padding: 36px 0 0;
   display: grid;
   gap: 62px 80px;
   grid-template-columns: repeat(3, 1fr);
@@ -14,8 +14,15 @@
   .journal-grid {
     grid-template-rows: 1fr;
     gap: 40.5px;
-    padding: 18px 42px 0;
+    padding: 18px 0 0;
     max-width: 612px;
+    height: 277px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .journal-grid {
+    gap: 27px;
   }
 }
 
@@ -24,6 +31,7 @@
     position: relative;
     display: block;
     padding: 24px 0 0;
+    max-width: calc(100% - 8px);
     height: 352px;
     overflow: hidden;
   }
