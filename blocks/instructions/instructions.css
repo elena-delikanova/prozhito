@@ -6,7 +6,7 @@
   background-color: #F7F4F0;
   gap: 20px;
 }
-@media screen and (max-width: 1200px) {
+@media screen and (max-width: 1268px) {
   .instructions {
     padding: 28px 16px 36px;
     grid-column-gap: 12px;
