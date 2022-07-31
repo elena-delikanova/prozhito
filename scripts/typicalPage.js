@@ -21,7 +21,7 @@ tableOpenButton.addEventListener("click", () => togglePopup(popupTable));
 noteCloseButton.addEventListener("click", () => closeNotePopup(popupNote));
 
 const buttonAdd = document.querySelector(".header__menu-button");
-const buttonClose = document.querySelector(".header__menu-button_close");
+const buttonClose = document.querySelector(".header__menu-button_content_close");
 const popups = document.querySelector(".header__popup");
 
 function openPopup(popup) {

@@ -2,7 +2,7 @@ const pageTitle = document.querySelector(".title__text");
 const textBreadCrumbs = document.querySelector(".bread-crumbs__title");
 textBreadCrumbs.textContent = pageTitle.textContent;
 const buttonAdd = document.querySelector(".header__menu-button");
-const buttonClose = document.querySelector(".header__menu-button_close");
+const buttonClose = document.querySelector(".header__menu-button_content_close");
 const popups = document.querySelector(".header__popup");
 
 function openPopup(popup) {

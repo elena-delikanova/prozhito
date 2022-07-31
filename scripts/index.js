@@ -1,5 +1,5 @@
 const buttonAdd = document.querySelector(".header__menu-button");
-const buttonClose = document.querySelector(".header__menu-button_close");
+const buttonClose = document.querySelector(".header__menu-button_content_close");
 const popups = document.querySelector(".header__popup");
 const popupLock = document.querySelector(".lock__popup");
 const lockCloseButton = document.querySelector(".lock__popup-close");

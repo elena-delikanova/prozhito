@@ -2,10 +2,15 @@
   display: none;
   width: 24px;
   height: 24px;
-  padding: 5px 4px;
   box-sizing: border-box;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-color: unset;
+  border: none;
   cursor: pointer;
   transition: all 0.5s ease;
+  padding: 0;
 }
 @media screen and (max-width: 767px) {
   .header__menu-button {
