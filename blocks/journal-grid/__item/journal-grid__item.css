@@ -6,6 +6,6 @@
   .journal-grid__item {
     position: absolute;
     width: 252px;
-    min-height: 352px;
+    height: 352px;
   }
 }

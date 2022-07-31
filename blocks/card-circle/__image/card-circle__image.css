@@ -8,11 +8,13 @@
 @media screen and (max-width: 1024px) {
   .card-circle__image {
     margin: 4px 0;
-    max-width: 11.198vw;
+    max-width: 86px;
+    max-height: 86px;
   }
 }
 @media screen and (max-width: 600px) {
   .card-circle__image {
-    max-width: 44.444vw;
+    max-width: 204px;
+    max-height: 204px;
   }
 }

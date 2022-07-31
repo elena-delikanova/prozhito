@@ -24,7 +24,7 @@
     position: relative;
     display: block;
     padding: 24px 0 0;
-    min-height: 450px;
+    height: 352px;
     overflow: hidden;
   }
 }
