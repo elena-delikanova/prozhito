@@ -3,13 +3,13 @@
   justify-content: space-between;
   gap: 28px;
 }
-@media screen and (max-width: 1126px) {
+@media screen and (max-width: 1200px) {
   .news-card__description {
     gap: 12px;
   }
 }
 
-@media screen AND (max-width: 600px) {
+@media screen AND (max-width: 786px) {
   .news-card__description {
     flex-direction: column-reverse;
   }
