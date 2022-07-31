@@ -1,16 +1,16 @@
-.footer__link_covert-text {
+.footer__link_text_covert {
 
 }
 
 @media screen and (max-width: 768px) {
-  .footer__link_covert-text {
+  .footer__link_text_covert {
     margin-bottom: 0;
     font-size: 0;
     height: 28px;
     margin-right: 24px;
   }
 
-  .footer__link_covert-text:last-child {
+  .footer__link_text_covert:last-child {
     margin-right: 0px;
   }
 }
