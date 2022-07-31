@@ -1,10 +1,13 @@
 .editor__buttons {
     display: flex;
     justify-content: space-between;
-    grid-area: editor__conteiner;
+    align-items: flex-end;
+    grid-area: editor__buttons;
+    gap: 12px;
+    width: 100%;
 }
 
-@media screen and (max-width: 766px) {
+@media screen and (max-width: 767px) {
     .editor__buttons {
       flex-direction: column-reverse;
     }

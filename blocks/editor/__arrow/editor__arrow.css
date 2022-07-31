@@ -4,7 +4,7 @@
   height: 12.02px;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 767px) {
   .editor__arrow {
     margin-left: 16px;
   }

@@ -30,7 +30,7 @@
   }
 }
 
-@media screen and (max-width: 766px) {
+@media screen and (max-width: 767px) {
   .editor__materials-link {
     margin: 0;
     width: 335px;

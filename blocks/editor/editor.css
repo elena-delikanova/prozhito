@@ -10,7 +10,7 @@
   grid-template-areas:
   "editor__portrait editor__title"
   "editor__portrait editor__paragraph"
-  "editor__portrait editor__conteiner";
+  "editor__portrait editor__buttons";
 }
 
 @media screen and (max-width: 1400px) {
@@ -24,12 +24,12 @@
 @media screen and (max-width: 860px) {
   .editor {
     padding: 20px;
-    grid-template-columns: 174px auto;
+    grid-template-columns: 174px 1fr;
     grid-template-rows: 42px 169px 48px;
   }
 }
 
-@media screen and (max-width: 766px) {
+@media screen and (max-width: 767px) {
   .editor {
     padding: 20px 12px;
     justify-items: center;
@@ -41,6 +41,6 @@
     "editor__title"
     "editor__portrait"
     "editor__paragraph"
-    "editor__conteiner";
+    "editor__buttons";
   }
 }

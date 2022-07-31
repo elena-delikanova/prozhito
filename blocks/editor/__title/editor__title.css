@@ -17,7 +17,7 @@
   }
 }
 
-@media screen and (max-width: 766px) {
+@media screen and (max-width: 767px) {
   .editor__title {
     width: 300px;
     text-align: center;

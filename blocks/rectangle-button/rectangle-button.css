@@ -1,0 +1,46 @@
+.rectangle-button {
+  border: 1px solid #A5CDAB;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  min-height: 50px;
+  width: 329px;
+  gap: 12px;
+  color: #323232;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 26px;
+  text-decoration: none;
+  margin: 0 auto;
+}
+
+@media screen and (max-width: 1150px) {
+  .rectangle-button {
+    width: 237px;
+  }
+}
+
+@media screen and (max-width: 860px) {
+  .rectangle-button {
+    height: 48px;
+    /* margin-right: 12px; */
+    font-size: 14px;
+    line-height: 18px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .rectangle-button {
+    font-size: 14px;
+    line-height: 18px;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .rectangle-button {
+    width: 100%;
+  }
+}

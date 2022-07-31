@@ -6,6 +6,7 @@
   background-color: #F7F4F0;
   gap: 20px;
 }
+
 @media screen and (max-width: 1268px) {
   .instructions {
     padding: 28px 16px 36px;
@@ -13,12 +14,14 @@
     grid-row-gap: 24px;
   }
 }
+
 @media screen and (max-width: 600px) {
   .instructions {
     grid-template-columns: 1fr;
     grid-template-rows: 1fr;
   }
 }
+
 @media screen and (max-width: 360px) {
   .instructions {
     padding: 92px 12px 98px;

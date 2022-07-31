@@ -9,13 +9,13 @@
 }
 
 @media screen and (max-width: 860px) {
-  .editor__portrait { 
+  .editor__portrait {
     height: 259px;
   }
 }
 
-@media screen and (max-width: 768px) {
-  .editor__portrait { 
+@media screen and (max-width: 767px) {
+  .editor__portrait {
     max-width: 164px;
     height: 258px;
   }

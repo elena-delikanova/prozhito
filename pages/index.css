@@ -86,7 +86,6 @@
 
 @import url(../blocks/news-card/news-card.css);
 @import url(../blocks/news-card/__article/news-card__article.css);
-@import url(../blocks/card-rectangle/_decstop/card-rectangle_decstop.css);
 @import url(../blocks/news-card/__date/news-card__date.css);
 @import url(../blocks/news-card/__description/news-card__description.css);
 @import url(../blocks/news-card/__image/news-card__image.css);
@@ -111,8 +110,12 @@
 @import url(../blocks/editor/__application/editor__application.css);
 @import url(../blocks/editor/__arrow/editor__arrow.css);
 @import url(../blocks/editor/__buttons/editor__buttons.css);
-@import url(../blocks/footer/footer.css);
 
+@import url(../blocks/rectangle-button/rectangle-button.css);
+@import url(../blocks/rectangle-button/_theme/rectangle-button_theme_green.css);
+@import url(../blocks/rectangle-button/_place/rectangle-button_place_projects.css);
+@import url(../blocks/rectangle-button/_place/rectangle-button_place_editor-materials.css);
+@import url(../blocks/rectangle-button/_place/rectangle-button_place_editor-application.css);
 
 @import url(../blocks/projects/projects.css);
 @import url(../blocks/projects/__articles/projects__articles.css);
@@ -124,10 +127,6 @@
 
 @import url(../blocks/section-title/section-title.css);
 @import url(../blocks/article-title/article-title.css);
-
-@import url(../blocks/button/button.css);
-@import url(../blocks/button/_theme/button_theme_green.css);
-@import url(../blocks/button/__text/button__text.css);
 
 @import url(../blocks/link/link.css);
 

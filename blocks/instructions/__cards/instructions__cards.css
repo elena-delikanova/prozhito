@@ -20,3 +20,9 @@
     padding: 11px;
   }
 }
+
+@media screen and (max-width: 600px) {
+  .instructions__cards {
+    margin: auto;
+  }
+}
