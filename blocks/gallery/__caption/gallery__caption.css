@@ -1,7 +1,7 @@
 .gallery__caption {
   border-bottom: 1px solid rgba(12, 6, 38, 0.7);
   padding: 16px 0;
-  font-family: 'PT Sans';
+  font-family: 'PT Sans', 'Arial', sans-serif;
   font-size: 14px;
   line-height: 18px;
   font-weight: normal;

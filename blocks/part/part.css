@@ -2,7 +2,7 @@
   margin: 0 auto;
   max-width: 676px;
   padding-top: 32px;
-  font-family: 'WF';
+  font-family: 'WF', 'Times New Roman', serif;
   font-style: normal;
   font-weight: 400;
   font-size: 26px;
@@ -19,7 +19,7 @@
 .part p {
   margin: 0;
   padding-top: 28px;
-  font-family: 'PT Sans';
+  font-family: 'PT Sans', 'Arial', sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 18px;

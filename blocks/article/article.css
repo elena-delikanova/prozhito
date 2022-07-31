@@ -17,7 +17,7 @@
   font-weight: 400;
   font-size: 14px;
   line-height: 18px;
-  font-family: 'PT Sans';
+  font-family: 'PT Sans', 'Arial', sans-serif;
 }
 
 .article p {

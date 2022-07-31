@@ -1,6 +1,6 @@
 
 @font-face {
-	font-family: 'PT Sans';
+	font-family: 'PT Sans', 'Arial', sans-serif;
 	font-weight: normal;
 	font-style: normal;
   font-display: swap;
@@ -9,7 +9,7 @@
 }
 
 @font-face {
-	font-family: 'WF';
+	font-family: 'WF', 'Times New Roman', serif;
 	font-weight: normal;
 	font-style: normal;
   font-display: swap;

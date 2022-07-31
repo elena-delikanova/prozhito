@@ -2,7 +2,7 @@
 margin: 28px 16px 12px;
 font-size: 26px;
 line-height: 1;
-font-family: 'WF';
+font-family: 'WF', 'Times New Roman', serif;
 height: 52px;
 }
 @media screen and (max-width: 880px) {

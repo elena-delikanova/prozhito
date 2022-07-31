@@ -1,6 +1,6 @@
 .news__name {
   font-size: 46px;
-  font-family: 'WF';
+  font-family: 'WF', 'Times New Roman', serif;
   margin: 0;
 }
 @media screen and (max-width: 1126px) {

@@ -1,6 +1,6 @@
 .lock__paragraph {
     margin: 0 0 0 32px;
-    font-family: 'WF';
+    font-family: 'WF', 'Times New Roman', serif;
     font-style: normal;
     font-weight: 400;
     font-size: 46px;
@@ -10,7 +10,7 @@
 
 @media screen and (max-width: 768px) {
     .lock__paragraph {
-        margin: 0 0 0 16px;  
+        margin: 0 0 0 16px;
         width: 86.9%;
         font-size: 30px;
         line-height: 37px;

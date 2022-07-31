@@ -1,6 +1,6 @@
 .card-circle__header {
   margin: 0;
-  font-family: 'WF';
+  font-family: 'WF', 'Times New Roman', serif;
   font-size: 26px;
   line-height: 26px;
 }

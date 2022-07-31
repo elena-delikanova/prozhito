@@ -1,6 +1,6 @@
 .table-button__text {
   cursor: pointer;
-  font-family: 'WF';
+  font-family: 'WF', 'Times New Roman', serif;
   font-style: normal;
   font-weight: 400;
   font-size: 26px;
