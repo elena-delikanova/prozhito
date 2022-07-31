@@ -3,6 +3,7 @@
   border-radius: 50%;
   width: 100%;
   max-width: 14.167vw;
+  object-fit: cover;
 }
 @media screen and (max-width: 1024px) {
   .card-circle__image {
@@ -10,7 +11,7 @@
     max-width: 11.198vw;
   }
 }
-@media screen and (max-width: 425px) {
+@media screen and (max-width: 600px) {
   .card-circle__image {
     max-width: 44.444vw;
   }

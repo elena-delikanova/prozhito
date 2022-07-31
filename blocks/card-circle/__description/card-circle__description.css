@@ -5,7 +5,12 @@
 }
 @media screen and (max-width: 1024px) {
   .card-circle__description {
+    font-size: 1.172vw;
+   line-height: 16px;
+  }
+}
+@media screen and (max-width: 600px) {
+  .card-circle__description {
     font-size: 12px;
-  line-height: 16px;
   }
 }
