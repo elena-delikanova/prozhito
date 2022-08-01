@@ -1,0 +1,9 @@
+.bread-crumbs__element {
+  margin: 0;
+  text-decoration: none;
+  color: #323232;
+}
+
+.bread-crumbs__element:after {
+    content: " /\00a0";
+}

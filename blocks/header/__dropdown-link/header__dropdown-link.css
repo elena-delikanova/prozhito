@@ -1,0 +1,13 @@
+.header__dropdown-link {
+  text-decoration: none;
+  color: #232323;
+  font-size: 20px;
+  line-height: 26px;
+  display: inline;
+}
+@media screen and (max-width: 1024px) {
+  .header__dropdown-link {
+    font-size: 14px;
+    line-height: 18px;
+  }
+}

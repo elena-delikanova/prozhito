@@ -1,0 +1,26 @@
+.gallery__caption {
+  border-bottom: 1px solid rgba(12, 6, 38, 0.7);
+  padding: 16px 0;
+  font-family: 'PT Sans', 'Arial', sans-serif;
+  font-size: 14px;
+  line-height: 18px;
+  font-weight: normal;
+  font-style: normal;
+  min-width: 678px;
+  display: flex;
+  justify-content: space-between;
+}
+
+@media screen AND (max-width: 767px) {
+  .gallery__caption {
+    min-width: calc(100% - 80px);
+  }
+}
+
+@media screen AND (max-width: 424px) {
+  .gallery__caption {
+    min-width: calc(100% - 60px);
+    font-size: 12px;
+    line-height: 14px;
+  }
+}

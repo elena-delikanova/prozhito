@@ -1,0 +1,19 @@
+.materials__title{
+  font-family: 'WF', 'Times New Roman', serif;
+  font-size: 46px;
+  line-height: 120%;
+  margin: 0;
+  text-align: center;
+}
+
+@media screen and (max-width: 1024px) {
+  .materials__title {
+    font-size: 30px;
+  }
+}
+
+@media screen and (max-width: 360px) {
+  .materials__title {
+    font-size: 32px;
+  }
+}

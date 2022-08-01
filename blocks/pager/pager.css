@@ -1,0 +1,16 @@
+.pager {
+  margin: 0 auto;
+  padding: 40px 0 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 678px;
+  height: 34px;
+}
+
+@media screen and (max-width: 768px) {
+  .pager {
+    display: none;
+  }
+}

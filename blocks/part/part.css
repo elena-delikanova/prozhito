@@ -1,0 +1,55 @@
+.part {
+  margin: 0 auto;
+  max-width: 676px;
+  padding-top: 32px;
+  font-family: 'WF', 'Times New Roman', serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 26px;
+  line-height: 100%;
+}
+
+.part h2 {
+  text-align: center;
+  margin: 0;
+  font-size: 26px;
+  font-weight: 400;
+}
+
+.part p {
+  margin: 0;
+  padding-top: 28px;
+  font-family: 'PT Sans', 'Arial', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 30px;
+  max-width: 676px;
+}
+
+.part p:first-child {
+  padding-top: 28px;
+}
+
+.part blockquote {
+  margin: 32px 0 0;
+  padding-left: 16px;
+  border-left: 2px solid #3A543E;
+}
+
+@media screen AND (max-width: 767px) {
+  .part {
+    max-width: calc(100% - 80px);
+  }
+
+  .part p {
+    font-size: 14px;
+    line-height: 18px;
+  }
+}
+
+@media screen AND (max-width: 424px) {
+  .part {
+    max-width: calc(100% - 60px);
+  }
+}

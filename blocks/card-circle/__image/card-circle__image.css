@@ -1,0 +1,20 @@
+.card-circle__image {
+  margin: 20px 0;
+  border-radius: 50%;
+  width: 100%;
+  max-width: 14.167vw;
+  object-fit: cover;
+}
+@media screen and (max-width: 1024px) {
+  .card-circle__image {
+    margin: 4px 0;
+    max-width: 86px;
+    max-height: 86px;
+  }
+}
+@media screen and (max-width: 600px) {
+  .card-circle__image {
+    max-width: 204px;
+    max-height: 204px;
+  }
+}

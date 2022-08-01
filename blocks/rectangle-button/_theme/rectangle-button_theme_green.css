@@ -1,0 +1,10 @@
+.rectangle-button_theme_green {
+  background: #A5CDAB;
+  border: 0;
+}
+.rectangle-button_theme_green:hover {
+  background: #97BA9C;
+}
+.rectangle-button_theme_green:active {
+  background: #7A9F80;
+}

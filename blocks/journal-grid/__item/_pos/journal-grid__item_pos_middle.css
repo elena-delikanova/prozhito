@@ -1,0 +1,6 @@
+@media screen and (max-width: 600px) {
+  .journal-grid__item_pos_middle {
+    left: calc((100% - 8px - 252px)/2);
+    z-index: -1;
+  }
+}

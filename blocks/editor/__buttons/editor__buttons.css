@@ -1,0 +1,14 @@
+.editor__buttons {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    grid-area: editor__buttons;
+    gap: 12px;
+    width: 100%;
+}
+
+@media screen and (max-width: 767px) {
+    .editor__buttons {
+      flex-direction: column-reverse;
+    }
+  }

@@ -1,0 +1,27 @@
+.instructions__cards {
+  padding: 32px;
+  border: 1px solid rgba(50, 50, 50, .5);
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+@media screen and (max-width: 1024px) {
+  .instructions__cards {
+    max-height: 212px;
+    padding: 28px;
+  }
+}
+@media screen and (max-width: 766px) {
+  .instructions__cards {
+    max-width: 362px;
+    max-height: 212px;
+    padding: 11px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .instructions__cards {
+    margin: auto;
+  }
+}

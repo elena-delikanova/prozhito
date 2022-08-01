@@ -1,0 +1,15 @@
+.note {
+  position: absolute;
+  border-radius: 8px;
+  background: #F7F4F0;
+  max-width: 329px;
+  height: 93px;
+  right: 0;
+  top: 880px;
+}
+
+@media screen and (max-width: 720px) {
+  .note {
+    width: 189px;
+  }
+}

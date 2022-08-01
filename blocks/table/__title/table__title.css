@@ -1,0 +1,13 @@
+.table__title {
+  text-align: center;
+  margin: 0 auto;
+  padding: 36px 0 46px;
+  font-family: 'WF', 'Times New Roman', serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 100%;
+  color: #323232;
+  width: 100%;
+  border-bottom:  1px solid rgba(50, 50, 50, 0.5);
+}

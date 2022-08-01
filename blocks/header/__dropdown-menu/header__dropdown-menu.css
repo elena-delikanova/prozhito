@@ -1,0 +1,17 @@
+.header__dropdown-menu {
+  gap: 60px;
+  display: none;
+  position: absolute;
+  right: 0;
+  z-index: 1;
+  padding: 24px 0 0;
+  align-items: flex-end;
+  margin: 0;
+  list-style: none;
+}
+@media screen and (max-width: 1024px) {
+  .header__dropdown-menu {
+    padding: 23px 0 0;
+    gap: 32px;
+  }
+}

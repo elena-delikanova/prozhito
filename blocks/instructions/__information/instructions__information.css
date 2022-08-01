@@ -1,0 +1,19 @@
+.instructions__information {
+  font-size: 20px;
+  line-height: 26px;
+  margin: 12px 0 34px;
+}
+@media screen and (max-width: 1126px) {
+  .instructions__information {
+    font-size: 14px;
+    line-height: 18px;
+    margin: 12px 0 28px;
+  }
+}
+@media screen and (max-width: 360px) {
+  .instructions__information {
+    font-size: 14px;
+    line-height: 18px;
+    margin: 12px 0 12px;
+  }
+}

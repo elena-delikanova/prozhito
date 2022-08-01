@@ -1,0 +1,10 @@
+.news__cards_padding_small {
+    padding-bottom: 42px;
+    margin-bottom: 12px;
+}
+@media screen and (max-width: 1126px) {
+  .news__cards_padding_small  {
+    padding-bottom: 13px;
+    gap: 12px;
+  }
+}

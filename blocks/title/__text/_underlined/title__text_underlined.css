@@ -1,0 +1,9 @@
+.title__text_underlined {
+  padding-bottom: 16px;
+  border-bottom: 1px solid #3A543E;
+  font-family: 'WF', 'Times New Roman', serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 46px;
+  line-height: 120%;
+}

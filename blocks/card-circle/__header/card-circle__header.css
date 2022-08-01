@@ -1,0 +1,24 @@
+.card-circle__header {
+  margin: 0;
+  font-family: 'WF', 'Times New Roman', serif;
+  font-size: 26px;
+  line-height: 26px;
+}
+@media screen and (max-width: 1024px) {
+  .card-circle__header {
+    font-size: 18px;
+    line-height: 22px;
+  }
+}
+@media screen and (max-width: 767px) {
+  .card-circle__header {
+    font-size: 12px;
+    line-height: 14px;
+  }
+}
+@media screen and (max-width: 600px) {
+  .card-circle__header {
+    font-size: 18px;
+    line-height: 22px;
+  }
+}
