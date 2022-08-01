@@ -36,28 +36,28 @@ if (document.querySelector("body").clientWidth < 769) {
         if (curPos < cards.length - 1) {
           cards[curPos].classList.add("journal-grid__item_hidden");
           curPos++;
-          cards[curPos].classList.remove("journal-grid__item_pos_2");
+          cards[curPos].classList.remove("journal-grid__item_pos_middle");
         }
         if (curPos < cards.length - 1) {
-          cards[curPos + 1].classList.add("journal-grid__item_pos_2");
-          cards[curPos + 1].classList.remove("journal-grid__item_pos_3");
+          cards[curPos + 1].classList.add("journal-grid__item_pos_middle");
+          cards[curPos + 1].classList.remove("journal-grid__item_pos_under");
         }
         if (curPos < cards.length - 2) {
-          cards[curPos + 2].classList.add("journal-grid__item_pos_3");
+          cards[curPos + 2].classList.add("journal-grid__item_pos_under");
           cards[curPos + 2].classList.remove("journal-grid__item_hidden");
         }
       } else {
         if (curPos > 0) {
-          cards[curPos].classList.add("journal-grid__item_pos_2");
+          cards[curPos].classList.add("journal-grid__item_pos_middle");
           curPos--;
           cards[curPos].classList.remove("journal-grid__item_hidden");
         }
         if (curPos < cards.length - 2) {
-          cards[curPos + 2].classList.add("journal-grid__item_pos_3");
-          cards[curPos + 2].classList.remove("journal-grid__item_pos_2");
+          cards[curPos + 2].classList.add("journal-grid__item_pos_under");
+          cards[curPos + 2].classList.remove("journal-grid__item_pos_middle");
         }
         if (curPos < cards.length - 3) {
-          cards[curPos + 3].classList.remove("journal-grid__item_pos_3");
+          cards[curPos + 3].classList.remove("journal-grid__item_pos_under");
           cards[curPos + 3].classList.add("journal-grid__item_hidden");
         }
       }
